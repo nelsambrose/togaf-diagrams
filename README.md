@@ -14,7 +14,7 @@
 
 A complete consolidated view of the ADM lifecycle, key deliverables, governance points, and transition from architecture design to execution.
 
-![TOGAF ADM End-to-End Reference Map](TOGAF ADM End-to-End Reference Map.png)
+![TOGAF ADM End-to-End Reference Map](togaf-adm-end-to-end-architecture.png)
 
 ---
 
