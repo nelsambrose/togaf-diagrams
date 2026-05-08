@@ -10,6 +10,14 @@
 
 ---
 
+### 1. TOGAF ADM End-to-End Reference Map
+
+A complete consolidated view of the ADM lifecycle, key deliverables, governance points, and transition from architecture design to execution.
+
+![TOGAF ADM End-to-End Reference Map](TOGAF ADM End-to-End Reference Map.png)
+
+---
+
 ## Why This Exists
 
 Most TOGAF diagrams online are either too complex, too vague, or locked behind paywalls. This repo is a curated set of clean, easy-to-understand visuals for practitioners, architects, and anyone learning the framework.
