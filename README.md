@@ -25,7 +25,7 @@
 ![Architecture Content Framework](docs/diagrams/content-framework/architecture-content-framework-v2.png)
 
 ### 4. Enterprise Continuum & Architecture Repository
-![Enterprise Continuum & Architecture Repository](docs/diagrams/continuum/enterprise-continuum-architecture-repository.png)
+![Enterprise Continuum & Architecture Repository](docs/diagrams/continuum/enterprise-continuum-architecture-repository-v2.png)
 
 ### 5. Capability Assessment & Maturity Models
 ![Capability Assessment & Maturity Models](docs/diagrams/capability/capability-assessment-maturity-models.png)
