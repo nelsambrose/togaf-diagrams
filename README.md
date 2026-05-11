@@ -22,7 +22,7 @@
 ![TOGAF ADM Cycle](docs/diagrams/adm/togaf-adm-cycle-v2.png)
 
 ### 3. Architecture Content Framework
-![Architecture Content Framework](docs/diagrams/content-framework/architecture-content-framework.png)
+![Architecture Content Framework](docs/diagrams/content-framework/architecture-content-framework-v2.png)
 
 ### 4. Enterprise Continuum & Architecture Repository
 ![Enterprise Continuum & Architecture Repository](docs/diagrams/continuum/enterprise-continuum-architecture-repository.png)
