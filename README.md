@@ -31,7 +31,7 @@ Free. Open. No signup required.
 ### 1. TOGAF ADM Cycle
 The core iterative process of TOGAF architecture development.
 
-![TOGAF ADM Cycle](.togaf-adm-cycle-v2-original.png)
+![TOGAF ADM Cycle](togaf-adm-cycle-v2-original.png)
 
 ---
 
