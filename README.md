@@ -28,7 +28,7 @@
 ![Enterprise Continuum & Architecture Repository](docs/diagrams/continuum/enterprise-continuum-architecture-repository-v2.png)
 
 ### 5. Capability Assessment & Maturity Models
-![Capability Assessment & Maturity Models](docs/diagrams/capability/capability-assessment-maturity-models.png)
+![Capability Assessment & Maturity Models](docs/diagrams/capability/capability-assessment-maturity-models-v2.png)
 
 ### 6. Stakeholder Map with Views & Concerns
 ![Stakeholder Map with Views and Concerns](docs/diagrams/stakeholder/stakeholder-map-views-concerns.png)
