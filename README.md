@@ -174,6 +174,24 @@ A Phase E diagram illustrating gap analysis, candidate solutions, work packages,
 </tr>
 </table>
 
+<table>
+<tr>
+<td valign="top">
+
+### F. Migration Planning
+
+A TOGAF Phase F diagram illustrating implementation sequencing, migration planning, dependency management, governance alignment, and realization of the target architecture.
+
+</td>
+</tr>
+<tr>
+<td align="center">
+  <img src="docs/diagrams/planning/phase-f-migration-planning.png" alt="Phase F diagram showing implementation sequencing, migration planning, dependency management, and governance alignment toward target architecture" width="90%"><br>
+  <em>Migration Planning</em>
+</td>
+</tr>
+</table>
+
 ## Contributing
 
 See [CONTRIBUTING.md](CONTRIBUTING.md).
