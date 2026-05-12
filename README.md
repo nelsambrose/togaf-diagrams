@@ -71,7 +71,7 @@ A classification system for architecture assets ranging from generic foundation 
 A tool for evaluating the maturity of an organization's architecture capabilities across key dimensions using defined maturity levels.
 
 </td>
-<td width="50%" valign="top">
+<td width="40%" valign="top">
 
 ### 7. Architecture Building Blocks vs. Solution Building Blocks
 
@@ -80,7 +80,7 @@ A comparison of abstract, reusable architecture building blocks against concrete
 </td>
 </tr>
 <tr>
-<td width="50%" align="center">
+<td width="60%" align="center">
   <img src="docs/diagrams/capability/capability-assessment-maturity-models-v2.png" alt="Grid-based maturity model rating architecture capabilities across defined levels from initial to optimising" width="100%"><br>
   <em>Capability Assessment & Maturity Models</em>
 </td>
