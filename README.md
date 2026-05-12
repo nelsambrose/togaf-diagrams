@@ -81,7 +81,7 @@ A comparison of abstract, reusable architecture building blocks against concrete
 </tr>
 <tr>
 <td width="30%" align="center">
-  <img src="docs/diagrams/capability/capability-assessment-maturity-models-v2.png" alt="Grid-based maturity model rating architecture capabilities across defined levels from initial to optimising" width="100%"><br>
+  <img src="docs/diagrams/capability/phase-b-capability-assessment-maturity-models-v2.png" alt="Grid-based maturity model rating architecture capabilities across defined levels from initial to optimising" width="100%"><br>
   <em>Capability Assessment & Maturity Models</em>
 </td>
 <td width="70%" align="center">
