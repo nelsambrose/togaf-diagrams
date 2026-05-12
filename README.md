@@ -21,6 +21,8 @@
 ### 2. TOGAF ADM Cycle
 ![TOGAF ADM Cycle](docs/diagrams/adm/togaf-adm-cycle-v2.png)
 
+*Previous version retained in the archive folder for traceability.*
+
 ### 3. Architecture Content Framework
 ![Architecture Content Framework](docs/diagrams/content-framework/architecture-content-framework-v2.png)
 
