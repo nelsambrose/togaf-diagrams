@@ -16,7 +16,11 @@
 ## Diagrams
 
 ### 1. TOGAF ADM End-to-End Reference Map
-![TOGAF ADM End-to-End Reference Map](docs/diagrams/adm/togaf-adm-end-to-end-architecture.png)
+
+<p align="center">
+  <img src="docs/diagrams/adm/togaf-adm-end-to-end-architecture.png" alt="TOGAF ADM End-to-End Reference Map" width="90%"><br>
+  <em>TOGAF ADM End-to-End Reference Map</em>
+</p>
 
 ### 2. TOGAF ADM Cycle
 ![TOGAF ADM Cycle](docs/diagrams/adm/togaf-adm-cycle-v2.png)
