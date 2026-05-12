@@ -62,23 +62,34 @@ A classification system for architecture assets ranging from generic foundation 
 </tr>
 </table>
 
+<table>
+<tr>
+<td width="50%" valign="top">
+
 ### 5. Capability Assessment & Maturity Models
 
 A tool for evaluating the maturity of an organization's architecture capabilities across key dimensions using defined maturity levels.
 
-<p align="center">
-  <img src="docs/diagrams/capability/capability-assessment-maturity-models-v2.png" alt="Grid-based maturity model rating architecture capabilities across defined levels from initial to optimising" width="90%"><br>
-  <em>Capability Assessment & Maturity Models</em>
-</p>
+</td>
+<td width="50%" valign="top">
 
 ### 6. Stakeholder Map with Views & Concerns
 
 A mapping of key stakeholder roles to the architecture views and concerns most relevant to them, supporting targeted communication.
 
-<p align="center">
-  <img src="docs/diagrams/stakeholder/stakeholder-map-views-concerns-v2.png" alt="Matrix diagram mapping stakeholder roles to their relevant architecture views and primary concerns" width="90%"><br>
+</td>
+</tr>
+<tr>
+<td width="50%" align="center">
+  <img src="docs/diagrams/capability/capability-assessment-maturity-models-v2.png" alt="Grid-based maturity model rating architecture capabilities across defined levels from initial to optimising" width="100%"><br>
+  <em>Capability Assessment & Maturity Models</em>
+</td>
+<td width="50%" align="center">
+  <img src="docs/diagrams/stakeholder/stakeholder-map-views-concerns-v2.png" alt="Matrix diagram mapping stakeholder roles to their relevant architecture views and primary concerns" width="100%"><br>
   <em>Stakeholder Map with Views & Concerns</em>
-</p>
+</td>
+</tr>
+</table>
 
 ### 7. Architecture Building Blocks vs. Solution Building Blocks
 
