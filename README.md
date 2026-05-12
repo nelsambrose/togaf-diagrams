@@ -210,6 +210,24 @@ A TOGAF Phase G diagram illustrating architecture compliance, governance oversig
 </tr>
 </table>
 
+<table>
+<tr>
+<td valign="top">
+
+### H. TOGAF Architecture Change Management
+
+A TOGAF Phase H diagram illustrating change assessment, governance decisioning, architecture evolution, continuous improvement, and re-initiation of the ADM lifecycle.
+
+</td>
+</tr>
+<tr>
+<td align="center">
+  <img src="docs/diagrams/governance/phase-h-architecture-change-management.png" alt="Phase H diagram showing change assessment, governance decisioning, architecture evolution, and re-initiation of the ADM lifecycle" width="90%"><br>
+  <em>TOGAF Architecture Change Management</em>
+</td>
+</tr>
+</table>
+
 ## Contributing
 
 See [CONTRIBUTING.md](CONTRIBUTING.md).
