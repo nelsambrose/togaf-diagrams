@@ -37,7 +37,7 @@
 ![Architecture Building Blocks vs. Solution Building Blocks](docs/diagrams/building-blocks/architecture-building-blocks-vs-solution-building-blocks.png)
 
 ### 8. Architecture Governance Model
-![Architecture Governance Model](docs/diagrams/governance/architecture-governance-model.png)
+![Architecture Governance Model](docs/diagrams/governance/architecture-governance-model-v2.png)
 
 ## Contributing
 
