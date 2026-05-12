@@ -65,7 +65,11 @@
 </p>
 
 ### 8. Architecture Governance Model
-![Architecture Governance Model](docs/diagrams/governance/architecture-governance-model-v2.png)
+
+<p align="center">
+  <img src="docs/diagrams/governance/architecture-governance-model-v2.png" alt="Architecture Governance Model" width="90%"><br>
+  <em>Architecture Governance Model</em>
+</p>
 
 ## Contributing
 
