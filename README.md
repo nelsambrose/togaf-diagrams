@@ -85,7 +85,7 @@ A comparison of abstract, reusable architecture building blocks against concrete
   <em>Capability Assessment & Maturity Models</em>
 </td>
 <td width="70%" align="center">
-  <img src="docs/diagrams/building-blocks/architecture-building-blocks-vs-solution-building-blocks.png" alt="Side-by-side comparison diagram contrasting abstract architecture building blocks with vendor-specific solution building blocks" width="100%"><br>
+  <img src="docs/diagrams/building-blocks/architecture-building-blocks-vs-solution-building-blocks-v2.png" alt="Side-by-side comparison diagram contrasting abstract architecture building blocks with vendor-specific solution building blocks" width="100%"><br>
   <em>Architecture Building Blocks vs. Solution Building Blocks</em>
 </td>
 </tr>
