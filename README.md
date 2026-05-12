@@ -138,6 +138,24 @@ In Phase A (Architecture Vision), Business Scenarios are used to identify and ar
 </tr>
 </table>
 
+<table>
+<tr>
+<td valign="top">
+
+### D. TOGAF Technology Architecture
+
+A layered view of TOGAF Technology Architecture showing infrastructure foundations, platform services, integration capabilities, security architecture, operational resilience, and key technology outputs.
+
+</td>
+</tr>
+<tr>
+<td align="center">
+  <img src="docs/diagrams/technology/phase-d-technology-architecture.png" alt="Layered diagram of TOGAF Technology Architecture covering infrastructure, platform services, integration, security, and operational resilience" width="90%"><br>
+  <em>TOGAF Technology Architecture</em>
+</td>
+</tr>
+</table>
+
 ## Contributing
 
 See [CONTRIBUTING.md](CONTRIBUTING.md).
