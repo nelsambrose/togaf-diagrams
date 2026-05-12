@@ -110,7 +110,7 @@ An overview of the governance structures, oversight bodies, and accountability m
 </tr>
 <tr>
 <td width="50%" align="center" valign="top">
-  <img src="docs/diagrams/stakeholder/stakeholder-map-views-concerns-v2.png" alt="Matrix diagram mapping stakeholder roles to their relevant architecture views and primary concerns" width="100%"><br>
+  <img src="docs/diagrams/stakeholder/phase-a-stakeholder-map-views-concerns-v2.png" alt="Matrix diagram mapping stakeholder roles to their relevant architecture views and primary concerns" width="100%"><br>
   <em>Stakeholder Map with Views & Concerns</em>
 </td>
 <td width="50%" align="center" valign="top">
@@ -132,7 +132,7 @@ In Phase A (Architecture Vision), Business Scenarios are used to identify and ar
 </tr>
 <tr>
 <td align="center">
-  <img src="docs/diagrams/stakeholder/business-scenarios.png" alt="Flowchart showing how business drivers and problems are structured into scenarios that inform the Architecture Vision in Phase A" width="90%"><br>
+  <img src="docs/diagrams/stakeholder/phase-a-business-scenarios.png" alt="Flowchart showing how business drivers and problems are structured into scenarios that inform the Architecture Vision in Phase A" width="90%"><br>
   <em>Business Scenarios</em>
 </td>
 </tr>
