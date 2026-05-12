@@ -37,7 +37,11 @@
 </p>
 
 ### 4. Enterprise Continuum & Architecture Repository
-![Enterprise Continuum & Architecture Repository](docs/diagrams/continuum/enterprise-continuum-architecture-repository-v2.png)
+
+<p align="center">
+  <img src="docs/diagrams/continuum/enterprise-continuum-architecture-repository-v2.png" alt="Enterprise Continuum & Architecture Repository" width="90%"><br>
+  <em>Enterprise Continuum & Architecture Repository</em>
+</p>
 
 ### 5. Capability Assessment & Maturity Models
 ![Capability Assessment & Maturity Models](docs/diagrams/capability/capability-assessment-maturity-models-v2.png)
