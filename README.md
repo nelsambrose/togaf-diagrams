@@ -17,12 +17,16 @@
 
 ### 1. TOGAF ADM End-to-End Reference Map
 
+A full reference view connecting all ADM phases with their key inputs, outputs, and inter-phase relationships in a single map.
+
 <p align="center">
   <img src="docs/diagrams/adm/togaf-adm-end-to-end-architecture.png" alt="Horizontal swimlane diagram mapping all ADM phases with inputs, outputs, and cross-phase dependencies" width="90%"><br>
   <em>TOGAF ADM End-to-End Reference Map</em>
 </p>
 
 ### 2. TOGAF ADM Cycle
+
+The iterative ADM cycle showing all architecture development phases organized around a central Requirements Management process.
 
 <p align="center">
   <img src="docs/diagrams/adm/togaf-adm-cycle-v2.png" alt="Circular flow diagram of ADM phases from Preliminary through H arranged around a central Requirements Management core" width="90%"><br>
@@ -31,12 +35,16 @@
 
 ### 3. Architecture Content Framework
 
+A structured metamodel defining the types of architectural work products — deliverables, artifacts, and building blocks — produced across the ADM.
+
 <p align="center">
   <img src="docs/diagrams/content-framework/architecture-content-framework-v2.png" alt="Hierarchical framework diagram organizing architecture deliverables into metamodel categories, artifacts, and building blocks" width="90%"><br>
   <em>Architecture Content Framework</em>
 </p>
 
 ### 4. Enterprise Continuum & Architecture Repository
+
+A classification system for architecture assets ranging from generic foundation architectures to organization-specific solutions, stored in the Architecture Repository.
 
 <p align="center">
   <img src="docs/diagrams/continuum/enterprise-continuum-architecture-repository-v2.png" alt="Spectrum diagram positioning architecture assets from generic foundation architectures to organization-specific solutions, with repository classification layers" width="90%"><br>
@@ -45,12 +53,16 @@
 
 ### 5. Capability Assessment & Maturity Models
 
+A tool for evaluating the maturity of an organization's architecture capabilities across key dimensions using defined maturity levels.
+
 <p align="center">
   <img src="docs/diagrams/capability/capability-assessment-maturity-models-v2.png" alt="Grid-based maturity model rating architecture capabilities across defined levels from initial to optimising" width="90%"><br>
   <em>Capability Assessment & Maturity Models</em>
 </p>
 
 ### 6. Stakeholder Map with Views & Concerns
+
+A mapping of key stakeholder roles to the architecture views and concerns most relevant to them, supporting targeted communication.
 
 <p align="center">
   <img src="docs/diagrams/stakeholder/stakeholder-map-views-concerns-v2.png" alt="Matrix diagram mapping stakeholder roles to their relevant architecture views and primary concerns" width="90%"><br>
@@ -59,12 +71,16 @@
 
 ### 7. Architecture Building Blocks vs. Solution Building Blocks
 
+A comparison of abstract, reusable architecture building blocks against concrete, vendor-specific solution building blocks.
+
 <p align="center">
   <img src="docs/diagrams/building-blocks/architecture-building-blocks-vs-solution-building-blocks.png" alt="Side-by-side comparison diagram contrasting abstract architecture building blocks with vendor-specific solution building blocks" width="90%"><br>
   <em>Architecture Building Blocks vs. Solution Building Blocks</em>
 </p>
 
 ### 8. Architecture Governance Model
+
+An overview of the governance structures, oversight bodies, and accountability mechanisms that ensure architecture compliance and quality.
 
 <p align="center">
   <img src="docs/diagrams/governance/architecture-governance-model-v2.png" alt="Layered governance diagram showing oversight structures, compliance review boards, and accountability flows between architecture levels" width="90%"><br>
