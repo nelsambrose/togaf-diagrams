@@ -80,11 +80,11 @@ A comparison of abstract, reusable architecture building blocks against concrete
 </td>
 </tr>
 <tr>
-<td width="30%" align="center" valign="top">
+<td width="30%" align="center">
   <img src="docs/diagrams/capability/phase-b-capability-assessment-maturity-models-v2.png" alt="Grid-based maturity model rating architecture capabilities across defined levels from initial to optimising" width="100%"><br>
   <em>Capability Assessment & Maturity Models</em>
 </td>
-<td width="70%" align="center">
+<td width="70%" align="center" valign="top">
   <img src="docs/diagrams/building-blocks/architecture-building-blocks-vs-solution-building-blocks-v2.png" alt="Side-by-side comparison diagram contrasting abstract architecture building blocks with vendor-specific solution building blocks" width="100%"><br>
   <em>Architecture Building Blocks vs. Solution Building Blocks</em>
 </td>
