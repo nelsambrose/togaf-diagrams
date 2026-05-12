@@ -30,7 +30,11 @@
 </p>
 
 ### 3. Architecture Content Framework
-![Architecture Content Framework](docs/diagrams/content-framework/architecture-content-framework-v2.png)
+
+<p align="center">
+  <img src="docs/diagrams/content-framework/architecture-content-framework-v2.png" alt="Architecture Content Framework" width="90%"><br>
+  <em>Architecture Content Framework</em>
+</p>
 
 ### 4. Enterprise Continuum & Architecture Repository
 ![Enterprise Continuum & Architecture Repository](docs/diagrams/continuum/enterprise-continuum-architecture-repository-v2.png)
