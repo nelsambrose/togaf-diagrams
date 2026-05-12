@@ -116,8 +116,23 @@ An overview of the governance structures, oversight bodies, and accountability m
 <td width="50%" align="center" valign="top">
   <img src="docs/diagrams/governance/architecture-governance-model-v2.png" alt="Layered governance diagram showing oversight structures, compliance review boards, and accountability flows between architecture levels" width="100%"><br>
   <em>Architecture Governance Model</em>
-  <br><br>
-  <img src="docs/diagrams/stakeholder/business-scenarios.png" alt="Business scenarios diagram illustrating how real-world drivers are translated into architecture requirements" width="100%"><br>
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td valign="top">
+
+### 9. Business Scenarios
+
+In Phase A (Architecture Vision), Business Scenarios are used to identify and articulate the business problem, the environment in which it occurs, the key actors involved, and the desired outcomes. They provide the foundation for validating that the proposed architecture vision genuinely addresses real business needs and stakeholder goals.
+
+</td>
+</tr>
+<tr>
+<td align="center">
+  <img src="docs/diagrams/stakeholder/business-scenarios.png" alt="Flowchart showing how business drivers and problems are structured into scenarios that inform the Architecture Vision in Phase A" width="90%"><br>
   <em>Business Scenarios</em>
 </td>
 </tr>
