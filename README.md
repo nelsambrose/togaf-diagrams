@@ -109,11 +109,11 @@ An overview of the governance structures, oversight bodies, and accountability m
 </td>
 </tr>
 <tr>
-<td width="50%" align="center">
+<td width="50%" align="center" valign="top">
   <img src="docs/diagrams/stakeholder/stakeholder-map-views-concerns-v2.png" alt="Matrix diagram mapping stakeholder roles to their relevant architecture views and primary concerns" width="100%"><br>
   <em>Stakeholder Map with Views & Concerns</em>
 </td>
-<td width="50%" align="center">
+<td width="50%" align="center" valign="top">
   <img src="docs/diagrams/governance/architecture-governance-model-v2.png" alt="Layered governance diagram showing oversight structures, compliance review boards, and accountability flows between architecture levels" width="100%"><br>
   <em>Architecture Governance Model</em>
 </td>
