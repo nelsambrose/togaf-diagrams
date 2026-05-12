@@ -44,7 +44,11 @@
 </p>
 
 ### 5. Capability Assessment & Maturity Models
-![Capability Assessment & Maturity Models](docs/diagrams/capability/capability-assessment-maturity-models-v2.png)
+
+<p align="center">
+  <img src="docs/diagrams/capability/capability-assessment-maturity-models-v2.png" alt="Capability Assessment & Maturity Models" width="90%"><br>
+  <em>Capability Assessment & Maturity Models</em>
+</p>
 
 ### 6. Stakeholder Map with Views & Concerns
 ![Stakeholder Map with Views and Concerns](docs/diagrams/stakeholder/stakeholder-map-views-concerns-v2.png)
