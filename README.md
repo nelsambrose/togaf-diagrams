@@ -52,7 +52,7 @@ A classification system for architecture assets ranging from generic foundation 
 </tr>
 <tr>
 <td width="50%" align="center">
-  <img src="docs/diagrams/content-framework/architecture-content-framework-v2.png" alt="Hierarchical framework diagram organizing architecture deliverables into metamodel categories, artifacts, and building blocks" width="100%"><br>
+  <img src="docs/diagrams/content-framework/phase-c-architecture-content-framework-v2.png" alt="Hierarchical framework diagram organizing architecture deliverables into metamodel categories, artifacts, and building blocks" width="100%"><br>
   <em>Architecture Content Framework</em>
 </td>
 <td width="50%" align="center">
