@@ -73,9 +73,9 @@ A tool for evaluating the maturity of an organization's architecture capabilitie
 </td>
 <td width="50%" valign="top">
 
-### 6. Stakeholder Map with Views & Concerns
+### 7. Architecture Building Blocks vs. Solution Building Blocks
 
-A mapping of key stakeholder roles to the architecture views and concerns most relevant to them, supporting targeted communication.
+A comparison of abstract, reusable architecture building blocks against concrete, vendor-specific solution building blocks.
 
 </td>
 </tr>
@@ -85,19 +85,19 @@ A mapping of key stakeholder roles to the architecture views and concerns most r
   <em>Capability Assessment & Maturity Models</em>
 </td>
 <td width="50%" align="center">
-  <img src="docs/diagrams/stakeholder/stakeholder-map-views-concerns-v2.png" alt="Matrix diagram mapping stakeholder roles to their relevant architecture views and primary concerns" width="100%"><br>
-  <em>Stakeholder Map with Views & Concerns</em>
+  <img src="docs/diagrams/building-blocks/architecture-building-blocks-vs-solution-building-blocks.png" alt="Side-by-side comparison diagram contrasting abstract architecture building blocks with vendor-specific solution building blocks" width="100%"><br>
+  <em>Architecture Building Blocks vs. Solution Building Blocks</em>
 </td>
 </tr>
 </table>
 
-### 7. Architecture Building Blocks vs. Solution Building Blocks
+### 6. Stakeholder Map with Views & Concerns
 
-A comparison of abstract, reusable architecture building blocks against concrete, vendor-specific solution building blocks.
+A mapping of key stakeholder roles to the architecture views and concerns most relevant to them, supporting targeted communication.
 
 <p align="center">
-  <img src="docs/diagrams/building-blocks/architecture-building-blocks-vs-solution-building-blocks.png" alt="Side-by-side comparison diagram contrasting abstract architecture building blocks with vendor-specific solution building blocks" width="90%"><br>
-  <em>Architecture Building Blocks vs. Solution Building Blocks</em>
+  <img src="docs/diagrams/stakeholder/stakeholder-map-views-concerns-v2.png" alt="Matrix diagram mapping stakeholder roles to their relevant architecture views and primary concerns" width="90%"><br>
+  <em>Stakeholder Map with Views & Concerns</em>
 </p>
 
 ### 8. Architecture Governance Model
