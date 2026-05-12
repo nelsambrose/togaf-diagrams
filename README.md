@@ -1,8 +1,8 @@
 # TOGAF Diagrams
 
-[![GitHub stars](https://img.shields.io/github/stars/nelsambrose/togaf-diagrams?style=social)](https://github.com/nelsambrose/togaf-diagrams/stargazers)
-[![Last Commit](https://img.shields.io/github/last-commit/nelsambrose/togaf-diagrams)](https://github.com/nelsambrose/togaf-diagrams/commits/main)
-[![GitHub Pages](https://img.shields.io/badge/View%20Online-GitHub%20Pages-blue)](https://nelsambrose.github.io/togaf-diagrams/)
+[![GitHub Repository Star Count](https://img.shields.io/github/stars/nelsambrose/togaf-diagrams?style=social)](https://github.com/nelsambrose/togaf-diagrams/stargazers)
+[![Date of Last Repository Commit](https://img.shields.io/github/last-commit/nelsambrose/togaf-diagrams)](https://github.com/nelsambrose/togaf-diagrams/commits/main)
+[![View Diagrams Online via GitHub Pages](https://img.shields.io/badge/View%20Online-GitHub%20Pages-blue)](https://nelsambrose.github.io/togaf-diagrams/)
 
 > A free visual library of TOGAF architecture concepts — clear, simplified diagrams covering the ADM cycle, content framework, governance model, and more.
 
