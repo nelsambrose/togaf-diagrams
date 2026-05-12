@@ -31,7 +31,7 @@
 ![Capability Assessment & Maturity Models](docs/diagrams/capability/capability-assessment-maturity-models-v2.png)
 
 ### 6. Stakeholder Map with Views & Concerns
-![Stakeholder Map with Views and Concerns](docs/diagrams/stakeholder/stakeholder-map-views-concerns.png)
+![Stakeholder Map with Views and Concerns](docs/diagrams/stakeholder/stakeholder-map-views-concerns-v2.png)
 
 ### 7. Architecture Building Blocks vs. Solution Building Blocks
 ![Architecture Building Blocks vs. Solution Building Blocks](docs/diagrams/building-blocks/architecture-building-blocks-vs-solution-building-blocks.png)
