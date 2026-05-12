@@ -33,23 +33,34 @@ The iterative ADM cycle showing all architecture development phases organized ar
   <em>TOGAF ADM Cycle — Previous version retained in the archive folder for traceability.</em>
 </p>
 
+<table>
+<tr>
+<td width="50%" valign="top">
+
 ### 3. Architecture Content Framework
 
 A structured metamodel defining the types of architectural work products — deliverables, artifacts, and building blocks — produced across the ADM.
 
-<p align="center">
-  <img src="docs/diagrams/content-framework/architecture-content-framework-v2.png" alt="Hierarchical framework diagram organizing architecture deliverables into metamodel categories, artifacts, and building blocks" width="90%"><br>
-  <em>Architecture Content Framework</em>
-</p>
+</td>
+<td width="50%" valign="top">
 
 ### 4. Enterprise Continuum & Architecture Repository
 
 A classification system for architecture assets ranging from generic foundation architectures to organization-specific solutions, stored in the Architecture Repository.
 
-<p align="center">
-  <img src="docs/diagrams/continuum/enterprise-continuum-architecture-repository-v2.png" alt="Spectrum diagram positioning architecture assets from generic foundation architectures to organization-specific solutions, with repository classification layers" width="90%"><br>
+</td>
+</tr>
+<tr>
+<td width="50%" align="center">
+  <img src="docs/diagrams/content-framework/architecture-content-framework-v2.png" alt="Hierarchical framework diagram organizing architecture deliverables into metamodel categories, artifacts, and building blocks" width="100%"><br>
+  <em>Architecture Content Framework</em>
+</td>
+<td width="50%" align="center">
+  <img src="docs/diagrams/continuum/enterprise-continuum-architecture-repository-v2.png" alt="Spectrum diagram positioning architecture assets from generic foundation architectures to organization-specific solutions, with repository classification layers" width="100%"><br>
   <em>Enterprise Continuum & Architecture Repository</em>
-</p>
+</td>
+</tr>
+</table>
 
 ### 5. Capability Assessment & Maturity Models
 
