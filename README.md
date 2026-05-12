@@ -51,7 +51,11 @@
 </p>
 
 ### 6. Stakeholder Map with Views & Concerns
-![Stakeholder Map with Views and Concerns](docs/diagrams/stakeholder/stakeholder-map-views-concerns-v2.png)
+
+<p align="center">
+  <img src="docs/diagrams/stakeholder/stakeholder-map-views-concerns-v2.png" alt="Stakeholder Map with Views and Concerns" width="90%"><br>
+  <em>Stakeholder Map with Views & Concerns</em>
+</p>
 
 ### 7. Architecture Building Blocks vs. Solution Building Blocks
 ![Architecture Building Blocks vs. Solution Building Blocks](docs/diagrams/building-blocks/architecture-building-blocks-vs-solution-building-blocks.png)
