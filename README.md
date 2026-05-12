@@ -73,18 +73,18 @@ A tool for evaluating the maturity of an organization's architecture capabilitie
 </td>
 <td width="50%" valign="top">
 
-### 7. Architecture Building Blocks vs. Solution Building Blocks
+### 6. Architecture Building Blocks vs. Solution Building Blocks
 
 A comparison of abstract, reusable architecture building blocks against concrete, vendor-specific solution building blocks.
 
 </td>
 </tr>
 <tr>
-<td width="40%" align="center">
+<td width="30%" align="center">
   <img src="docs/diagrams/capability/capability-assessment-maturity-models-v2.png" alt="Grid-based maturity model rating architecture capabilities across defined levels from initial to optimising" width="100%"><br>
   <em>Capability Assessment & Maturity Models</em>
 </td>
-<td width="60%" align="center">
+<td width="70%" align="center">
   <img src="docs/diagrams/building-blocks/architecture-building-blocks-vs-solution-building-blocks.png" alt="Side-by-side comparison diagram contrasting abstract architecture building blocks with vendor-specific solution building blocks" width="100%"><br>
   <em>Architecture Building Blocks vs. Solution Building Blocks</em>
 </td>
@@ -95,7 +95,7 @@ A comparison of abstract, reusable architecture building blocks against concrete
 <tr>
 <td width="50%" valign="top">
 
-### 6. Stakeholder Map with Views & Concerns
+### 7. Stakeholder Map with Views & Concerns
 
 A mapping of key stakeholder roles to the architecture views and concerns most relevant to them, supporting targeted communication.
 
