@@ -192,6 +192,24 @@ A TOGAF Phase F diagram illustrating implementation sequencing, migration planni
 </tr>
 </table>
 
+<table>
+<tr>
+<td valign="top">
+
+### G. TOGAF Implementation Governance
+
+A TOGAF Phase G diagram illustrating architecture compliance, governance oversight, change management, implementation support, and realization of approved target architectures.
+
+</td>
+</tr>
+<tr>
+<td align="center">
+  <img src="docs/diagrams/governance/phase-g-implementation-governance.png" alt="Phase G diagram showing architecture compliance, governance oversight, change management, and implementation support for target architecture realization" width="90%"><br>
+  <em>TOGAF Implementation Governance</em>
+</td>
+</tr>
+</table>
+
 ## Contributing
 
 See [CONTRIBUTING.md](CONTRIBUTING.md).
