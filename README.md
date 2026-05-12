@@ -156,6 +156,24 @@ A layered view of TOGAF Technology Architecture showing infrastructure foundatio
 </tr>
 </table>
 
+<table>
+<tr>
+<td valign="top">
+
+### E. Opportunities & Solutions
+
+A Phase E diagram illustrating gap analysis, candidate solutions, work packages, transition architectures, and roadmap planning used to move from baseline to target architecture.
+
+</td>
+</tr>
+<tr>
+<td align="center">
+  <img src="docs/diagrams/planning/phase-e-opportunities-solutions-v1.png" alt="Phase E diagram showing gap analysis, candidate solutions, work packages, transition architectures, and roadmap planning steps" width="90%"><br>
+  <em>Opportunities & Solutions</em>
+</td>
+</tr>
+</table>
+
 ## Contributing
 
 See [CONTRIBUTING.md](CONTRIBUTING.md).
