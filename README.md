@@ -116,6 +116,9 @@ An overview of the governance structures, oversight bodies, and accountability m
 <td width="50%" align="center" valign="top">
   <img src="docs/diagrams/governance/architecture-governance-model-v2.png" alt="Layered governance diagram showing oversight structures, compliance review boards, and accountability flows between architecture levels" width="100%"><br>
   <em>Architecture Governance Model</em>
+  <br><br>
+  <img src="docs/diagrams/stakeholder/business-scenarios.png" alt="Business scenarios diagram illustrating how real-world drivers are translated into architecture requirements" width="100%"><br>
+  <em>Business Scenarios</em>
 </td>
 </tr>
 </table>
