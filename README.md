@@ -33,6 +33,8 @@ The core iterative process of TOGAF architecture development.
 
 ![TOGAF ADM Cycle](./TOGAF%20ADM%20Cycle%20Diagram.png)
 
+*Previous version retained in the archive folder for traceability.*
+
 ---
 
 ### 2. Architecture Content Framework
