@@ -17,7 +17,7 @@
 
 ### 1. TOGAF ADM End-to-End Reference Map
 
-A full reference view connecting all ADM phases with their key inputs, outputs, and inter-phase relationships in a single map.
+A full reference view connecting all ADM phases with key inputs, outputs and inter-phase relationships in a map.
 
 <p align="center">
   <img src="docs/diagrams/adm/togaf-adm-end-to-end-architecture.png" alt="Horizontal swimlane diagram mapping all ADM phases with inputs, outputs, and cross-phase dependencies" width="90%"><br>
