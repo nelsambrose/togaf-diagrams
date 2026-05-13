@@ -286,7 +286,25 @@ A visual overview of TOGAF Architecture Principles showing how business, data, a
 <tr>
 <td valign="top">
 
-### 18. TOGAF Architecture Contracts
+### 18. TOGAF Architecture Capability
+
+A visual overview of TOGAF Architecture Capability showing the governance structures, people, processes, tools, repository support, maturity practices, and continuous improvement mechanisms required to develop, govern, and sustain enterprise architecture across the organization.
+
+</td>
+</tr>
+<tr>
+<td align="center">
+  <img src="docs/diagrams/capability/architecture-capability.png" alt="Diagram of TOGAF Architecture Capability showing governance structures, people, processes, tools, repository support, maturity practices, and continuous improvement mechanisms for enterprise architecture" width="90%"><br>
+  <em>TOGAF Architecture Capability</em>
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td valign="top">
+
+### 19. TOGAF Architecture Contracts
 
 A visual overview of TOGAF Architecture Contracts showing governance agreements, architecture expectations, compliance obligations, responsibilities, delivery alignment, risk and exception management, and implementation accountability across the enterprise.
 
@@ -304,7 +322,7 @@ A visual overview of TOGAF Architecture Contracts showing governance agreements,
 <tr>
 <td valign="top">
 
-### 19. TOGAF Architecture Compliance Reviews
+### 20. TOGAF Architecture Compliance Reviews
 
 A visual overview of TOGAF Architecture Compliance Reviews showing how enterprise solutions are assessed against architecture principles, standards, governance requirements, risks, and compliance obligations to ensure alignment and delivery readiness.
 
