@@ -366,7 +366,7 @@ A continuous process that captures, validates, prioritizes, manages, and governs
 </tr>
 <tr>
 <td align="center">
-  <img src="docs/diagrams/governance/requirements-management.png" alt="Diagram of TOGAF Requirements Management showing the continuous process of capturing, validating, prioritising, managing, and governing architecture requirements across all ADM phases" width="90%"><br>
+  <img src="docs/diagrams/governance/governance-repository.png" alt="Diagram of TOGAF Requirements Management showing the continuous process of capturing, validating, prioritising, managing, and governing architecture requirements across all ADM phases" width="90%"><br>
   <em>TOGAF Requirements Management</em>
 </td>
 </tr>
