@@ -8,7 +8,8 @@ A free visual library of TOGAF architecture concepts, clear, simplified diagrams
 
 > All diagrams in this repository were created by me and are free to use under the MIT License.
 > 
-> They are free to use for any purpose, personal or commercial, with no attribution require, though it’s always appreciated.
+> They are free to use for any purpose, personal or commercial, with no attribution required, though it’s always appreciated.
+> 
 > If you find them useful, consider leaving a ⭐ it helps others find the library too.
 
 ## Repository structure
