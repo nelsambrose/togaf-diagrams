@@ -178,7 +178,25 @@ A structured view of enterprise architecture assets across strategic, segment, a
 <tr>
 <td valign="top">
 
-### 12. Standards Information Base
+### 12. TOGAF Enterprise Continuum
+
+A visual overview of the TOGAF Enterprise Continuum showing how reusable architecture assets evolve from generic foundation architectures to organization-specific enterprise solutions, enabling standardization, governance alignment, reuse, and architecture consistency across the enterprise.
+
+</td>
+</tr>
+<tr>
+<td align="center">
+  <img src="docs/diagrams/continuum/enterprise-continuum.png" alt="Diagram of the TOGAF Enterprise Continuum showing architecture assets evolving from generic foundation architectures to organization-specific enterprise solutions" width="90%"><br>
+  <em>TOGAF Enterprise Continuum</em>
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td valign="top">
+
+### 13. Standards Information Base
 
 A visual overview of the TOGAF Standards Information Base showing approved enterprise standards, technology policies, security controls, compliance requirements, governance lifecycle, and consumers who use standards to support architecture consistency and enterprise compliance.
 
@@ -196,7 +214,7 @@ A visual overview of the TOGAF Standards Information Base showing approved enter
 <tr>
 <td valign="top">
 
-### 13. TOGAF Governance Log
+### 14. TOGAF Governance Log
 
 A visual overview of the TOGAF Governance Log showing architecture decisions, compliance activities, governance oversight, risk and exception management, audit traceability, and continuous governance evolution supporting enterprise accountability and compliance.
 
@@ -214,7 +232,7 @@ A visual overview of the TOGAF Governance Log showing architecture decisions, co
 <tr>
 <td valign="top">
 
-### 14. TOGAF Architecture Principles
+### 15. TOGAF Architecture Principles
 
 A visual overview of TOGAF Architecture Principles showing how business, data, application, technology, and governance principles guide enterprise decision-making, standards alignment, architecture quality, and consistent solution delivery.
 
@@ -232,7 +250,7 @@ A visual overview of TOGAF Architecture Principles showing how business, data, a
 <tr>
 <td valign="top">
 
-### 15. TOGAF Architecture Contracts
+### 16. TOGAF Architecture Contracts
 
 A visual overview of TOGAF Architecture Contracts showing governance agreements, architecture expectations, compliance obligations, responsibilities, delivery alignment, risk and exception management, and implementation accountability across the enterprise.
 
@@ -250,7 +268,7 @@ A visual overview of TOGAF Architecture Contracts showing governance agreements,
 <tr>
 <td valign="top">
 
-### 16. TOGAF Architecture Compliance Reviews
+### 17. TOGAF Architecture Compliance Reviews
 
 A visual overview of TOGAF Architecture Compliance Reviews showing how enterprise solutions are assessed against architecture principles, standards, governance requirements, risks, and compliance obligations to ensure alignment and delivery readiness.
 
