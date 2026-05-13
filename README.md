@@ -4,12 +4,7 @@
 [![Date of Last Repository Commit](https://img.shields.io/github/last-commit/nelsambrose/togaf-diagrams)](https://github.com/nelsambrose/togaf-diagrams/commits/main)
 [![View Diagrams Online via GitHub Pages](https://img.shields.io/badge/View%20Online-GitHub%20Pages-blue)](https://nelsambrose.github.io/togaf-diagrams/)
 
-
-<img
-  src="docs/images/banner.png"
-  alt="TOGAF Diagrams Banner"
-  style="max-width: 100%; height: auto; border: 1px solid #e5e7eb; border-radius: 6px; box-shadow: 0 1px 3px rgba(0,0,0,0.04);"
-/>
+![TOGAF Diagrams Banner](docs/images/banner.png)
 
 A free visual library of TOGAF architecture concepts, clear, simplified diagrams.
 
