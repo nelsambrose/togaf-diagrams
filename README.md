@@ -160,6 +160,24 @@ A visual overview of the TOGAF Architecture Repository showing governance assets
 <tr>
 <td valign="top">
 
+### 11. TOGAF Architecture Landscape
+
+A structured view of enterprise architecture assets across strategic, segment, and capability levels, supporting governance, reuse, planning, and architecture evolution.
+
+</td>
+</tr>
+<tr>
+<td align="center">
+  <img src="docs/diagrams/repository/architecture-landscape.png" alt="Diagram showing enterprise architecture assets organised across strategic, segment, and capability levels with links to governance, reuse, and planning" width="90%"><br>
+  <em>TOGAF Architecture Landscape</em>
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td valign="top">
+
 ### D. TOGAF Technology Architecture
 
 A layered view of TOGAF Technology Architecture showing infrastructure foundations, platform services, integration capabilities, security architecture, operational resilience, and key technology outputs.
