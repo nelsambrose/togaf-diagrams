@@ -4,7 +4,12 @@
 [![Date of Last Repository Commit](https://img.shields.io/github/last-commit/nelsambrose/togaf-diagrams)](https://github.com/nelsambrose/togaf-diagrams/commits/main)
 [![View Diagrams Online via GitHub Pages](https://img.shields.io/badge/View%20Online-GitHub%20Pages-blue)](https://nelsambrose.github.io/togaf-diagrams/)
 
-> A free visual library of TOGAF architecture concepts — clear, simplified diagrams covering the ADM cycle, content framework, governance model, and more.
+A free visual library of TOGAF architecture concepts, clear, simplified diagrams.
+
+> All diagrams in this repository were created by me and are free to use under the MIT License.
+> 
+> They are free to use for any purpose, personal or commercial, with no attribution require, though it’s always appreciated.
+> If you find them useful, consider leaving a ⭐ it helps others find the library too.
 
 ## Repository structure
 
