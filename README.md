@@ -196,6 +196,24 @@ A visual overview of the TOGAF Standards Information Base showing approved enter
 <tr>
 <td valign="top">
 
+### 13. TOGAF Governance Log
+
+A visual overview of the TOGAF Governance Log showing architecture decisions, compliance activities, governance oversight, risk and exception management, audit traceability, and continuous governance evolution supporting enterprise accountability and compliance.
+
+</td>
+</tr>
+<tr>
+<td align="center">
+  <img src="docs/diagrams/repository/governance-log.png" alt="Diagram of the TOGAF Governance Log showing architecture decisions, compliance activities, governance oversight, risk and exception management, audit traceability, and continuous governance evolution" width="90%"><br>
+  <em>TOGAF Governance Log</em>
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td valign="top">
+
 ### D. TOGAF Technology Architecture
 
 A layered view of TOGAF Technology Architecture showing infrastructure foundations, platform services, integration capabilities, security architecture, operational resilience, and key technology outputs.
