@@ -358,6 +358,24 @@ A visual overview of TOGAF Architecture Compliance Reviews showing how enterpris
 <tr>
 <td valign="top">
 
+### 22. TOGAF Requirements Management
+
+A continuous process that captures, validates, prioritizes, manages, and governs architecture requirements across all ADM phases to ensure alignment with business objectives and solution delivery.
+
+</td>
+</tr>
+<tr>
+<td align="center">
+  <img src="docs/diagrams/governance/requirements-management.png" alt="Diagram of TOGAF Requirements Management showing the continuous process of capturing, validating, prioritising, managing, and governing architecture requirements across all ADM phases" width="90%"><br>
+  <em>TOGAF Requirements Management</em>
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td valign="top">
+
 ### D. TOGAF Technology Architecture
 
 A layered view of TOGAF Technology Architecture showing infrastructure foundations, platform services, integration capabilities, security architecture, operational resilience, and key technology outputs.
