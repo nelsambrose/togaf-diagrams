@@ -250,6 +250,24 @@ A visual overview of TOGAF Architecture Contracts showing governance agreements,
 <tr>
 <td valign="top">
 
+### 16. TOGAF Architecture Compliance Reviews
+
+A visual overview of TOGAF Architecture Compliance Reviews showing how enterprise solutions are assessed against architecture principles, standards, governance requirements, risks, and compliance obligations to ensure alignment and delivery readiness.
+
+</td>
+</tr>
+<tr>
+<td align="center">
+  <img src="docs/diagrams/governance/architecture-compliance-reviews.png" alt="Diagram of TOGAF Architecture Compliance Reviews showing assessment of solutions against architecture principles, standards, governance requirements, risks, and compliance obligations" width="90%"><br>
+  <em>TOGAF Architecture Compliance Reviews</em>
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td valign="top">
+
 ### D. TOGAF Technology Architecture
 
 A layered view of TOGAF Technology Architecture showing infrastructure foundations, platform services, integration capabilities, security architecture, operational resilience, and key technology outputs.
