@@ -178,6 +178,24 @@ A structured view of enterprise architecture assets across strategic, segment, a
 <tr>
 <td valign="top">
 
+### 12. Standards Information Base
+
+A visual overview of the TOGAF Standards Information Base showing approved enterprise standards, technology policies, security controls, compliance requirements, governance lifecycle, and consumers who use standards to support architecture consistency and enterprise compliance.
+
+</td>
+</tr>
+<tr>
+<td align="center">
+  <img src="docs/diagrams/repository/standards-information-base.png" alt="Diagram of the TOGAF Standards Information Base showing approved enterprise standards, technology policies, security controls, compliance requirements, governance lifecycle, and standards consumers" width="90%"><br>
+  <em>Standards Information Base</em>
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td valign="top">
+
 ### D. TOGAF Technology Architecture
 
 A layered view of TOGAF Technology Architecture showing infrastructure foundations, platform services, integration capabilities, security architecture, operational resilience, and key technology outputs.
