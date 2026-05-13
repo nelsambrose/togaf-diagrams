@@ -142,6 +142,24 @@ In Phase A (Architecture Vision), Business Scenarios are used to identify and ar
 <tr>
 <td valign="top">
 
+### 10. TOGAF Architecture Repository
+
+A visual overview of the TOGAF Architecture Repository showing governance assets, standards, reusable architecture knowledge, capability structures, and repository consumers supporting enterprise architecture operations.
+
+</td>
+</tr>
+<tr>
+<td align="center">
+  <img src="docs/diagrams/repository/architecture-repository.png" alt="Diagram of the TOGAF Architecture Repository showing governance assets, standards, reusable architecture knowledge, capability structures, and repository consumers" width="90%"><br>
+  <em>TOGAF Architecture Repository</em>
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td valign="top">
+
 ### D. TOGAF Technology Architecture
 
 A layered view of TOGAF Technology Architecture showing infrastructure foundations, platform services, integration capabilities, security architecture, operational resilience, and key technology outputs.
