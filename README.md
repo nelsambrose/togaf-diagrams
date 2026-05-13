@@ -358,16 +358,16 @@ A visual overview of TOGAF Architecture Compliance Reviews showing how enterpris
 <tr>
 <td valign="top">
 
-### 22. TOGAF Requirements Management
+### 22. TOGAF Governance Repository
 
-A continuous process that captures, validates, prioritizes, manages, and governs architecture requirements across all ADM phases to ensure alignment with business objectives and solution delivery.
+A centralized governance repository that stores architecture decisions, compliance records, policies, audit evidence, approvals, and governance outcomes supporting enterprise accountability, traceability, and regulatory alignment.
 
 </td>
 </tr>
 <tr>
 <td align="center">
-  <img src="docs/diagrams/governance/governance-repository.png" alt="Diagram of TOGAF Requirements Management showing the continuous process of capturing, validating, prioritising, managing, and governing architecture requirements across all ADM phases" width="90%"><br>
-  <em>TOGAF Requirements Management</em>
+  <img src="docs/diagrams/governance/governance-repository.png" alt="A centralized governance repository that stores architecture decisions, compliance records, policies, audit evidence, approvals, and governance outcomes supporting enterprise accountability, traceability, and regulatory alignment." width="90%"><br>
+  <em>TOGAF Governance Repository</em>
 </td>
 </tr>
 </table>
