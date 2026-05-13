@@ -214,6 +214,42 @@ A visual overview of the TOGAF Governance Log showing architecture decisions, co
 <tr>
 <td valign="top">
 
+### 14. TOGAF Architecture Principles
+
+A visual overview of TOGAF Architecture Principles showing how business, data, application, technology, and governance principles guide enterprise decision-making, standards alignment, architecture quality, and consistent solution delivery.
+
+</td>
+</tr>
+<tr>
+<td align="center">
+  <img src="docs/diagrams/governance/architecture-principles.png" alt="Diagram of TOGAF Architecture Principles showing business, data, application, technology, and governance principles guiding enterprise decision-making and architecture quality" width="90%"><br>
+  <em>TOGAF Architecture Principles</em>
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td valign="top">
+
+### 15. TOGAF Architecture Contracts
+
+A visual overview of TOGAF Architecture Contracts showing governance agreements, architecture expectations, compliance obligations, responsibilities, delivery alignment, risk and exception management, and implementation accountability across the enterprise.
+
+</td>
+</tr>
+<tr>
+<td align="center">
+  <img src="docs/diagrams/governance/architecture-contracts.png" alt="Diagram of TOGAF Architecture Contracts showing governance agreements, compliance obligations, responsibilities, delivery alignment, and implementation accountability" width="90%"><br>
+  <em>TOGAF Architecture Contracts</em>
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td valign="top">
+
 ### D. TOGAF Technology Architecture
 
 A layered view of TOGAF Technology Architecture showing infrastructure foundations, platform services, integration capabilities, security architecture, operational resilience, and key technology outputs.
