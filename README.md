@@ -4,6 +4,10 @@
 [![Date of Last Repository Commit](https://img.shields.io/github/last-commit/nelsambrose/togaf-diagrams)](https://github.com/nelsambrose/togaf-diagrams/commits/main)
 [![View Diagrams Online via GitHub Pages](https://img.shields.io/badge/View%20Online-GitHub%20Pages-blue)](https://nelsambrose.github.io/togaf-diagrams/)
 
+## TOGAF Diagrams Banner
+
+![TOGAF Diagrams Banner](docs/images/banner.png)
+
 A free visual library of TOGAF architecture concepts, clear, simplified diagrams.
 
 > All diagrams in this repository were created by me and are free to use under the MIT License.
@@ -14,6 +18,7 @@ A free visual library of TOGAF architecture concepts, clear, simplified diagrams
 
 ## Repository structure
 
+- `docs/images/`: repository presentation assets for GitHub-facing documentation.
 - `docs/diagrams/`: active, published diagram PNG files grouped by domain.
 - `archive/`: superseded or historical diagram files.
 - `README.md`: repository overview for GitHub.
