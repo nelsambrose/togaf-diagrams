@@ -259,25 +259,7 @@ Defines the structure, interaction, integration, governance, and lifecycle of en
 <tr>
 <td valign="top">
 
-### 16. TOGAF Opportunities & Solutions
-
-Illustrates how TOGAF identifies transformation opportunities, defines transition architectures, organizes work packages, and builds migration roadmaps that guide enterprise solution delivery and strategic transformation execution.
-
-</td>
-</tr>
-<tr>
-<td align="center">
-  <img src="docs/diagrams/architecture/opportunities-solutions.png" alt="Diagram of TOGAF Opportunities and Solutions showing transformation opportunity identification, transition architectures, work packages, and migration roadmaps guiding enterprise solution delivery" width="90%"><br>
-  <em>TOGAF Opportunities & Solutions</em>
-</td>
-</tr>
-</table>
-
-<table>
-<tr>
-<td valign="top">
-
-### 17. TOGAF Architecture Repository
+### 16. TOGAF Architecture Repository
 
 A visual overview of the TOGAF Architecture Repository showing governance assets, standards, reusable architecture knowledge, capability structures, and repository consumers supporting enterprise architecture operations.
 
@@ -287,6 +269,24 @@ A visual overview of the TOGAF Architecture Repository showing governance assets
 <td align="center">
   <img src="docs/diagrams/repository/architecture-repository.png" alt="Diagram of the TOGAF Architecture Repository showing governance assets, standards, reusable architecture knowledge, capability structures, and repository consumers" width="90%"><br>
   <em>TOGAF Architecture Repository</em>
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td valign="top">
+
+### 17. TOGAF Architecture Deliverables
+
+Explains the formal deliverables produced throughout the TOGAF ADM lifecycle, including architecture definitions, governance artifacts, transition plans, compliance outputs, and stakeholder communication packages.
+
+</td>
+</tr>
+<tr>
+<td align="center">
+  <img src="docs/diagrams/content-framework/architecture-deliverables.png" alt="Diagram of TOGAF Architecture Deliverables showing formal ADM deliverables including architecture definitions, governance artifacts, transition plans, compliance outputs, and stakeholder communication packages" width="90%"><br>
+  <em>TOGAF Architecture Deliverables</em>
 </td>
 </tr>
 </table>
