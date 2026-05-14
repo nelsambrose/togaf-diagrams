@@ -604,7 +604,25 @@ A centralized governance repository that stores architecture decisions, complian
 <tr>
 <td valign="top">
 
-### 35. TOGAF Risk Management
+### 35. TOGAF Architecture Decisions & Traceability
+
+A visual overview of TOGAF Architecture Decisions & Traceability showing how architecture decisions, governance approvals, rationale, dependencies, and traceability relationships are managed across enterprise transformation initiatives.
+
+</td>
+</tr>
+<tr>
+<td align="center">
+  <img src="docs/diagrams/governance/architecture-decisions-traceability.png" alt="Diagram of TOGAF Architecture Decisions and Traceability showing how architecture decisions, governance approvals, rationale, dependencies, and traceability relationships are managed across enterprise transformation initiatives" width="90%"><br>
+  <em>TOGAF Architecture Decisions & Traceability</em>
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td valign="top">
+
+### 36. TOGAF Risk Management
 
 A visual overview of TOGAF Risk Management showing how enterprise architecture risks are identified, assessed, governed, mitigated, and continuously monitored across transformation initiatives and ADM activities.
 
@@ -622,7 +640,7 @@ A visual overview of TOGAF Risk Management showing how enterprise architecture r
 <tr>
 <td valign="top">
 
-### 36. TOGAF Security Architecture Integration
+### 37. TOGAF Security Architecture Integration
 
 A visual overview of TOGAF Security Architecture Integration showing how security controls, governance, compliance, resilience, and risk management are embedded across business, data, application, and technology architecture domains.
 
@@ -640,7 +658,7 @@ A visual overview of TOGAF Security Architecture Integration showing how securit
 <tr>
 <td valign="top">
 
-### 37. TOGAF Requirements Management
+### 38. TOGAF Requirements Management
 
 A continuous process that captures, validates, prioritizes, manages, and governs architecture requirements across all ADM phases to ensure alignment with business objectives and solution delivery.
 
