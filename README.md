@@ -370,7 +370,25 @@ A visual overview of TOGAF Architecture Partitioning showing how enterprise arch
 <tr>
 <td valign="top">
 
-### 22. TOGAF Architecture Landscape
+### 22. TOGAF Architecture Communication
+
+A visual overview of TOGAF Architecture Communication showing how architecture information, governance messaging, stakeholder alignment, executive reporting, and delivery coordination support enterprise transformation success.
+
+</td>
+</tr>
+<tr>
+<td align="center">
+  <img src="docs/diagrams/architecture/architecture-communication.png" alt="Diagram of TOGAF Architecture Communication showing how architecture information, governance messaging, stakeholder alignment, executive reporting, and delivery coordination support enterprise transformation success" width="90%"><br>
+  <em>TOGAF Architecture Communication</em>
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td valign="top">
+
+### 23. TOGAF Architecture Landscape
 
 A structured view of enterprise architecture assets across strategic, segment, and capability levels, supporting governance, reuse, planning, and architecture evolution.
 
@@ -388,7 +406,7 @@ A structured view of enterprise architecture assets across strategic, segment, a
 <tr>
 <td valign="top">
 
-### 23. TOGAF Enterprise Continuum
+### 24. TOGAF Enterprise Continuum
 
 A visual overview of the TOGAF Enterprise Continuum showing how reusable architecture assets evolve from generic foundation architectures to organization-specific enterprise solutions, enabling standardization, governance alignment, reuse, and architecture consistency across the enterprise.
 
@@ -406,7 +424,7 @@ A visual overview of the TOGAF Enterprise Continuum showing how reusable archite
 <tr>
 <td valign="top">
 
-### 24. TOGAF Reference Architectures
+### 25. TOGAF Reference Architectures
 
 Reusable architecture models, standards, patterns, and implementation guidance that accelerate solution delivery, improve consistency, and support enterprise governance across the enterprise.
 
@@ -424,7 +442,7 @@ Reusable architecture models, standards, patterns, and implementation guidance t
 <tr>
 <td valign="top">
 
-### 25. TOGAF Architecture Building Blocks (ABBs)
+### 26. TOGAF Architecture Building Blocks (ABBs)
 
 A visual overview of TOGAF Architecture Building Blocks (ABBs) showing how reusable logical architecture capabilities, standards, services, and governance models define enterprise architecture intent and guide the realization of Solution Building Blocks and enterprise solutions.
 
@@ -442,7 +460,7 @@ A visual overview of TOGAF Architecture Building Blocks (ABBs) showing how reusa
 <tr>
 <td valign="top">
 
-### 26. TOGAF Solution Building Blocks (SBBs)
+### 27. TOGAF Solution Building Blocks (SBBs)
 
 A visual overview of TOGAF Solution Building Blocks (SBBs) showing how reusable technology components, platforms, integrations, operational services, and governance capabilities implement enterprise architecture solutions and enable standardized, scalable delivery.
 
@@ -460,7 +478,7 @@ A visual overview of TOGAF Solution Building Blocks (SBBs) showing how reusable 
 <tr>
 <td valign="top">
 
-### 27. Standards Information Base
+### 28. Standards Information Base
 
 A visual overview of the TOGAF Standards Information Base showing approved enterprise standards, technology policies, security controls, compliance requirements, governance lifecycle, and consumers who use standards to support architecture consistency and enterprise compliance.
 
@@ -478,7 +496,7 @@ A visual overview of the TOGAF Standards Information Base showing approved enter
 <tr>
 <td valign="top">
 
-### 28. TOGAF Governance Log
+### 29. TOGAF Governance Log
 
 A visual overview of the TOGAF Governance Log showing architecture decisions, compliance activities, governance oversight, risk and exception management, audit traceability, and continuous governance evolution supporting enterprise accountability and compliance.
 
@@ -496,7 +514,7 @@ A visual overview of the TOGAF Governance Log showing architecture decisions, co
 <tr>
 <td valign="top">
 
-### 29. TOGAF Architecture Principles
+### 30. TOGAF Architecture Principles
 
 A visual overview of TOGAF Architecture Principles showing how business, data, application, technology, and governance principles guide enterprise decision-making, standards alignment, architecture quality, and consistent solution delivery.
 
@@ -514,7 +532,7 @@ A visual overview of TOGAF Architecture Principles showing how business, data, a
 <tr>
 <td valign="top">
 
-### 30. TOGAF Architecture Capability
+### 31. TOGAF Architecture Capability
 
 A visual overview of TOGAF Architecture Capability showing the governance structures, people, processes, tools, repository support, maturity practices, and continuous improvement mechanisms required to develop, govern, and sustain enterprise architecture across the organization.
 
@@ -532,7 +550,7 @@ A visual overview of TOGAF Architecture Capability showing the governance struct
 <tr>
 <td valign="top">
 
-### 31. TOGAF Architecture Contracts
+### 32. TOGAF Architecture Contracts
 
 A visual overview of TOGAF Architecture Contracts showing governance agreements, architecture expectations, compliance obligations, responsibilities, delivery alignment, risk and exception management, and implementation accountability across the enterprise.
 
@@ -550,7 +568,7 @@ A visual overview of TOGAF Architecture Contracts showing governance agreements,
 <tr>
 <td valign="top">
 
-### 32. TOGAF Architecture Compliance Reviews
+### 33. TOGAF Architecture Compliance Reviews
 
 A visual overview of TOGAF Architecture Compliance Reviews showing how enterprise solutions are assessed against architecture principles, standards, governance requirements, risks, and compliance obligations to ensure alignment and delivery readiness.
 
@@ -568,7 +586,7 @@ A visual overview of TOGAF Architecture Compliance Reviews showing how enterpris
 <tr>
 <td valign="top">
 
-### 33. TOGAF Governance Repository
+### 34. TOGAF Governance Repository
 
 A centralized governance repository that stores architecture decisions, compliance records, policies, audit evidence, approvals, and governance outcomes supporting enterprise accountability, traceability, and regulatory alignment.
 
@@ -586,7 +604,7 @@ A centralized governance repository that stores architecture decisions, complian
 <tr>
 <td valign="top">
 
-### 34. TOGAF Risk Management
+### 35. TOGAF Risk Management
 
 A visual overview of TOGAF Risk Management showing how enterprise architecture risks are identified, assessed, governed, mitigated, and continuously monitored across transformation initiatives and ADM activities.
 
@@ -604,7 +622,7 @@ A visual overview of TOGAF Risk Management showing how enterprise architecture r
 <tr>
 <td valign="top">
 
-### 35. TOGAF Security Architecture Integration
+### 36. TOGAF Security Architecture Integration
 
 A visual overview of TOGAF Security Architecture Integration showing how security controls, governance, compliance, resilience, and risk management are embedded across business, data, application, and technology architecture domains.
 
@@ -622,7 +640,7 @@ A visual overview of TOGAF Security Architecture Integration showing how securit
 <tr>
 <td valign="top">
 
-### 36. TOGAF Requirements Management
+### 37. TOGAF Requirements Management
 
 A continuous process that captures, validates, prioritizes, manages, and governs architecture requirements across all ADM phases to ensure alignment with business objectives and solution delivery.
 
