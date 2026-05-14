@@ -246,6 +246,60 @@
       .stats { gap: 24px; }
       main { padding: 24px 16px 60px; }
     }
+
+    /* ── Search ────────────────────────────────────────────── */
+    .search-wrap {
+      max-width: 560px;
+      margin: 28px auto 0;
+      position: relative;
+    }
+
+    .search-wrap svg {
+      position: absolute;
+      left: 14px;
+      top: 50%;
+      transform: translateY(-50%);
+      color: var(--muted);
+      pointer-events: none;
+    }
+
+    #search {
+      width: 100%;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      color: var(--text);
+      font-size: 0.95rem;
+      padding: 10px 16px 10px 42px;
+      outline: none;
+      transition: border-color 0.15s;
+    }
+    #search::placeholder { color: var(--muted); }
+    #search:focus { border-color: var(--accent); }
+
+    #search-results {
+      display: none;
+      max-width: 1280px;
+      margin: 0 auto;
+      padding: 32px 24px 0;
+    }
+
+    #search-results h2 {
+      font-size: 0.85rem;
+      color: var(--muted);
+      font-weight: 500;
+      margin-bottom: 20px;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+    }
+
+    #search-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 16px; }
+
+    .no-results {
+      color: var(--muted);
+      font-size: 0.9rem;
+      padding: 24px 0;
+    }
   </style>
 </head>
 <body>
@@ -261,6 +315,10 @@
       View on GitHub
     </a>
     <a href="https://github.com/nelsambrose/togaf-diagrams/blob/master/CONTRIBUTING.md" class="btn btn-secondary">Contribute</a>
+  </div>
+  <div class="search-wrap">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+    <input id="search" type="search" placeholder="Search diagrams — try &quot;governance&quot; or &quot;metamodel&quot;" autocomplete="off" spellcheck="false">
   </div>
 </header>
 
@@ -283,8 +341,14 @@
   <a href="#security" class="cat-pill">Security &amp; Resilience</a>
 </nav>
 
+<!-- ── Search results ─────────────────────────────────────────── -->
+<div id="search-results">
+  <h2 id="search-label"></h2>
+  <div id="search-grid"></div>
+</div>
+
 <!-- ── Diagram catalogue ───────────────────────────────────────── -->
-<main>
+<main id="catalogue">
 
   <!-- ADM & Lifecycle -->
   <section class="category-section" id="adm">
@@ -744,5 +808,103 @@
   <p style="margin-top:8px;">Last updated: May 2026</p>
 </footer>
 
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0/dist/fuse.min.js"></script>
+<script>
+  const diagrams = [
+    { title: "ADM End-to-End Reference Map", desc: "Horizontal swimlane mapping all ADM phases with inputs, outputs, and cross-phase dependencies.", img: "docs/diagrams/adm/togaf-adm-end-to-end-architecture.png", href: "https://github.com/nelsambrose/togaf-diagrams#1-togaf-adm-end-to-end-reference-map", keywords: "adm lifecycle phases preliminary" },
+    { title: "ADM Cycle", desc: "Circular flow of ADM phases from Preliminary through H around a central Requirements Management core.", img: "docs/diagrams/adm/togaf-adm-cycle-v2.png", href: "https://github.com/nelsambrose/togaf-diagrams#2-togaf-adm-cycle", keywords: "adm cycle phases lifecycle preliminary" },
+    { title: "Architecture Vision (Phase A)", desc: "High-level aspirational target architecture, stakeholder alignment, and transformation objectives.", img: "docs/diagrams/adm/architecture-vision.png", href: "https://github.com/nelsambrose/togaf-diagrams#10-togaf-architecture-vision", keywords: "vision phase a stakeholder transformation" },
+    { title: "Technology Architecture (Phase D)", desc: "Infrastructure, platform services, integration, security, and operational resilience layers.", img: "docs/diagrams/technology/phase-d-technology-architecture.png", href: "https://github.com/nelsambrose/togaf-diagrams#d-togaf-technology-architecture", keywords: "technology phase d infrastructure platform" },
+    { title: "Opportunities & Solutions (Phase E)", desc: "Gap analysis, candidate solutions, work packages, transition architectures, and roadmap planning.", img: "docs/diagrams/planning/phase-e-opportunities-solutions-v1.png", href: "https://github.com/nelsambrose/togaf-diagrams#e-opportunities--solutions", keywords: "opportunities solutions phase e gap transition roadmap" },
+    { title: "Migration Planning (Phase F)", desc: "Implementation sequencing, migration planning, dependency management, and governance alignment.", img: "docs/diagrams/planning/phase-f-migration-planning.png", href: "https://github.com/nelsambrose/togaf-diagrams#f-migration-planning", keywords: "migration planning phase f implementation sequencing" },
+    { title: "Implementation Governance (Phase G)", desc: "Architecture compliance, governance oversight, and implementation support for target architecture realization.", img: "docs/diagrams/governance/phase-g-implementation-governance.png", href: "https://github.com/nelsambrose/togaf-diagrams#g-togaf-implementation-governance", keywords: "implementation governance phase g compliance" },
+    { title: "Architecture Change Management (Phase H)", desc: "Change assessment, governance decisioning, architecture evolution, and ADM lifecycle re-initiation.", img: "docs/diagrams/governance/phase-h-architecture-change-management.png", href: "https://github.com/nelsambrose/togaf-diagrams#h-togaf-architecture-change-management", keywords: "change management phase h evolution" },
+    { title: "Architecture Content Framework", desc: "Hierarchical framework organising deliverables into metamodel categories, artifacts, and building blocks.", img: "docs/diagrams/content-framework/phase-c-architecture-content-framework-v2.png", href: "https://github.com/nelsambrose/togaf-diagrams#3-architecture-content-framework", keywords: "content framework metamodel artifacts building blocks" },
+    { title: "Architecture Deliverables", desc: "Formal ADM deliverables: architecture definitions, governance artifacts, transition plans, and compliance outputs.", img: "docs/diagrams/content-framework/architecture-deliverables.png", href: "https://github.com/nelsambrose/togaf-diagrams#17-togaf-architecture-deliverables", keywords: "deliverables formal adm outputs transition" },
+    { title: "Architecture Artifacts", desc: "Catalogs, matrices, and diagrams used throughout the ADM lifecycle to document and govern enterprise architecture.", img: "docs/diagrams/architecture/architecture-artifacts.png", href: "https://github.com/nelsambrose/togaf-diagrams#18-togaf-architecture-artifacts", keywords: "artifacts catalogs matrices diagrams" },
+    { title: "Architecture Metamodel", desc: "Structural relationships between business, data, application, and technology elements for consistency and traceability.", img: "docs/diagrams/architecture/architecture-metamodel.png", href: "https://github.com/nelsambrose/togaf-diagrams#20-togaf-architecture-metamodel", keywords: "metamodel structural relationships traceability" },
+    { title: "Architecture Views & Viewpoints", desc: "How stakeholder concerns map to architecture viewpoints, views, governance communication, and transformation alignment.", img: "docs/diagrams/architecture/architecture-views-viewpoints.png", href: "https://github.com/nelsambrose/togaf-diagrams#11-togaf-architecture-views--viewpoints", keywords: "views viewpoints stakeholder concerns" },
+    { title: "Architecture Partitioning", desc: "How enterprise architectures are separated across strategic, segment, and solution levels for governance and scalability.", img: "docs/diagrams/architecture/architecture-partitioning.png", href: "https://github.com/nelsambrose/togaf-diagrams#21-togaf-architecture-partitioning", keywords: "partitioning strategic segment solution scalability" },
+    { title: "Business Architecture", desc: "Baseline and target business capabilities, value streams, organisational structures, and processes supporting enterprise strategy.", img: "docs/diagrams/business/business-architecture.png", href: "https://github.com/nelsambrose/togaf-diagrams#13-togaf-business-architecture", keywords: "business architecture capabilities value streams" },
+    { title: "Data Architecture", desc: "Structure, governance, lifecycle, integration, and management of enterprise data assets.", img: "docs/diagrams/data/data-architecture.png", href: "https://github.com/nelsambrose/togaf-diagrams#14-togaf-data-architecture", keywords: "data architecture governance lifecycle integration" },
+    { title: "Enterprise Continuum & Repository", desc: "Spectrum positioning architecture assets from generic foundation architectures to organisation-specific solutions.", img: "docs/diagrams/continuum/phase-a-enterprise-continuum-architecture-repository-v2.png", href: "https://github.com/nelsambrose/togaf-diagrams#4-enterprise-continuum--architecture-repository", keywords: "enterprise continuum repository foundation" },
+    { title: "Architecture Repository", desc: "Governance assets, standards, reusable architecture knowledge, and capability structures.", img: "docs/diagrams/repository/architecture-repository.png", href: "https://github.com/nelsambrose/togaf-diagrams#16-togaf-architecture-repository", keywords: "repository governance standards reusable" },
+    { title: "Architecture Landscape", desc: "Enterprise architecture assets organised across strategic, segment, and capability levels.", img: "docs/diagrams/repository/architecture-landscape.png", href: "https://github.com/nelsambrose/togaf-diagrams#23-togaf-architecture-landscape", keywords: "landscape strategic segment capability" },
+    { title: "Enterprise Continuum", desc: "Architecture assets evolving from generic foundation architectures to organisation-specific solutions.", img: "docs/diagrams/continuum/enterprise-continuum.png", href: "https://github.com/nelsambrose/togaf-diagrams#24-togaf-enterprise-continuum", keywords: "enterprise continuum foundation evolution" },
+    { title: "Reference Architectures", desc: "Reusable architecture models, standards, patterns, and implementation guidance for solution delivery.", img: "docs/diagrams/repository/reference-architectures.png", href: "https://github.com/nelsambrose/togaf-diagrams#25-togaf-reference-architectures", keywords: "reference architectures reusable patterns standards" },
+    { title: "Standards Information Base", desc: "Approved enterprise standards, technology policies, security controls, and compliance requirements.", img: "docs/diagrams/repository/standards-information-base.png", href: "https://github.com/nelsambrose/togaf-diagrams#28-standards-information-base", keywords: "standards information base policies security compliance" },
+    { title: "Governance Log", desc: "Architecture decisions, compliance activities, risk management, audit traceability, and continuous governance evolution.", img: "docs/diagrams/repository/governance-log.png", href: "https://github.com/nelsambrose/togaf-diagrams#29-togaf-governance-log", keywords: "governance log decisions audit traceability risk" },
+    { title: "Architecture Governance Model", desc: "Layered governance showing oversight structures, compliance review boards, and accountability flows.", img: "docs/diagrams/governance/phase-a-architecture-governance-model-v2.png", href: "https://github.com/nelsambrose/togaf-diagrams#8-architecture-governance-model", keywords: "governance model oversight compliance accountability" },
+    { title: "Architecture Principles", desc: "Business, data, application, technology, and governance principles guiding enterprise decision-making.", img: "docs/diagrams/governance/architecture-principles.png", href: "https://github.com/nelsambrose/togaf-diagrams#30-togaf-architecture-principles", keywords: "principles business data application technology governance" },
+    { title: "Architecture Contracts", desc: "Governance agreements, compliance obligations, responsibilities, and implementation accountability.", img: "docs/diagrams/governance/architecture-contracts.png", href: "https://github.com/nelsambrose/togaf-diagrams#32-togaf-architecture-contracts", keywords: "contracts governance agreements compliance obligations" },
+    { title: "Architecture Compliance Reviews", desc: "Assessment of solutions against architecture principles, standards, governance requirements, and risks.", img: "docs/diagrams/governance/architecture-compliance-reviews.png", href: "https://github.com/nelsambrose/togaf-diagrams#33-togaf-architecture-compliance-reviews", keywords: "compliance reviews assessment standards risks" },
+    { title: "Compliance Assessment", desc: "Governance validation, standards alignment, and delivery oversight supporting controlled enterprise transformation.", img: "docs/diagrams/governance/compliance-assessment.png", href: "https://github.com/nelsambrose/togaf-diagrams#34-togaf-compliance-assessment", keywords: "compliance assessment validation standards transformation" },
+    { title: "Governance Repository", desc: "Centralised store of architecture decisions, compliance records, policies, audit evidence, and governance outcomes.", img: "docs/diagrams/governance/governance-repository.png", href: "https://github.com/nelsambrose/togaf-diagrams#35-togaf-governance-repository", keywords: "governance repository decisions compliance audit policies" },
+    { title: "Architecture Decisions & Traceability", desc: "How architecture decisions, governance approvals, rationale, and dependencies are managed across transformation initiatives.", img: "docs/diagrams/governance/architecture-decisions-traceability.png", href: "https://github.com/nelsambrose/togaf-diagrams#36-togaf-architecture-decisions--traceability", keywords: "decisions traceability rationale dependencies governance" },
+    { title: "Architecture Change Requests", desc: "How enterprise architecture changes are identified, assessed, governed, approved, and implemented.", img: "docs/diagrams/governance/architecture-change-requests.png", href: "https://github.com/nelsambrose/togaf-diagrams#37-togaf-architecture-change-requests", keywords: "change requests governed approved implemented" },
+    { title: "Risk Management", desc: "How enterprise architecture risks are identified, assessed, mitigated, and continuously monitored across ADM activities.", img: "docs/diagrams/governance/risk-management.png", href: "https://github.com/nelsambrose/togaf-diagrams#38-togaf-risk-management", keywords: "risk management identified assessed mitigated monitored" },
+    { title: "Requirements Management", desc: "Continuous process of capturing, validating, prioritising, and governing architecture requirements across all ADM phases.", img: "docs/diagrams/governance/requirements-management.png", href: "https://github.com/nelsambrose/togaf-diagrams#40-togaf-requirements-management", keywords: "requirements management capturing validating prioritising" },
+    { title: "Application Architecture", desc: "Structure, interaction, integration, governance, and lifecycle of enterprise applications and services.", img: "docs/diagrams/application/application-architecture.png", href: "https://github.com/nelsambrose/togaf-diagrams#15-togaf-application-architecture", keywords: "application architecture integration services lifecycle" },
+    { title: "Stakeholder Map with Views & Concerns", desc: "Matrix mapping stakeholder roles to their relevant architecture views and primary concerns.", img: "docs/diagrams/stakeholder/phase-a-stakeholder-map-views-concerns-v2.png", href: "https://github.com/nelsambrose/togaf-diagrams#7-stakeholder-map-with-views--concerns", keywords: "stakeholder map views concerns roles" },
+    { title: "Stakeholder Management", desc: "Structured approach for identifying, analysing, engaging, and governing stakeholders to support architecture alignment.", img: "docs/diagrams/stakeholder/stakeholder-management.png", href: "https://github.com/nelsambrose/togaf-diagrams#12-togaf-stakeholder-management", keywords: "stakeholder management engaging governing alignment" },
+    { title: "Business Scenarios (Phase A View)", desc: "How business drivers and problems are structured into scenarios that inform the Architecture Vision.", img: "docs/diagrams/stakeholder/phase-a-business-scenarios.png", href: "https://github.com/nelsambrose/togaf-diagrams#9-business-scenarios", keywords: "business scenarios phase a drivers problems vision" },
+    { title: "Business Scenarios (Enterprise View)", desc: "How business problems, stakeholder interactions, and solution requirements support enterprise architecture development.", img: "docs/diagrams/business/business-scenarios.png", href: "https://github.com/nelsambrose/togaf-diagrams#9-business-scenarios", keywords: "business scenarios enterprise stakeholder solution" },
+    { title: "Architecture Communication", desc: "How architecture information, governance messaging, and stakeholder alignment support enterprise transformation.", img: "docs/diagrams/architecture/architecture-communication.png", href: "https://github.com/nelsambrose/togaf-diagrams#22-togaf-architecture-communication", keywords: "communication messaging stakeholder alignment transformation" },
+    { title: "Capability Assessment & Maturity Models", desc: "Grid-based maturity model rating enterprise architecture capabilities across defined levels from initial to optimising.", img: "docs/diagrams/capability/phase-b-capability-assessment-maturity-models-v2.png", href: "https://github.com/nelsambrose/togaf-diagrams#5-capability-assessment--maturity-models", keywords: "capability assessment maturity models levels" },
+    { title: "Capability-Based Planning", desc: "How enterprise capabilities are identified, assessed, prioritised, and roadmapped to support strategic transformation.", img: "docs/diagrams/architecture/capability-based-planning.png", href: "https://github.com/nelsambrose/togaf-diagrams#19-togaf-capability-based-planning", keywords: "capability planning strategic transformation roadmap" },
+    { title: "Architecture Capability", desc: "Governance structures, people, processes, tools, and maturity practices for enterprise architecture.", img: "docs/diagrams/capability/architecture-capability.png", href: "https://github.com/nelsambrose/togaf-diagrams#31-togaf-architecture-capability", keywords: "architecture capability people processes tools maturity" },
+    { title: "Architecture Building Blocks vs. Solution Building Blocks", desc: "Side-by-side comparison of abstract enterprise architecture building blocks against vendor-specific solution building blocks.", img: "docs/diagrams/building-blocks/phase-a-architecture-building-blocks-vs-solution-building-blocks-v2.png", href: "https://github.com/nelsambrose/togaf-diagrams#6-architecture-building-blocks-vs-solution-building-blocks", keywords: "building blocks ABB SBB solution comparison" },
+    { title: "Architecture Building Blocks (ABBs)", desc: "Reusable logical capabilities, standards, and services guiding the realization of Solution Building Blocks.", img: "docs/diagrams/building-blocks/architecture-building-blocks.png", href: "https://github.com/nelsambrose/togaf-diagrams#26-togaf-architecture-building-blocks-abbs", keywords: "ABB building blocks reusable logical capabilities" },
+    { title: "Security Architecture Integration", desc: "How security controls, governance, compliance, resilience, and risk management are embedded across all architecture domains.", img: "docs/diagrams/security/security-architecture-integration.png", href: "https://github.com/nelsambrose/togaf-diagrams#39-togaf-security-architecture-integration", keywords: "security architecture integration resilience risk controls compliance" },
+  ];
+
+  const fuse = new Fuse(diagrams, {
+    keys: [
+      { name: "title", weight: 0.5 },
+      { name: "desc",  weight: 0.3 },
+      { name: "keywords", weight: 0.2 }
+    ],
+    threshold: 0.35,
+    minMatchCharLength: 2,
+  });
+
+  function makeCard(d) {
+    return `<a href="${d.href}" class="card">
+      <img class="card-thumb" src="${d.img}" alt="${d.title}" loading="lazy">
+      <div class="card-body">
+        <div class="card-title">${d.title}</div>
+        <div class="card-desc">${d.desc}</div>
+      </div>
+    </a>`;
+  }
+
+  const input    = document.getElementById("search");
+  const results  = document.getElementById("search-results");
+  const grid     = document.getElementById("search-grid");
+  const label    = document.getElementById("search-label");
+  const catalogue = document.getElementById("catalogue");
+  const catNav   = document.querySelector(".category-nav");
+
+  input.addEventListener("input", () => {
+    const q = input.value.trim();
+    if (!q) {
+      results.style.display  = "none";
+      catalogue.style.display = "";
+      catNav.style.display    = "";
+      return;
+    }
+    catalogue.style.display = "none";
+    catNav.style.display    = "none";
+    results.style.display   = "block";
+    const hits = fuse.search(q);
+    if (hits.length === 0) {
+      label.textContent = `No results for "${q}"`;
+      grid.innerHTML = `<p class="no-results">Try a different term — e.g. "governance", "metamodel", "transition".</p>`;
+    } else {
+      label.textContent = `${hits.length} result${hits.length !== 1 ? "s" : ""} for "${q}"`;
+      grid.innerHTML = hits.map(h => makeCard(h.item)).join("");
+    }
+  });
+</script>
 </body>
 </html>
