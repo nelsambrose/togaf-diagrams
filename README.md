@@ -135,14 +135,20 @@ An overview of the governance structures, oversight bodies, and accountability m
 
 ### 9. Business Scenarios
 
-In Phase A (Architecture Vision), Business Scenarios are used to identify and articulate the business problem, the environment in which it occurs, the key actors involved, and the desired outcomes. They provide the foundation for validating that the proposed architecture vision genuinely addresses real business needs and stakeholder goals.
+In Phase A (Architecture Vision), Business Scenarios are used to identify and articulate the business problem, the environment in which it occurs, the key actors involved, and the desired outcomes. They provide the foundation for validating that the proposed architecture vision genuinely addresses real business needs and stakeholder goals. The diagrams below show two complementary perspectives: the ADM Phase A scenario structure, and a broader view of how business problems, stakeholder interactions, operational processes, and solution requirements support enterprise architecture development and transformation planning.
 
 </td>
 </tr>
 <tr>
 <td align="center">
   <img src="docs/diagrams/stakeholder/phase-a-business-scenarios.png" alt="Flowchart showing how business drivers and problems are structured into scenarios that inform the Architecture Vision in Phase A" width="90%"><br>
-  <em>Business Scenarios</em>
+  <em>Business Scenarios — Phase A ADM View</em>
+</td>
+</tr>
+<tr>
+<td align="center">
+  <img src="docs/diagrams/business/business-scenarios.png" alt="Diagram of TOGAF Business Scenarios showing how business problems, stakeholder interactions, operational processes, and solution requirements support enterprise architecture development and transformation planning" width="90%"><br>
+  <em>Business Scenarios — Enterprise Architecture View</em>
 </td>
 </tr>
 </table>
