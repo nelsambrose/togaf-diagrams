@@ -27,19 +27,19 @@ A free visual library of TOGAF 10 enterprise architecture diagrams — clear, si
 <details>
 <summary>Click to expand</summary>
 
-### ADM & Lifecycle
+### ADM & Lifecycle (4)
 - [TOGAF ADM End-to-End Reference Map](#1-togaf-adm-end-to-end-reference-map)
 - [TOGAF ADM Cycle](#2-togaf-adm-cycle)
 - [TOGAF Architecture Vision](#10-togaf-architecture-vision)
 - [TOGAF Requirements Management](#40-togaf-requirements-management)
 
-### Architecture Domains
+### Architecture Domains (4)
 - [TOGAF Business Architecture](#13-togaf-business-architecture)
 - [TOGAF Data Architecture](#14-togaf-data-architecture)
 - [TOGAF Application Architecture](#15-togaf-application-architecture)
 - [TOGAF Technology Architecture](#d-togaf-technology-architecture)
 
-### Content, Metamodel & Structure
+### Content, Metamodel & Structure (6)
 - [Architecture Content Framework](#3-architecture-content-framework)
 - [TOGAF Architecture Metamodel](#20-togaf-architecture-metamodel)
 - [TOGAF Architecture Deliverables](#17-togaf-architecture-deliverables)
@@ -47,7 +47,7 @@ A free visual library of TOGAF 10 enterprise architecture diagrams — clear, si
 - [TOGAF Architecture Partitioning](#21-togaf-architecture-partitioning)
 - [TOGAF Architecture Views & Viewpoints](#11-togaf-architecture-views--viewpoints)
 
-### Repository & Continuum
+### Repository & Continuum (6)
 - [Enterprise Continuum & Architecture Repository](#4-enterprise-continuum--architecture-repository)
 - [TOGAF Enterprise Continuum](#24-togaf-enterprise-continuum)
 - [TOGAF Architecture Repository](#16-togaf-architecture-repository)
@@ -55,25 +55,25 @@ A free visual library of TOGAF 10 enterprise architecture diagrams — clear, si
 - [TOGAF Reference Architectures](#25-togaf-reference-architectures)
 - [Standards Information Base](#28-standards-information-base)
 
-### Building Blocks
+### Building Blocks (3)
 - [Architecture Building Blocks vs. Solution Building Blocks](#6-architecture-building-blocks-vs-solution-building-blocks)
 - [TOGAF Architecture Building Blocks (ABBs)](#26-togaf-architecture-building-blocks-abbs)
 - [TOGAF Solution Building Blocks (SBBs)](#27-togaf-solution-building-blocks-sbbs)
 
-### Capability & Planning
+### Capability & Planning (5)
 - [Capability Assessment & Maturity Models](#5-capability-assessment--maturity-models)
 - [TOGAF Capability-Based Planning](#19-togaf-capability-based-planning)
 - [TOGAF Architecture Capability](#31-togaf-architecture-capability)
 - [Opportunities & Solutions](#e-opportunities--solutions)
 - [Migration Planning](#f-migration-planning)
 
-### Stakeholders & Communication
+### Stakeholders & Communication (4)
 - [Stakeholder Map with Views & Concerns](#7-stakeholder-map-with-views--concerns)
 - [TOGAF Stakeholder Management](#12-togaf-stakeholder-management)
 - [Business Scenarios](#9-business-scenarios)
 - [TOGAF Architecture Communication](#22-togaf-architecture-communication)
 
-### Governance & Compliance
+### Governance & Compliance (11)
 - [Architecture Governance Model](#8-architecture-governance-model)
 - [TOGAF Architecture Principles](#30-togaf-architecture-principles)
 - [TOGAF Architecture Contracts](#32-togaf-architecture-contracts)
@@ -86,7 +86,7 @@ A free visual library of TOGAF 10 enterprise architecture diagrams — clear, si
 - [TOGAF Architecture Change Management](#h-togaf-architecture-change-management)
 - [TOGAF Implementation Governance](#g-togaf-implementation-governance)
 
-### Risk & Security
+### Risk & Security (2)
 - [TOGAF Risk Management](#38-togaf-risk-management)
 - [TOGAF Security Architecture Integration](#39-togaf-security-architecture-integration)
 
