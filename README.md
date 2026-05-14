@@ -586,7 +586,25 @@ A visual overview of TOGAF Architecture Compliance Reviews showing how enterpris
 <tr>
 <td valign="top">
 
-### 34. TOGAF Governance Repository
+### 34. TOGAF Compliance Assessment
+
+A visual overview of TOGAF Compliance Assessment showing how enterprise architecture compliance, governance validation, standards alignment, and delivery oversight support controlled enterprise transformation.
+
+</td>
+</tr>
+<tr>
+<td align="center">
+  <img src="docs/diagrams/governance/compliance-assessment.png" alt="Diagram of TOGAF Compliance Assessment showing how enterprise architecture compliance, governance validation, standards alignment, and delivery oversight support controlled enterprise transformation" width="90%"><br>
+  <em>TOGAF Compliance Assessment</em>
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td valign="top">
+
+### 35. TOGAF Governance Repository
 
 A centralized governance repository that stores architecture decisions, compliance records, policies, audit evidence, approvals, and governance outcomes supporting enterprise accountability, traceability, and regulatory alignment.
 
@@ -604,7 +622,7 @@ A centralized governance repository that stores architecture decisions, complian
 <tr>
 <td valign="top">
 
-### 35. TOGAF Architecture Decisions & Traceability
+### 36. TOGAF Architecture Decisions & Traceability
 
 A visual overview of TOGAF Architecture Decisions & Traceability showing how architecture decisions, governance approvals, rationale, dependencies, and traceability relationships are managed across enterprise transformation initiatives.
 
@@ -622,7 +640,7 @@ A visual overview of TOGAF Architecture Decisions & Traceability showing how arc
 <tr>
 <td valign="top">
 
-### 36. TOGAF Risk Management
+### 37. TOGAF Risk Management
 
 A visual overview of TOGAF Risk Management showing how enterprise architecture risks are identified, assessed, governed, mitigated, and continuously monitored across transformation initiatives and ADM activities.
 
@@ -640,7 +658,7 @@ A visual overview of TOGAF Risk Management showing how enterprise architecture r
 <tr>
 <td valign="top">
 
-### 37. TOGAF Security Architecture Integration
+### 38. TOGAF Security Architecture Integration
 
 A visual overview of TOGAF Security Architecture Integration showing how security controls, governance, compliance, resilience, and risk management are embedded across business, data, application, and technology architecture domains.
 
@@ -658,7 +676,7 @@ A visual overview of TOGAF Security Architecture Integration showing how securit
 <tr>
 <td valign="top">
 
-### 38. TOGAF Requirements Management
+### 39. TOGAF Requirements Management
 
 A continuous process that captures, validates, prioritizes, manages, and governs architecture requirements across all ADM phases to ensure alignment with business objectives and solution delivery.
 
