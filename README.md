@@ -22,6 +22,43 @@ A free visual library of TOGAF 10 enterprise architecture diagrams — clear, si
 - `README.md`: repository overview for GitHub.
 - `index.md`: GitHub Pages landing page.
 
+## Recommended Learning Path
+
+<details>
+<summary>Click to expand</summary>
+
+### Foundation
+1. [TOGAF ADM Cycle](#2-togaf-adm-cycle) — understand the overall framework before anything else
+2. [TOGAF ADM End-to-End Reference Map](#1-togaf-adm-end-to-end-reference-map) — see all phases, inputs, and outputs in detail
+3. [TOGAF Architecture Vision](#10-togaf-architecture-vision) — how Phase A sets direction and stakeholder alignment
+4. [TOGAF Requirements Management](#40-togaf-requirements-management) — continuous requirements flow across the ADM
+
+### Core Architecture Domains
+5. [TOGAF Business Architecture](#13-togaf-business-architecture) — capabilities, value streams, and organisational structure
+6. [TOGAF Data Architecture](#14-togaf-data-architecture) — data assets, governance, and lifecycle
+7. [TOGAF Application Architecture](#15-togaf-application-architecture) — application structure, integration, and services
+8. [TOGAF Technology Architecture](#d-togaf-technology-architecture) — infrastructure, platforms, and operational resilience
+
+### Structure & Content
+9. [Architecture Content Framework](#3-architecture-content-framework) — what gets produced across the ADM
+10. [TOGAF Architecture Metamodel](#20-togaf-architecture-metamodel) — structural relationships between architecture elements
+11. [TOGAF Architecture Artifacts](#18-togaf-architecture-artifacts) — catalogs, matrices, and diagrams used throughout
+12. [TOGAF Architecture Deliverables](#17-togaf-architecture-deliverables) — formal outputs at each ADM phase
+
+### Governance & Control
+13. [Architecture Governance Model](#8-architecture-governance-model) — oversight structures and accountability flows
+14. [TOGAF Architecture Principles](#30-togaf-architecture-principles) — guiding rules for enterprise decision-making
+15. [TOGAF Compliance Assessment](#34-togaf-compliance-assessment) — validating solutions against standards
+16. [TOGAF Risk Management](#38-togaf-risk-management) — identifying and mitigating architecture risks
+
+### Advanced Enterprise Architecture
+17. [Enterprise Continuum & Architecture Repository](#4-enterprise-continuum--architecture-repository) — how architecture assets are classified and reused
+18. [TOGAF Capability-Based Planning](#19-togaf-capability-based-planning) — aligning capabilities to strategic transformation
+19. [TOGAF Architecture Partitioning](#21-togaf-architecture-partitioning) — scaling governance across the enterprise
+20. [TOGAF Architecture Decisions & Traceability](#36-togaf-architecture-decisions--traceability) — tracking rationale across transformation initiatives
+
+</details>
+
 ## Browse by Category
 
 <details>
