@@ -24,6 +24,74 @@ A free visual library of TOGAF architecture concepts, clear, simplified diagrams
 
 ## Diagrams
 
+<details>
+<summary><strong>Browse by category</strong></summary>
+
+### ADM & Lifecycle
+- [TOGAF ADM End-to-End Reference Map](#1-togaf-adm-end-to-end-reference-map)
+- [TOGAF ADM Cycle](#2-togaf-adm-cycle)
+- [TOGAF Architecture Vision](#10-togaf-architecture-vision)
+- [TOGAF Requirements Management](#40-togaf-requirements-management)
+
+### Architecture Domains
+- [TOGAF Business Architecture](#13-togaf-business-architecture)
+- [TOGAF Data Architecture](#14-togaf-data-architecture)
+- [TOGAF Application Architecture](#15-togaf-application-architecture)
+- [TOGAF Technology Architecture](#d-togaf-technology-architecture)
+
+### Content, Metamodel & Structure
+- [Architecture Content Framework](#3-architecture-content-framework)
+- [TOGAF Architecture Metamodel](#20-togaf-architecture-metamodel)
+- [TOGAF Architecture Deliverables](#17-togaf-architecture-deliverables)
+- [TOGAF Architecture Artifacts](#18-togaf-architecture-artifacts)
+- [TOGAF Architecture Partitioning](#21-togaf-architecture-partitioning)
+- [TOGAF Architecture Views & Viewpoints](#11-togaf-architecture-views--viewpoints)
+
+### Repository & Continuum
+- [Enterprise Continuum & Architecture Repository](#4-enterprise-continuum--architecture-repository)
+- [TOGAF Enterprise Continuum](#24-togaf-enterprise-continuum)
+- [TOGAF Architecture Repository](#16-togaf-architecture-repository)
+- [TOGAF Architecture Landscape](#23-togaf-architecture-landscape)
+- [TOGAF Reference Architectures](#25-togaf-reference-architectures)
+- [Standards Information Base](#28-standards-information-base)
+
+### Building Blocks
+- [Architecture Building Blocks vs. Solution Building Blocks](#6-architecture-building-blocks-vs-solution-building-blocks)
+- [TOGAF Architecture Building Blocks (ABBs)](#26-togaf-architecture-building-blocks-abbs)
+- [TOGAF Solution Building Blocks (SBBs)](#27-togaf-solution-building-blocks-sbbs)
+
+### Capability & Planning
+- [Capability Assessment & Maturity Models](#5-capability-assessment--maturity-models)
+- [TOGAF Capability-Based Planning](#19-togaf-capability-based-planning)
+- [TOGAF Architecture Capability](#31-togaf-architecture-capability)
+- [Opportunities & Solutions](#e-opportunities--solutions)
+- [Migration Planning](#f-migration-planning)
+
+### Stakeholders & Communication
+- [Stakeholder Map with Views & Concerns](#7-stakeholder-map-with-views--concerns)
+- [TOGAF Stakeholder Management](#12-togaf-stakeholder-management)
+- [Business Scenarios](#9-business-scenarios)
+- [TOGAF Architecture Communication](#22-togaf-architecture-communication)
+
+### Governance & Compliance
+- [Architecture Governance Model](#8-architecture-governance-model)
+- [TOGAF Architecture Principles](#30-togaf-architecture-principles)
+- [TOGAF Architecture Contracts](#32-togaf-architecture-contracts)
+- [TOGAF Architecture Compliance Reviews](#33-togaf-architecture-compliance-reviews)
+- [TOGAF Compliance Assessment](#34-togaf-compliance-assessment)
+- [TOGAF Governance Log](#29-togaf-governance-log)
+- [TOGAF Governance Repository](#35-togaf-governance-repository)
+- [TOGAF Architecture Decisions & Traceability](#36-togaf-architecture-decisions--traceability)
+- [TOGAF Architecture Change Requests](#37-togaf-architecture-change-requests)
+- [TOGAF Architecture Change Management](#h-togaf-architecture-change-management)
+- [TOGAF Implementation Governance](#g-togaf-implementation-governance)
+
+### Risk & Security
+- [TOGAF Risk Management](#38-togaf-risk-management)
+- [TOGAF Security Architecture Integration](#39-togaf-security-architecture-integration)
+
+</details>
+
 ### 1. TOGAF ADM End-to-End Reference Map
 
 A full reference view connecting all ADM phases with key inputs, outputs and inter-phase relationships in a map.
