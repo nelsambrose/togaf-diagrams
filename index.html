@@ -1,0 +1,747 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TOGAF Diagrams Library — Free Visual Reference for TOGAF 10</title>
+  <meta name="description" content="A free visual library of TOGAF 10 enterprise architecture diagrams. Browse 40+ clear, simplified visuals covering the ADM lifecycle, governance, capability planning, stakeholder management, compliance, risk, and more.">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg: #0d1117;
+      --surface: #161b22;
+      --border: #30363d;
+      --accent: #2f81f7;
+      --accent-hover: #58a6ff;
+      --text: #e6edf3;
+      --muted: #8b949e;
+      --tag-bg: #21262d;
+      --card-hover: #1c2128;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      min-height: 100vh;
+    }
+
+    /* ── Hero ─────────────────────────────────────────────── */
+    .hero {
+      text-align: center;
+      padding: 64px 24px 48px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .hero-badge {
+      display: inline-block;
+      background: var(--tag-bg);
+      border: 1px solid var(--border);
+      color: var(--muted);
+      font-size: 0.75rem;
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      padding: 4px 12px;
+      border-radius: 20px;
+      margin-bottom: 20px;
+    }
+
+    .hero h1 {
+      font-size: clamp(1.75rem, 4vw, 2.75rem);
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      margin-bottom: 16px;
+    }
+
+    .hero h1 span { color: var(--accent); }
+
+    .hero p {
+      font-size: 1.05rem;
+      color: var(--muted);
+      max-width: 680px;
+      margin: 0 auto 28px;
+    }
+
+    .hero-actions {
+      display: flex;
+      gap: 12px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 10px 20px;
+      border-radius: 6px;
+      font-size: 0.9rem;
+      font-weight: 600;
+      text-decoration: none;
+      transition: background 0.15s, color 0.15s, border-color 0.15s;
+    }
+
+    .btn-primary {
+      background: var(--accent);
+      color: #fff;
+      border: 1px solid transparent;
+    }
+    .btn-primary:hover { background: var(--accent-hover); }
+
+    .btn-secondary {
+      background: transparent;
+      color: var(--text);
+      border: 1px solid var(--border);
+    }
+    .btn-secondary:hover { border-color: var(--accent); color: var(--accent); }
+
+    /* ── Stats bar ─────────────────────────────────────────── */
+    .stats {
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      padding: 24px;
+      border-bottom: 1px solid var(--border);
+      flex-wrap: wrap;
+    }
+
+    .stat { text-align: center; }
+    .stat-number { font-size: 1.5rem; font-weight: 700; color: var(--accent); }
+    .stat-label { font-size: 0.78rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.06em; }
+
+    /* ── Category nav ──────────────────────────────────────── */
+    .category-nav {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 24px 24px 0;
+    }
+
+    .cat-pill {
+      background: var(--tag-bg);
+      border: 1px solid var(--border);
+      color: var(--muted);
+      font-size: 0.8rem;
+      padding: 5px 14px;
+      border-radius: 20px;
+      text-decoration: none;
+      transition: all 0.15s;
+    }
+    .cat-pill:hover { border-color: var(--accent); color: var(--accent); }
+
+    /* ── Main layout ───────────────────────────────────────── */
+    main { max-width: 1280px; margin: 0 auto; padding: 40px 24px 80px; }
+
+    /* ── Category section ──────────────────────────────────── */
+    .category-section { margin-bottom: 56px; }
+
+    .category-header {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 24px;
+      padding-bottom: 12px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .category-icon {
+      font-size: 1.25rem;
+      width: 36px;
+      height: 36px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: var(--tag-bg);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+    }
+
+    .category-title {
+      font-size: 1.1rem;
+      font-weight: 600;
+    }
+
+    .category-count {
+      margin-left: auto;
+      font-size: 0.78rem;
+      color: var(--muted);
+      background: var(--tag-bg);
+      border: 1px solid var(--border);
+      padding: 2px 10px;
+      border-radius: 12px;
+    }
+
+    /* ── Card grid ─────────────────────────────────────────── */
+    .card-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+      gap: 16px;
+    }
+
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      overflow: hidden;
+      text-decoration: none;
+      color: inherit;
+      display: flex;
+      flex-direction: column;
+      transition: border-color 0.15s, background 0.15s, transform 0.15s;
+    }
+    .card:hover {
+      border-color: var(--accent);
+      background: var(--card-hover);
+      transform: translateY(-2px);
+    }
+
+    .card-thumb {
+      width: 100%;
+      aspect-ratio: 16/10;
+      object-fit: cover;
+      object-position: top;
+      background: var(--bg);
+      display: block;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .card-body {
+      padding: 14px 16px 16px;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .card-title {
+      font-size: 0.9rem;
+      font-weight: 600;
+      margin-bottom: 6px;
+      line-height: 1.4;
+    }
+
+    .card-desc {
+      font-size: 0.78rem;
+      color: var(--muted);
+      line-height: 1.5;
+      flex: 1;
+    }
+
+    /* ── Footer ────────────────────────────────────────────── */
+    footer {
+      text-align: center;
+      padding: 32px 24px;
+      border-top: 1px solid var(--border);
+      color: var(--muted);
+      font-size: 0.82rem;
+    }
+    footer a { color: var(--accent); text-decoration: none; }
+    footer a:hover { text-decoration: underline; }
+
+    @media (max-width: 600px) {
+      .hero { padding: 40px 16px 32px; }
+      .stats { gap: 24px; }
+      main { padding: 24px 16px 60px; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- ── Hero ───────────────────────────────────────────────────── -->
+<header class="hero">
+  <div class="hero-badge">TOGAF 10 · Open Source · Free</div>
+  <h1>TOGAF <span>Diagrams</span> Library</h1>
+  <p>A free visual reference for TOGAF 10 enterprise architecture — clear, simplified diagrams covering the full ADM lifecycle, governance, capability planning, stakeholder management, compliance, risk, and more.</p>
+  <div class="hero-actions">
+    <a href="https://github.com/nelsambrose/togaf-diagrams" class="btn btn-primary">
+      <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
+      View on GitHub
+    </a>
+    <a href="https://github.com/nelsambrose/togaf-diagrams/blob/master/CONTRIBUTING.md" class="btn btn-secondary">Contribute</a>
+  </div>
+</header>
+
+<!-- ── Stats ──────────────────────────────────────────────────── -->
+<div class="stats">
+  <div class="stat"><div class="stat-number">44+</div><div class="stat-label">Diagrams</div></div>
+  <div class="stat"><div class="stat-number">7</div><div class="stat-label">Categories</div></div>
+  <div class="stat"><div class="stat-number">10</div><div class="stat-label">ADM Phases</div></div>
+  <div class="stat"><div class="stat-number">Free</div><div class="stat-label">MIT License</div></div>
+</div>
+
+<!-- ── Category pills ─────────────────────────────────────────── -->
+<nav class="category-nav" aria-label="Jump to category">
+  <a href="#adm" class="cat-pill">ADM &amp; Lifecycle</a>
+  <a href="#content" class="cat-pill">Architecture Content &amp; Structure</a>
+  <a href="#repository" class="cat-pill">Repository &amp; Continuum</a>
+  <a href="#governance" class="cat-pill">Governance, Compliance &amp; Risk</a>
+  <a href="#stakeholders" class="cat-pill">Stakeholders &amp; Communication</a>
+  <a href="#capability" class="cat-pill">Capability, Planning &amp; Transformation</a>
+  <a href="#security" class="cat-pill">Security &amp; Resilience</a>
+</nav>
+
+<!-- ── Diagram catalogue ───────────────────────────────────────── -->
+<main>
+
+  <!-- ADM & Lifecycle -->
+  <section class="category-section" id="adm">
+    <div class="category-header">
+      <div class="category-icon">🔄</div>
+      <h2 class="category-title">ADM &amp; Lifecycle</h2>
+      <span class="category-count">8 diagrams</span>
+    </div>
+    <div class="card-grid">
+
+      <a href="https://github.com/nelsambrose/togaf-diagrams#1-togaf-adm-end-to-end-reference-map" class="card">
+        <img class="card-thumb" src="docs/diagrams/adm/togaf-adm-end-to-end-architecture.png" alt="TOGAF ADM End-to-End Reference Map" loading="lazy">
+        <div class="card-body">
+          <div class="card-title">ADM End-to-End Reference Map</div>
+          <div class="card-desc">Horizontal swimlane mapping all ADM phases with inputs, outputs, and cross-phase dependencies.</div>
+        </div>
+      </a>
+
+      <a href="https://github.com/nelsambrose/togaf-diagrams#2-togaf-adm-cycle" class="card">
+        <img class="card-thumb" src="docs/diagrams/adm/togaf-adm-cycle-v2.png" alt="TOGAF ADM Cycle" loading="lazy">
+        <div class="card-body">
+          <div class="card-title">ADM Cycle</div>
+          <div class="card-desc">Circular flow of ADM phases from Preliminary through H around a central Requirements Management core.</div>
+        </div>
+      </a>
+
+      <a href="https://github.com/nelsambrose/togaf-diagrams#10-togaf-architecture-vision" class="card">
+        <img class="card-thumb" src="docs/diagrams/adm/architecture-vision.png" alt="TOGAF Architecture Vision" loading="lazy">
+        <div class="card-body">
+          <div class="card-title">Architecture Vision (Phase A)</div>
+          <div class="card-desc">High-level aspirational target architecture, stakeholder alignment, and transformation objectives.</div>
+        </div>
+      </a>
+
+      <a href="https://github.com/nelsambrose/togaf-diagrams#d-togaf-technology-architecture" class="card">
+        <img class="card-thumb" src="docs/diagrams/technology/phase-d-technology-architecture.png" alt="TOGAF Technology Architecture" loading="lazy">
+        <div class="card-body">
+          <div class="card-title">Technology Architecture (Phase D)</div>
+          <div class="card-desc">Infrastructure, platform services, integration, security, and operational resilience layers.</div>
+        </div>
+      </a>
+
+      <a href="https://github.com/nelsambrose/togaf-diagrams#e-opportunities--solutions" class="card">
+        <img class="card-thumb" src="docs/diagrams/planning/phase-e-opportunities-solutions-v1.png" alt="Opportunities and Solutions Phase E" loading="lazy">
+        <div class="card-body">
+          <div class="card-title">Opportunities &amp; Solutions (Phase E)</div>
+          <div class="card-desc">Gap analysis, candidate solutions, work packages, transition architectures, and roadmap planning.</div>
+        </div>
+      </a>
+
+      <a href="https://github.com/nelsambrose/togaf-diagrams#f-migration-planning" class="card">
+        <img class="card-thumb" src="docs/diagrams/planning/phase-f-migration-planning.png" alt="Migration Planning Phase F" loading="lazy">
+        <div class="card-body">
+          <div class="card-title">Migration Planning (Phase F)</div>
+          <div class="card-desc">Implementation sequencing, migration planning, dependency management, and governance alignment.</div>
+        </div>
+      </a>
+
+      <a href="https://github.com/nelsambrose/togaf-diagrams#g-togaf-implementation-governance" class="card">
+        <img class="card-thumb" src="docs/diagrams/governance/phase-g-implementation-governance.png" alt="TOGAF Implementation Governance Phase G" loading="lazy">
+        <div class="card-body">
+          <div class="card-title">Implementation Governance (Phase G)</div>
+          <div class="card-desc">Architecture compliance, governance oversight, and implementation support for target architecture realization.</div>
+        </div>
+      </a>
+
+      <a href="https://github.com/nelsambrose/togaf-diagrams#h-togaf-architecture-change-management" class="card">
+        <img class="card-thumb" src="docs/diagrams/governance/phase-h-architecture-change-management.png" alt="TOGAF Architecture Change Management Phase H" loading="lazy">
+        <div class="card-body">
+          <div class="card-title">Architecture Change Management (Phase H)</div>
+          <div class="card-desc">Change assessment, governance decisioning, architecture evolution, and ADM lifecycle re-initiation.</div>
+        </div>
+      </a>
+
+    </div>
+  </section>
+
+  <!-- Architecture Content & Structure -->
+  <section class="category-section" id="content">
+    <div class="category-header">
+      <div class="category-icon">🏗️</div>
+      <h2 class="category-title">Architecture Content &amp; Structure</h2>
+      <span class="category-count">8 diagrams</span>
+    </div>
+    <div class="card-grid">
+
+      <a href="https://github.com/nelsambrose/togaf-diagrams#3-architecture-content-framework" class="card">
+        <img class="card-thumb" src="docs/diagrams/content-framework/phase-c-architecture-content-framework-v2.png" alt="TOGAF Architecture Content Framework" loading="lazy">
+        <div class="card-body">
+          <div class="card-title">Architecture Content Framework</div>
+          <div class="card-desc">Hierarchical framework organising deliverables into metamodel categories, artifacts, and building blocks.</div>
+        </div>
+      </a>
+
+      <a href="https://github.com/nelsambrose/togaf-diagrams#17-togaf-architecture-deliverables" class="card">
+        <img class="card-thumb" src="docs/diagrams/content-framework/architecture-deliverables.png" alt="TOGAF Architecture Deliverables" loading="lazy">
+        <div class="card-body">
+          <div class="card-title">Architecture Deliverables</div>
+          <div class="card-desc">Formal ADM deliverables: architecture definitions, governance artifacts, transition plans, and compliance outputs.</div>
+        </div>
+      </a>
+
+      <a href="https://github.com/nelsambrose/togaf-diagrams#18-togaf-architecture-artifacts" class="card">
+        <img class="card-thumb" src="docs/diagrams/architecture/architecture-artifacts.png" alt="TOGAF Architecture Artifacts" loading="lazy">
+        <div class="card-body">
+          <div class="card-title">Architecture Artifacts</div>
+          <div class="card-desc">Catalogs, matrices, and diagrams used throughout the ADM lifecycle to document and govern enterprise architecture.</div>
+        </div>
+      </a>
+
+      <a href="https://github.com/nelsambrose/togaf-diagrams#20-togaf-architecture-metamodel" class="card">
+        <img class="card-thumb" src="docs/diagrams/architecture/architecture-metamodel.png" alt="TOGAF Architecture Metamodel" loading="lazy">
+        <div class="card-body">
+          <div class="card-title">Architecture Metamodel</div>
+          <div class="card-desc">Structural relationships between business, data, application, and technology elements for consistency and traceability.</div>
+        </div>
+      </a>
+
+      <a href="https://github.com/nelsambrose/togaf-diagrams#11-togaf-architecture-views--viewpoints" class="card">
+        <img class="card-thumb" src="docs/diagrams/architecture/architecture-views-viewpoints.png" alt="TOGAF Architecture Views and Viewpoints" loading="lazy">
+        <div class="card-body">
+          <div class="card-title">Architecture Views &amp; Viewpoints</div>
+          <div class="card-desc">How stakeholder concerns map to architecture viewpoints, views, governance communication, and transformation alignment.</div>
+        </div>
+      </a>
+
+      <a href="https://github.com/nelsambrose/togaf-diagrams#21-togaf-architecture-partitioning" class="card">
+        <img class="card-thumb" src="docs/diagrams/architecture/architecture-partitioning.png" alt="TOGAF Architecture Partitioning" loading="lazy">
+        <div class="card-body">
+          <div class="card-title">Architecture Partitioning</div>
+          <div class="card-desc">How enterprise architectures are separated across strategic, segment, and solution levels for governance and scalability.</div>
+        </div>
+      </a>
+
+      <a href="https://github.com/nelsambrose/togaf-diagrams#13-togaf-business-architecture" class="card">
+        <img class="card-thumb" src="docs/diagrams/business/business-architecture.png" alt="TOGAF Business Architecture" loading="lazy">
+        <div class="card-body">
+          <div class="card-title">Business Architecture</div>
+          <div class="card-desc">Baseline and target business capabilities, value streams, organisational structures, and processes supporting enterprise strategy.</div>
+        </div>
+      </a>
+
+      <a href="https://github.com/nelsambrose/togaf-diagrams#14-togaf-data-architecture" class="card">
+        <img class="card-thumb" src="docs/diagrams/data/data-architecture.png" alt="TOGAF Data Architecture" loading="lazy">
+        <div class="card-body">
+          <div class="card-title">Data Architecture</div>
+          <div class="card-desc">Structure, governance, lifecycle, integration, and management of enterprise data assets.</div>
+        </div>
+      </a>
+
+    </div>
+  </section>
+
+  <!-- Repository & Continuum -->
+  <section class="category-section" id="repository">
+    <div class="category-header">
+      <div class="category-icon">🗄️</div>
+      <h2 class="category-title">Repository &amp; Continuum</h2>
+      <span class="category-count">7 diagrams</span>
+    </div>
+    <div class="card-grid">
+
+      <a href="https://github.com/nelsambrose/togaf-diagrams#4-enterprise-continuum--architecture-repository" class="card">
+        <img class="card-thumb" src="docs/diagrams/continuum/phase-a-enterprise-continuum-architecture-repository-v2.png" alt="TOGAF Enterprise Continuum and Architecture Repository" loading="lazy">
+        <div class="card-body">
+          <div class="card-title">Enterprise Continuum &amp; Repository</div>
+          <div class="card-desc">Spectrum positioning architecture assets from generic foundation architectures to organisation-specific solutions.</div>
+        </div>
+      </a>
+
+      <a href="https://github.com/nelsambrose/togaf-diagrams#16-togaf-architecture-repository" class="card">
+        <img class="card-thumb" src="docs/diagrams/repository/architecture-repository.png" alt="TOGAF Architecture Repository" loading="lazy">
+        <div class="card-body">
+          <div class="card-title">Architecture Repository</div>
+          <div class="card-desc">Governance assets, standards, reusable architecture knowledge, and capability structures.</div>
+        </div>
+      </a>
+
+      <a href="https://github.com/nelsambrose/togaf-diagrams#23-togaf-architecture-landscape" class="card">
+        <img class="card-thumb" src="docs/diagrams/repository/architecture-landscape.png" alt="TOGAF Architecture Landscape" loading="lazy">
+        <div class="card-body">
+          <div class="card-title">Architecture Landscape</div>
+          <div class="card-desc">Enterprise architecture assets organised across strategic, segment, and capability levels.</div>
+        </div>
+      </a>
+
+      <a href="https://github.com/nelsambrose/togaf-diagrams#24-togaf-enterprise-continuum" class="card">
+        <img class="card-thumb" src="docs/diagrams/continuum/enterprise-continuum.png" alt="TOGAF Enterprise Continuum" loading="lazy">
+        <div class="card-body">
+          <div class="card-title">Enterprise Continuum</div>
+          <div class="card-desc">Architecture assets evolving from generic foundation architectures to organisation-specific solutions.</div>
+        </div>
+      </a>
+
+      <a href="https://github.com/nelsambrose/togaf-diagrams#25-togaf-reference-architectures" class="card">
+        <img class="card-thumb" src="docs/diagrams/repository/reference-architectures.png" alt="TOGAF Reference Architectures" loading="lazy">
+        <div class="card-body">
+          <div class="card-title">Reference Architectures</div>
+          <div class="card-desc">Reusable architecture models, standards, patterns, and implementation guidance for solution delivery.</div>
+        </div>
+      </a>
+
+      <a href="https://github.com/nelsambrose/togaf-diagrams#28-standards-information-base" class="card">
+        <img class="card-thumb" src="docs/diagrams/repository/standards-information-base.png" alt="TOGAF Standards Information Base" loading="lazy">
+        <div class="card-body">
+          <div class="card-title">Standards Information Base</div>
+          <div class="card-desc">Approved enterprise standards, technology policies, security controls, and compliance requirements.</div>
+        </div>
+      </a>
+
+      <a href="https://github.com/nelsambrose/togaf-diagrams#29-togaf-governance-log" class="card">
+        <img class="card-thumb" src="docs/diagrams/repository/governance-log.png" alt="TOGAF Governance Log" loading="lazy">
+        <div class="card-body">
+          <div class="card-title">Governance Log</div>
+          <div class="card-desc">Architecture decisions, compliance activities, risk management, audit traceability, and continuous governance evolution.</div>
+        </div>
+      </a>
+
+    </div>
+  </section>
+
+  <!-- Governance, Compliance & Risk -->
+  <section class="category-section" id="governance">
+    <div class="category-header">
+      <div class="category-icon">⚖️</div>
+      <h2 class="category-title">Governance, Compliance &amp; Risk</h2>
+      <span class="category-count">11 diagrams</span>
+    </div>
+    <div class="card-grid">
+
+      <a href="https://github.com/nelsambrose/togaf-diagrams#8-architecture-governance-model" class="card">
+        <img class="card-thumb" src="docs/diagrams/governance/phase-a-architecture-governance-model-v2.png" alt="TOGAF Architecture Governance Model" loading="lazy">
+        <div class="card-body">
+          <div class="card-title">Architecture Governance Model</div>
+          <div class="card-desc">Layered governance showing oversight structures, compliance review boards, and accountability flows.</div>
+        </div>
+      </a>
+
+      <a href="https://github.com/nelsambrose/togaf-diagrams#30-togaf-architecture-principles" class="card">
+        <img class="card-thumb" src="docs/diagrams/governance/architecture-principles.png" alt="TOGAF Architecture Principles" loading="lazy">
+        <div class="card-body">
+          <div class="card-title">Architecture Principles</div>
+          <div class="card-desc">Business, data, application, technology, and governance principles guiding enterprise decision-making.</div>
+        </div>
+      </a>
+
+      <a href="https://github.com/nelsambrose/togaf-diagrams#32-togaf-architecture-contracts" class="card">
+        <img class="card-thumb" src="docs/diagrams/governance/architecture-contracts.png" alt="TOGAF Architecture Contracts" loading="lazy">
+        <div class="card-body">
+          <div class="card-title">Architecture Contracts</div>
+          <div class="card-desc">Governance agreements, compliance obligations, responsibilities, and implementation accountability.</div>
+        </div>
+      </a>
+
+      <a href="https://github.com/nelsambrose/togaf-diagrams#33-togaf-architecture-compliance-reviews" class="card">
+        <img class="card-thumb" src="docs/diagrams/governance/architecture-compliance-reviews.png" alt="TOGAF Architecture Compliance Reviews" loading="lazy">
+        <div class="card-body">
+          <div class="card-title">Architecture Compliance Reviews</div>
+          <div class="card-desc">Assessment of solutions against architecture principles, standards, governance requirements, and risks.</div>
+        </div>
+      </a>
+
+      <a href="https://github.com/nelsambrose/togaf-diagrams#34-togaf-compliance-assessment" class="card">
+        <img class="card-thumb" src="docs/diagrams/governance/compliance-assessment.png" alt="TOGAF Compliance Assessment" loading="lazy">
+        <div class="card-body">
+          <div class="card-title">Compliance Assessment</div>
+          <div class="card-desc">Governance validation, standards alignment, and delivery oversight supporting controlled enterprise transformation.</div>
+        </div>
+      </a>
+
+      <a href="https://github.com/nelsambrose/togaf-diagrams#35-togaf-governance-repository" class="card">
+        <img class="card-thumb" src="docs/diagrams/governance/governance-repository.png" alt="TOGAF Governance Repository" loading="lazy">
+        <div class="card-body">
+          <div class="card-title">Governance Repository</div>
+          <div class="card-desc">Centralised store of architecture decisions, compliance records, policies, audit evidence, and governance outcomes.</div>
+        </div>
+      </a>
+
+      <a href="https://github.com/nelsambrose/togaf-diagrams#36-togaf-architecture-decisions--traceability" class="card">
+        <img class="card-thumb" src="docs/diagrams/governance/architecture-decisions-traceability.png" alt="TOGAF Architecture Decisions and Traceability" loading="lazy">
+        <div class="card-body">
+          <div class="card-title">Architecture Decisions &amp; Traceability</div>
+          <div class="card-desc">How architecture decisions, governance approvals, rationale, and dependencies are managed across transformation initiatives.</div>
+        </div>
+      </a>
+
+      <a href="https://github.com/nelsambrose/togaf-diagrams#37-togaf-architecture-change-requests" class="card">
+        <img class="card-thumb" src="docs/diagrams/governance/architecture-change-requests.png" alt="TOGAF Architecture Change Requests" loading="lazy">
+        <div class="card-body">
+          <div class="card-title">Architecture Change Requests</div>
+          <div class="card-desc">How enterprise architecture changes are identified, assessed, governed, approved, and implemented.</div>
+        </div>
+      </a>
+
+      <a href="https://github.com/nelsambrose/togaf-diagrams#38-togaf-risk-management" class="card">
+        <img class="card-thumb" src="docs/diagrams/governance/risk-management.png" alt="TOGAF Risk Management" loading="lazy">
+        <div class="card-body">
+          <div class="card-title">Risk Management</div>
+          <div class="card-desc">How enterprise architecture risks are identified, assessed, mitigated, and continuously monitored across ADM activities.</div>
+        </div>
+      </a>
+
+      <a href="https://github.com/nelsambrose/togaf-diagrams#40-togaf-requirements-management" class="card">
+        <img class="card-thumb" src="docs/diagrams/governance/requirements-management.png" alt="TOGAF Requirements Management" loading="lazy">
+        <div class="card-body">
+          <div class="card-title">Requirements Management</div>
+          <div class="card-desc">Continuous process of capturing, validating, prioritising, and governing architecture requirements across all ADM phases.</div>
+        </div>
+      </a>
+
+      <a href="https://github.com/nelsambrose/togaf-diagrams#15-togaf-application-architecture" class="card">
+        <img class="card-thumb" src="docs/diagrams/application/application-architecture.png" alt="TOGAF Application Architecture" loading="lazy">
+        <div class="card-body">
+          <div class="card-title">Application Architecture</div>
+          <div class="card-desc">Structure, interaction, integration, governance, and lifecycle of enterprise applications and services.</div>
+        </div>
+      </a>
+
+    </div>
+  </section>
+
+  <!-- Stakeholders & Communication -->
+  <section class="category-section" id="stakeholders">
+    <div class="category-header">
+      <div class="category-icon">🤝</div>
+      <h2 class="category-title">Stakeholders &amp; Communication</h2>
+      <span class="category-count">5 diagrams</span>
+    </div>
+    <div class="card-grid">
+
+      <a href="https://github.com/nelsambrose/togaf-diagrams#7-stakeholder-map-with-views--concerns" class="card">
+        <img class="card-thumb" src="docs/diagrams/stakeholder/phase-a-stakeholder-map-views-concerns-v2.png" alt="TOGAF Stakeholder Map with Views and Concerns" loading="lazy">
+        <div class="card-body">
+          <div class="card-title">Stakeholder Map with Views &amp; Concerns</div>
+          <div class="card-desc">Matrix mapping stakeholder roles to their relevant architecture views and primary concerns.</div>
+        </div>
+      </a>
+
+      <a href="https://github.com/nelsambrose/togaf-diagrams#12-togaf-stakeholder-management" class="card">
+        <img class="card-thumb" src="docs/diagrams/stakeholder/stakeholder-management.png" alt="TOGAF Stakeholder Management" loading="lazy">
+        <div class="card-body">
+          <div class="card-title">Stakeholder Management</div>
+          <div class="card-desc">Structured approach for identifying, analysing, engaging, and governing stakeholders to support architecture alignment.</div>
+        </div>
+      </a>
+
+      <a href="https://github.com/nelsambrose/togaf-diagrams#9-business-scenarios" class="card">
+        <img class="card-thumb" src="docs/diagrams/stakeholder/phase-a-business-scenarios.png" alt="TOGAF Business Scenarios Phase A" loading="lazy">
+        <div class="card-body">
+          <div class="card-title">Business Scenarios (Phase A View)</div>
+          <div class="card-desc">How business drivers and problems are structured into scenarios that inform the Architecture Vision.</div>
+        </div>
+      </a>
+
+      <a href="https://github.com/nelsambrose/togaf-diagrams#9-business-scenarios" class="card">
+        <img class="card-thumb" src="docs/diagrams/business/business-scenarios.png" alt="TOGAF Business Scenarios Enterprise View" loading="lazy">
+        <div class="card-body">
+          <div class="card-title">Business Scenarios (Enterprise View)</div>
+          <div class="card-desc">How business problems, stakeholder interactions, and solution requirements support enterprise architecture development.</div>
+        </div>
+      </a>
+
+      <a href="https://github.com/nelsambrose/togaf-diagrams#22-togaf-architecture-communication" class="card">
+        <img class="card-thumb" src="docs/diagrams/architecture/architecture-communication.png" alt="TOGAF Architecture Communication" loading="lazy">
+        <div class="card-body">
+          <div class="card-title">Architecture Communication</div>
+          <div class="card-desc">How architecture information, governance messaging, and stakeholder alignment support enterprise transformation.</div>
+        </div>
+      </a>
+
+    </div>
+  </section>
+
+  <!-- Capability, Planning & Transformation -->
+  <section class="category-section" id="capability">
+    <div class="category-header">
+      <div class="category-icon">📈</div>
+      <h2 class="category-title">Capability, Planning &amp; Transformation</h2>
+      <span class="category-count">5 diagrams</span>
+    </div>
+    <div class="card-grid">
+
+      <a href="https://github.com/nelsambrose/togaf-diagrams#5-capability-assessment--maturity-models" class="card">
+        <img class="card-thumb" src="docs/diagrams/capability/phase-b-capability-assessment-maturity-models-v2.png" alt="TOGAF Capability Assessment and Maturity Models" loading="lazy">
+        <div class="card-body">
+          <div class="card-title">Capability Assessment &amp; Maturity Models</div>
+          <div class="card-desc">Grid-based maturity model rating enterprise architecture capabilities across defined levels from initial to optimising.</div>
+        </div>
+      </a>
+
+      <a href="https://github.com/nelsambrose/togaf-diagrams#19-togaf-capability-based-planning" class="card">
+        <img class="card-thumb" src="docs/diagrams/architecture/capability-based-planning.png" alt="TOGAF Capability-Based Planning" loading="lazy">
+        <div class="card-body">
+          <div class="card-title">Capability-Based Planning</div>
+          <div class="card-desc">How enterprise capabilities are identified, assessed, prioritised, and roadmapped to support strategic transformation.</div>
+        </div>
+      </a>
+
+      <a href="https://github.com/nelsambrose/togaf-diagrams#31-togaf-architecture-capability" class="card">
+        <img class="card-thumb" src="docs/diagrams/capability/architecture-capability.png" alt="TOGAF Architecture Capability" loading="lazy">
+        <div class="card-body">
+          <div class="card-title">Architecture Capability</div>
+          <div class="card-desc">Governance structures, people, processes, tools, and maturity practices for enterprise architecture.</div>
+        </div>
+      </a>
+
+      <a href="https://github.com/nelsambrose/togaf-diagrams#6-architecture-building-blocks-vs-solution-building-blocks" class="card">
+        <img class="card-thumb" src="docs/diagrams/building-blocks/phase-a-architecture-building-blocks-vs-solution-building-blocks-v2.png" alt="TOGAF Architecture Building Blocks vs Solution Building Blocks" loading="lazy">
+        <div class="card-body">
+          <div class="card-title">Architecture Building Blocks vs. Solution Building Blocks</div>
+          <div class="card-desc">Side-by-side comparison of abstract enterprise architecture building blocks against vendor-specific solution building blocks.</div>
+        </div>
+      </a>
+
+      <a href="https://github.com/nelsambrose/togaf-diagrams#26-togaf-architecture-building-blocks-abbs" class="card">
+        <img class="card-thumb" src="docs/diagrams/building-blocks/architecture-building-blocks.png" alt="TOGAF Architecture Building Blocks" loading="lazy">
+        <div class="card-body">
+          <div class="card-title">Architecture Building Blocks (ABBs)</div>
+          <div class="card-desc">Reusable logical capabilities, standards, and services guiding the realization of Solution Building Blocks.</div>
+        </div>
+      </a>
+
+    </div>
+  </section>
+
+  <!-- Security & Resilience -->
+  <section class="category-section" id="security">
+    <div class="category-header">
+      <div class="category-icon">🔐</div>
+      <h2 class="category-title">Security &amp; Resilience</h2>
+      <span class="category-count">1 diagram</span>
+    </div>
+    <div class="card-grid">
+
+      <a href="https://github.com/nelsambrose/togaf-diagrams#39-togaf-security-architecture-integration" class="card">
+        <img class="card-thumb" src="docs/diagrams/security/security-architecture-integration.png" alt="TOGAF Security Architecture Integration" loading="lazy">
+        <div class="card-body">
+          <div class="card-title">Security Architecture Integration</div>
+          <div class="card-desc">How security controls, governance, compliance, resilience, and risk management are embedded across all architecture domains.</div>
+        </div>
+      </a>
+
+    </div>
+  </section>
+
+</main>
+
+<!-- ── Footer ──────────────────────────────────────────────────── -->
+<footer>
+  <p>
+    <a href="https://github.com/nelsambrose/togaf-diagrams">nelsambrose/togaf-diagrams</a>
+    &nbsp;·&nbsp;
+    Released under the <a href="https://github.com/nelsambrose/togaf-diagrams/blob/master/LICENSE">MIT License</a>
+    &nbsp;·&nbsp;
+    <a href="https://github.com/nelsambrose/togaf-diagrams/blob/master/CONTRIBUTING.md">Contribute a diagram</a>
+  </p>
+</footer>
+
+</body>
+</html>
