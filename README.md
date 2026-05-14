@@ -22,10 +22,10 @@ A free visual library of TOGAF architecture concepts, clear, simplified diagrams
 - `README.md`: repository overview for GitHub.
 - `index.md`: GitHub Pages landing page.
 
-## Diagrams
+## Browse by Category
 
 <details>
-<summary><strong>Browse by category</strong></summary>
+<summary>Click to expand</summary>
 
 ### ADM & Lifecycle
 - [TOGAF ADM End-to-End Reference Map](#1-togaf-adm-end-to-end-reference-map)
@@ -91,6 +91,8 @@ A free visual library of TOGAF architecture concepts, clear, simplified diagrams
 - [TOGAF Security Architecture Integration](#39-togaf-security-architecture-integration)
 
 </details>
+
+## Diagrams
 
 ### 1. TOGAF ADM End-to-End Reference Map
 
