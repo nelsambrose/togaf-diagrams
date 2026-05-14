@@ -568,7 +568,25 @@ A centralized governance repository that stores architecture decisions, complian
 <tr>
 <td valign="top">
 
-### 33. TOGAF Requirements Management
+### 33. TOGAF Risk Management
+
+A visual overview of TOGAF Risk Management showing how enterprise architecture risks are identified, assessed, governed, mitigated, and continuously monitored across transformation initiatives and ADM activities.
+
+</td>
+</tr>
+<tr>
+<td align="center">
+  <img src="docs/diagrams/governance/risk-management.png" alt="Diagram of TOGAF Risk Management showing how enterprise architecture risks are identified, assessed, governed, mitigated, and continuously monitored across transformation initiatives and ADM activities" width="90%"><br>
+  <em>TOGAF Risk Management</em>
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td valign="top">
+
+### 34. TOGAF Requirements Management
 
 A continuous process that captures, validates, prioritizes, manages, and governs architecture requirements across all ADM phases to ensure alignment with business objectives and solution delivery.
 
