@@ -6,7 +6,7 @@
 
 ![TOGAF Diagrams Banner](docs/images/banner.png)
 
-A free visual library of TOGAF architecture concepts, clear, simplified diagrams.
+A free visual library of TOGAF 10 enterprise architecture diagrams — clear, simplified visuals covering the ADM lifecycle, architecture governance, capability planning, stakeholder management, compliance, risk, and more.
 
 > All diagrams in this repository were created by me and are free to use under the MIT License.
 > 
@@ -99,7 +99,7 @@ A free visual library of TOGAF architecture concepts, clear, simplified diagrams
 A full reference view connecting all ADM phases with key inputs, outputs and inter-phase relationships in a map.
 
 <p align="center">
-  <img src="docs/diagrams/adm/togaf-adm-end-to-end-architecture.png" alt="Horizontal swimlane diagram mapping all ADM phases with inputs, outputs, and cross-phase dependencies" width="90%"><br>
+  <img src="docs/diagrams/adm/togaf-adm-end-to-end-architecture.png" alt="TOGAF ADM End-to-End Reference Map — horizontal swimlane diagram mapping all ADM phases with inputs, outputs, and cross-phase dependencies across the enterprise architecture lifecycle" width="90%"><br>
   <em>TOGAF ADM End-to-End Reference Map</em>
 </p>
 
@@ -108,7 +108,7 @@ A full reference view connecting all ADM phases with key inputs, outputs and int
 The iterative ADM cycle showing all architecture development phases organized around a central Requirements Management process.
 
 <p align="center">
-  <img src="docs/diagrams/adm/togaf-adm-cycle-v2.png" alt="Circular flow diagram of ADM phases from Preliminary through H arranged around a central Requirements Management core" width="90%"><br>
+  <img src="docs/diagrams/adm/togaf-adm-cycle-v2.png" alt="TOGAF ADM Cycle — circular flow diagram of ADM phases from Preliminary through H arranged around a central Requirements Management core in enterprise architecture" width="90%"><br>
   <em>TOGAF ADM Cycle — Previous version retained in the archive folder for traceability.</em>
 </p>
 
@@ -131,11 +131,11 @@ A classification system for architecture assets ranging from generic foundation 
 </tr>
 <tr>
 <td width="50%" align="center">
-  <img src="docs/diagrams/content-framework/phase-c-architecture-content-framework-v2.png" alt="Hierarchical framework diagram organizing architecture deliverables into metamodel categories, artifacts, and building blocks" width="100%"><br>
+  <img src="docs/diagrams/content-framework/phase-c-architecture-content-framework-v2.png" alt="TOGAF Architecture Content Framework — hierarchical diagram organizing enterprise architecture deliverables into metamodel categories, artifacts, and building blocks across the ADM lifecycle" width="100%"><br>
   <em>Architecture Content Framework</em>
 </td>
 <td width="50%" align="center">
-  <img src="docs/diagrams/continuum/phase-a-enterprise-continuum-architecture-repository-v2.png" alt="Spectrum diagram positioning architecture assets from generic foundation architectures to organization-specific solutions, with repository classification layers" width="100%"><br>
+  <img src="docs/diagrams/continuum/phase-a-enterprise-continuum-architecture-repository-v2.png" alt="TOGAF Enterprise Continuum and Architecture Repository — spectrum diagram positioning enterprise architecture assets from generic foundation architectures to organization-specific solutions with repository classification layers" width="100%"><br>
   <em>Enterprise Continuum & Architecture Repository</em>
 </td>
 </tr>
@@ -160,11 +160,11 @@ A comparison of abstract, reusable architecture building blocks against concrete
 </tr>
 <tr>
 <td width="50%" align="center">
-  <img src="docs/diagrams/capability/phase-b-capability-assessment-maturity-models-v2.png" alt="Grid-based maturity model rating architecture capabilities across defined levels from initial to optimising" width="100%"><br>
+  <img src="docs/diagrams/capability/phase-b-capability-assessment-maturity-models-v2.png" alt="TOGAF Capability Assessment and Maturity Models — grid-based maturity model rating enterprise architecture capabilities across defined levels from initial to optimising" width="100%"><br>
   <em>Capability Assessment & Maturity Models</em>
 </td>
 <td width="50%" align="center" valign="top">
-  <img src="docs/diagrams/building-blocks/phase-a-architecture-building-blocks-vs-solution-building-blocks-v2.png" alt="Side-by-side comparison diagram contrasting abstract architecture building blocks with vendor-specific solution building blocks" width="100%"><br>
+  <img src="docs/diagrams/building-blocks/phase-a-architecture-building-blocks-vs-solution-building-blocks-v2.png" alt="TOGAF Architecture Building Blocks versus Solution Building Blocks — side-by-side comparison of abstract enterprise architecture building blocks against vendor-specific solution building blocks" width="100%"><br>
   <em>Architecture Building Blocks vs. Solution Building Blocks</em>
 </td>
 </tr>
@@ -189,11 +189,11 @@ An overview of the governance structures, oversight bodies, and accountability m
 </tr>
 <tr>
 <td width="50%" align="center" valign="top">
-  <img src="docs/diagrams/stakeholder/phase-a-stakeholder-map-views-concerns-v2.png" alt="Matrix diagram mapping stakeholder roles to their relevant architecture views and primary concerns" width="100%"><br>
+  <img src="docs/diagrams/stakeholder/phase-a-stakeholder-map-views-concerns-v2.png" alt="TOGAF Stakeholder Map with Views and Concerns — matrix diagram mapping stakeholder roles to their relevant enterprise architecture views and primary concerns" width="100%"><br>
   <em>Stakeholder Map with Views & Concerns</em>
 </td>
 <td width="50%" align="center" valign="top">
-  <img src="docs/diagrams/governance/phase-a-architecture-governance-model-v2.png" alt="Layered governance diagram showing oversight structures, compliance review boards, and accountability flows between architecture levels" width="100%"><br>
+  <img src="docs/diagrams/governance/phase-a-architecture-governance-model-v2.png" alt="TOGAF Architecture Governance Model — layered governance diagram showing oversight structures, compliance review boards, and accountability flows between architecture levels" width="100%"><br>
   <em>Architecture Governance Model</em>
 </td>
 </tr>
@@ -211,7 +211,7 @@ In Phase A (Architecture Vision), Business Scenarios are used to identify and ar
 </tr>
 <tr>
 <td align="center">
-  <img src="docs/diagrams/stakeholder/phase-a-business-scenarios.png" alt="Flowchart showing how business drivers and problems are structured into scenarios that inform the Architecture Vision in Phase A" width="90%"><br>
+  <img src="docs/diagrams/stakeholder/phase-a-business-scenarios.png" alt="TOGAF Business Scenarios — flowchart showing how business drivers and problems are structured into scenarios that inform the Architecture Vision in Phase A" width="90%"><br>
   <em>Business Scenarios — Phase A ADM View</em>
 </td>
 </tr>
