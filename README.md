@@ -586,7 +586,25 @@ A visual overview of TOGAF Risk Management showing how enterprise architecture r
 <tr>
 <td valign="top">
 
-### 34. TOGAF Requirements Management
+### 34. TOGAF Security Architecture Integration
+
+A visual overview of TOGAF Security Architecture Integration showing how security controls, governance, compliance, resilience, and risk management are embedded across business, data, application, and technology architecture domains.
+
+</td>
+</tr>
+<tr>
+<td align="center">
+  <img src="docs/diagrams/security/security-architecture-integration.png" alt="Diagram of TOGAF Security Architecture Integration showing how security controls, governance, compliance, resilience, and risk management are embedded across business, data, application, and technology architecture domains" width="90%"><br>
+  <em>TOGAF Security Architecture Integration</em>
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td valign="top">
+
+### 35. TOGAF Requirements Management
 
 A continuous process that captures, validates, prioritizes, manages, and governs architecture requirements across all ADM phases to ensure alignment with business objectives and solution delivery.
 
