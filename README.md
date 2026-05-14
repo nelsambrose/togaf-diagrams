@@ -281,6 +281,9 @@ A visual overview of the TOGAF Architecture Repository showing governance assets
 
 Explains the formal deliverables produced throughout the TOGAF ADM lifecycle, including architecture definitions, governance artifacts, transition plans, compliance outputs, and stakeholder communication packages.
 
+Note:
+“Architecture Definition Deliverables” and “Transition & Migration Deliverables” slightly overlap with existing ADM phase concepts, but here they are framed correctly as outputs/artifacts rather than phases, so the diagram is still valid and useful.
+
 </td>
 </tr>
 <tr>
