@@ -640,7 +640,25 @@ A visual overview of TOGAF Architecture Decisions & Traceability showing how arc
 <tr>
 <td valign="top">
 
-### 37. TOGAF Risk Management
+### 37. TOGAF Architecture Change Requests
+
+A visual overview of TOGAF Architecture Change Requests showing how enterprise architecture changes are identified, assessed, governed, approved, and implemented across transformation initiatives.
+
+</td>
+</tr>
+<tr>
+<td align="center">
+  <img src="docs/diagrams/governance/architecture-change-requests.png" alt="Diagram of TOGAF Architecture Change Requests showing how enterprise architecture changes are identified, assessed, governed, approved, and implemented across transformation initiatives" width="90%"><br>
+  <em>TOGAF Architecture Change Requests</em>
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td valign="top">
+
+### 38. TOGAF Risk Management
 
 A visual overview of TOGAF Risk Management showing how enterprise architecture risks are identified, assessed, governed, mitigated, and continuously monitored across transformation initiatives and ADM activities.
 
@@ -658,7 +676,7 @@ A visual overview of TOGAF Risk Management showing how enterprise architecture r
 <tr>
 <td valign="top">
 
-### 38. TOGAF Security Architecture Integration
+### 39. TOGAF Security Architecture Integration
 
 A visual overview of TOGAF Security Architecture Integration showing how security controls, governance, compliance, resilience, and risk management are embedded across business, data, application, and technology architecture domains.
 
@@ -676,7 +694,7 @@ A visual overview of TOGAF Security Architecture Integration showing how securit
 <tr>
 <td valign="top">
 
-### 39. TOGAF Requirements Management
+### 40. TOGAF Requirements Management
 
 A continuous process that captures, validates, prioritizes, manages, and governs architecture requirements across all ADM phases to ensure alignment with business objectives and solution delivery.
 
