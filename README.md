@@ -851,7 +851,7 @@ A Phase E diagram illustrating gap analysis, candidate solutions, work packages,
 </tr>
 <tr>
 <td align="center">
-  <img src="docs/diagrams/planning/togaf-phase-e-opportunities-solutions-v1.png" alt="Phase E diagram showing gap analysis, candidate solutions, work packages, transition architectures, and roadmap planning steps" width="90%"><br>
+  <img src="docs/diagrams/planning/togaf-phase-e-opportunities-solutions-v1.png" alt="TOGAF Opportunities and Solutions Diagram - Phase E - gap analysis candidate solutions work packages and roadmap planning" width="90%"><br>
   <em>Opportunities & Solutions</em>
 </td>
 </tr>
@@ -869,7 +869,7 @@ A TOGAF Phase F diagram illustrating implementation sequencing, migration planni
 </tr>
 <tr>
 <td align="center">
-  <img src="docs/diagrams/planning/togaf-phase-f-migration-planning.png" alt="Phase F diagram showing implementation sequencing, migration planning, dependency management, and governance alignment toward target architecture" width="90%"><br>
+  <img src="docs/diagrams/planning/togaf-phase-f-migration-planning.png" alt="TOGAF Migration Planning Diagram - Phase F - implementation sequencing dependency management and governance alignment" width="90%"><br>
   <em>Migration Planning</em>
 </td>
 </tr>
@@ -905,7 +905,7 @@ A TOGAF Phase H diagram illustrating change assessment, governance decisioning, 
 </tr>
 <tr>
 <td align="center">
-  <img src="docs/diagrams/governance/togaf-phase-h-architecture-change-management.png" alt="Phase H diagram showing change assessment, governance decisioning, architecture evolution, and re-initiation of the ADM lifecycle" width="90%"><br>
+  <img src="docs/diagrams/governance/togaf-phase-h-architecture-change-management.png" alt="TOGAF Architecture Change Management Diagram - Phase H - change assessment governance decisioning and ADM re-initiation" width="90%"><br>
   <em>TOGAF Architecture Change Management</em>
 </td>
 </tr>
