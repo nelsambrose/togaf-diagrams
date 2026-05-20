@@ -380,7 +380,7 @@ A visual overview of the TOGAF Architecture Repository showing governance assets
 </tr>
 <tr>
 <td align="center">
-  <img src="docs/diagrams/repository/architecture-repository.png" alt="Diagram of the TOGAF Architecture Repository showing governance assets, standards, reusable architecture knowledge, capability structures, and repository consumers" width="90%"><br>
+  <img src="docs/diagrams/repository/togaf-architecture-repository.png" alt="Diagram of the TOGAF Architecture Repository showing governance assets, standards, reusable architecture knowledge, capability structures, and repository consumers" width="90%"><br>
   <em>TOGAF Architecture Repository</em>
 </td>
 </tr>
@@ -455,7 +455,7 @@ A visual overview of the TOGAF Architecture Metamodel showing the structural rel
 </tr>
 <tr>
 <td align="center">
-  <img src="docs/diagrams/architecture/architecture-metamodel.png" alt="Diagram of the TOGAF Architecture Metamodel showing structural relationships between business, data, application, and technology architecture elements supporting consistency, traceability, and governance alignment" width="90%"><br>
+  <img src="docs/diagrams/architecture/togaf-architecture-metamodel.png" alt="Diagram of the TOGAF Architecture Metamodel showing structural relationships between business, data, application, and technology architecture elements supporting consistency, traceability, and governance alignment" width="90%"><br>
   <em>TOGAF Architecture Metamodel</em>
 </td>
 </tr>
@@ -473,7 +473,7 @@ A visual overview of TOGAF Architecture Partitioning showing how enterprise arch
 </tr>
 <tr>
 <td align="center">
-  <img src="docs/diagrams/architecture/architecture-partitioning.png" alt="Diagram of TOGAF Architecture Partitioning showing how enterprise architectures are separated across strategic, segment, capability, business unit, and solution levels to support governance, scalability, reuse, and controlled transformation" width="90%"><br>
+  <img src="docs/diagrams/architecture/togaf-architecture-partitioning.png" alt="Diagram of TOGAF Architecture Partitioning showing how enterprise architectures are separated across strategic, segment, capability, business unit, and solution levels to support governance, scalability, reuse, and controlled transformation" width="90%"><br>
   <em>TOGAF Architecture Partitioning</em>
 </td>
 </tr>
@@ -509,7 +509,7 @@ A structured view of enterprise architecture assets across strategic, segment, a
 </tr>
 <tr>
 <td align="center">
-  <img src="docs/diagrams/repository/architecture-landscape.png" alt="Diagram showing enterprise architecture assets organised across strategic, segment, and capability levels with links to governance, reuse, and planning" width="90%"><br>
+  <img src="docs/diagrams/repository/togaf-architecture-landscape.png" alt="Diagram showing enterprise architecture assets organised across strategic, segment, and capability levels with links to governance, reuse, and planning" width="90%"><br>
   <em>TOGAF Architecture Landscape</em>
 </td>
 </tr>
@@ -635,7 +635,7 @@ A visual overview of TOGAF Architecture Principles showing how business, data, a
 </tr>
 <tr>
 <td align="center">
-  <img src="docs/diagrams/governance/architecture-principles.png" alt="Diagram of TOGAF Architecture Principles showing business, data, application, technology, and governance principles guiding enterprise decision-making and architecture quality" width="90%"><br>
+  <img src="docs/diagrams/governance/togaf-architecture-principles.png" alt="Diagram of TOGAF Architecture Principles showing business, data, application, technology, and governance principles guiding enterprise decision-making and architecture quality" width="90%"><br>
   <em>TOGAF Architecture Principles</em>
 </td>
 </tr>
