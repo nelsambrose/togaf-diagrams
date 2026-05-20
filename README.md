@@ -172,7 +172,7 @@ A classification system for architecture assets ranging from generic foundation 
   <em>Architecture Content Framework</em>
 </td>
 <td width="50%" align="center">
-  <img src="docs/diagrams/continuum/phase-a-enterprise-continuum-architecture-repository-v2.png" alt="TOGAF Enterprise Continuum and Architecture Repository — spectrum diagram positioning enterprise architecture assets from generic foundation architectures to organization-specific solutions with repository classification layers" width="100%"><br>
+  <img src="docs/diagrams/continuum/togaf-phase-a-enterprise-continuum-architecture-repository-v2.png" alt="TOGAF Enterprise Continuum and Architecture Repository — spectrum diagram positioning enterprise architecture assets from generic foundation architectures to organization-specific solutions with repository classification layers" width="100%"><br>
   <em>Enterprise Continuum & Architecture Repository</em>
 </td>
 </tr>
@@ -201,7 +201,7 @@ A comparison of abstract, reusable architecture building blocks against concrete
   <em>Capability Assessment & Maturity Models</em>
 </td>
 <td width="50%" align="center" valign="top">
-  <img src="docs/diagrams/building-blocks/phase-a-architecture-building-blocks-vs-solution-building-blocks-v2.png" alt="TOGAF Architecture Building Blocks versus Solution Building Blocks — side-by-side comparison of abstract enterprise architecture building blocks against vendor-specific solution building blocks" width="100%"><br>
+  <img src="docs/diagrams/building-blocks/togaf-phase-a-architecture-building-blocks-vs-solution-building-blocks-v2.png" alt="TOGAF Architecture Building Blocks versus Solution Building Blocks — side-by-side comparison of abstract enterprise architecture building blocks against vendor-specific solution building blocks" width="100%"><br>
   <em>Architecture Building Blocks vs. Solution Building Blocks</em>
 </td>
 </tr>
@@ -230,7 +230,7 @@ An overview of the governance structures, oversight bodies, and accountability m
   <em>Stakeholder Map with Views & Concerns</em>
 </td>
 <td width="50%" align="center" valign="top">
-  <img src="docs/diagrams/governance/phase-a-architecture-governance-model-v2.png" alt="TOGAF Architecture Governance Model — layered governance diagram showing oversight structures, compliance review boards, and accountability flows between architecture levels" width="100%"><br>
+  <img src="docs/diagrams/governance/togaf-phase-a-architecture-governance-model-v2.png" alt="TOGAF Architecture Governance Model — layered governance diagram showing oversight structures, compliance review boards, and accountability flows between architecture levels" width="100%"><br>
   <em>Architecture Governance Model</em>
 </td>
 </tr>
@@ -248,7 +248,7 @@ In Phase A (Architecture Vision), Business Scenarios are used to identify and ar
 </tr>
 <tr>
 <td align="center">
-  <img src="docs/diagrams/stakeholder/phase-a-business-scenarios.png" alt="TOGAF Business Scenarios — flowchart showing how business drivers and problems are structured into scenarios that inform the Architecture Vision in Phase A" width="90%"><br>
+  <img src="docs/diagrams/stakeholder/togaf-phase-a-business-scenarios.png" alt="TOGAF Business Scenarios — flowchart showing how business drivers and problems are structured into scenarios that inform the Architecture Vision in Phase A" width="90%"><br>
   <em>Business Scenarios — Phase A ADM View</em>
 </td>
 </tr>
