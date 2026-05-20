@@ -254,7 +254,7 @@ In Phase A (Architecture Vision), Business Scenarios are used to identify and ar
 </tr>
 <tr>
 <td align="center">
-  <img src="docs/diagrams/business/business-scenarios.png" alt="Diagram of TOGAF Business Scenarios showing how business problems, stakeholder interactions, operational processes, and solution requirements support enterprise architecture development and transformation planning" width="90%"><br>
+  <img src="docs/diagrams/business/togaf-business-scenarios.png" alt="Diagram of TOGAF Business Scenarios showing how business problems, stakeholder interactions, operational processes, and solution requirements support enterprise architecture development and transformation planning" width="90%"><br>
   <em>Business Scenarios — Enterprise Architecture View</em>
 </td>
 </tr>
@@ -272,7 +272,7 @@ Defines the high-level aspirational target architecture, stakeholder alignment, 
 </tr>
 <tr>
 <td align="center">
-  <img src="docs/diagrams/adm/architecture-vision.png" alt="Diagram of TOGAF Architecture Vision showing the high-level aspirational target architecture, stakeholder alignment, business value, scope, and transformation objectives" width="90%"><br>
+  <img src="docs/diagrams/adm/togaf-architecture-vision.png" alt="Diagram of TOGAF Architecture Vision showing the high-level aspirational target architecture, stakeholder alignment, business value, scope, and transformation objectives" width="90%"><br>
   <em>TOGAF Architecture Vision</em>
 </td>
 </tr>
@@ -290,7 +290,7 @@ Explains how TOGAF uses architecture viewpoints and views to communicate archite
 </tr>
 <tr>
 <td align="center">
-  <img src="docs/diagrams/architecture/architecture-views-viewpoints.png" alt="Diagram of TOGAF Architecture Views and Viewpoints showing how stakeholder concerns are mapped to architecture viewpoints, views, governance communication, and transformation alignment" width="90%"><br>
+  <img src="docs/diagrams/architecture/togaf-architecture-views-viewpoints.png" alt="Diagram of TOGAF Architecture Views and Viewpoints showing how stakeholder concerns are mapped to architecture viewpoints, views, governance communication, and transformation alignment" width="90%"><br>
   <em>TOGAF Architecture Views & Viewpoints</em>
 </td>
 </tr>
@@ -326,7 +326,7 @@ Defines the baseline and target business architecture, business capabilities, va
 </tr>
 <tr>
 <td align="center">
-  <img src="docs/diagrams/business/business-architecture.png" alt="Diagram of TOGAF Business Architecture showing baseline and target business capabilities, value streams, organisational structures, and business processes supporting enterprise strategy" width="90%"><br>
+  <img src="docs/diagrams/business/togaf-business-architecture.png" alt="Diagram of TOGAF Business Architecture showing baseline and target business capabilities, value streams, organisational structures, and business processes supporting enterprise strategy" width="90%"><br>
   <em>TOGAF Business Architecture</em>
 </td>
 </tr>
@@ -437,7 +437,7 @@ Explains how TOGAF uses capability-based planning to identify, assess, prioritiz
 </tr>
 <tr>
 <td align="center">
-  <img src="docs/diagrams/architecture/capability-based-planning.png" alt="Diagram of TOGAF Capability-Based Planning showing how enterprise capabilities are identified, assessed, prioritized, and roadmapped to support strategic transformation and business value realization" width="90%"><br>
+  <img src="docs/diagrams/architecture/togaf-capability-based-planning.png" alt="Diagram of TOGAF Capability-Based Planning showing how enterprise capabilities are identified, assessed, prioritized, and roadmapped to support strategic transformation and business value realization" width="90%"><br>
   <em>TOGAF Capability-Based Planning</em>
 </td>
 </tr>
