@@ -133,7 +133,7 @@ A free visual library of TOGAF 10 enterprise architecture diagrams — clear, si
 
 ### 1. TOGAF ADM End-to-End Reference Map
 
-A full reference view connecting all ADM phases with key inputs, outputs and inter-phase relationships in a map.
+A full TOGAF ADM end-to-end reference view connecting all Architecture Development Method phases with their key inputs, outputs, and inter-phase relationships in a single swimlane map.
 
 <p align="center">
   <img src="docs/diagrams/adm/togaf-adm-end-to-end-architecture.png" alt="TOGAF ADM End-to-End Reference Map — horizontal swimlane diagram mapping all ADM phases with inputs, outputs, and cross-phase dependencies across the enterprise architecture lifecycle" width="90%"><br>
@@ -142,11 +142,11 @@ A full reference view connecting all ADM phases with key inputs, outputs and int
 
 ### 2. TOGAF ADM Cycle
 
-The iterative ADM cycle showing all architecture development phases organized around a central Requirements Management process.
+The iterative TOGAF ADM cycle diagram showing all Architecture Development Method phases — Preliminary through A to H — organized around a central Requirements Management process at the core.
 
 <p align="center">
   <img src="docs/diagrams/adm/togaf-adm-cycle-v2.png" alt="TOGAF ADM Cycle — circular flow diagram of ADM phases from Preliminary through H arranged around a central Requirements Management core in enterprise architecture" width="90%"><br>
-  <em>TOGAF ADM Cycle — Previous version retained in the archive folder for traceability.</em>
+  <em>TOGAF ADM Cycle — Architecture Development Method phases diagram</em>
 </p>
 
 <table>
@@ -155,25 +155,25 @@ The iterative ADM cycle showing all architecture development phases organized ar
 
 ### 3. Architecture Content Framework
 
-A structured metamodel defining the types of architectural work products — deliverables, artifacts, and building blocks — produced across the ADM.
+A structured metamodel defining the types of architectural work products — deliverables, artifacts, and building blocks — produced across the ADM. The TOGAF Architecture Content Framework diagram illustrates how these work products are categorized and related within the overall enterprise architecture lifecycle.
 
 </td>
 <td width="50%" valign="top">
 
 ### 4. Enterprise Continuum & Architecture Repository
 
-A classification system for architecture assets ranging from generic foundation architectures to organization-specific solutions, stored in the Architecture Repository.
+The TOGAF Enterprise Continuum is a classification system for architecture assets ranging from generic foundation architectures to organization-specific solutions, maintained in the TOGAF Architecture Repository.
 
 </td>
 </tr>
 <tr>
 <td width="50%" align="center">
   <img src="docs/diagrams/content-framework/togaf-phase-c-architecture-content-framework-v2.png" alt="TOGAF Architecture Content Framework — hierarchical diagram organizing enterprise architecture deliverables into metamodel categories, artifacts, and building blocks across the ADM lifecycle" width="100%"><br>
-  <em>Architecture Content Framework</em>
+  <em>TOGAF Architecture Content Framework Diagram</em>
 </td>
 <td width="50%" align="center">
   <img src="docs/diagrams/continuum/togaf-phase-a-enterprise-continuum-architecture-repository-v2.png" alt="TOGAF Enterprise Continuum and Architecture Repository — spectrum diagram positioning enterprise architecture assets from generic foundation architectures to organization-specific solutions with repository classification layers" width="100%"><br>
-  <em>Enterprise Continuum & Architecture Repository</em>
+  <em>TOGAF Enterprise Continuum & Architecture Repository</em>
 </td>
 </tr>
 </table>
@@ -220,7 +220,7 @@ A mapping of key stakeholder roles to the architecture views and concerns most r
 
 ### 8. Architecture Governance Model
 
-An overview of the governance structures, oversight bodies, and accountability mechanisms that ensure architecture compliance and quality.
+An overview of the TOGAF architecture governance framework — covering governance structures, oversight bodies, accountability mechanisms, and compliance controls that ensure architecture quality across the enterprise.
 
 </td>
 </tr>
@@ -231,7 +231,7 @@ An overview of the governance structures, oversight bodies, and accountability m
 </td>
 <td width="50%" align="center" valign="top">
   <img src="docs/diagrams/governance/togaf-phase-a-architecture-governance-model-v2.png" alt="TOGAF Architecture Governance Model — layered governance diagram showing oversight structures, compliance review boards, and accountability flows between architecture levels" width="100%"><br>
-  <em>Architecture Governance Model</em>
+  <em>TOGAF Architecture Governance Framework Diagram</em>
 </td>
 </tr>
 </table>
