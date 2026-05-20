@@ -308,7 +308,7 @@ A structured approach for identifying, analyzing, engaging, and governing stakeh
 </tr>
 <tr>
 <td align="center">
-  <img src="docs/diagrams/stakeholder/stakeholder-management.png" alt="Diagram of TOGAF Stakeholder Management showing a structured approach for identifying, analysing, engaging, and governing stakeholders to support architecture alignment and transformation success" width="90%"><br>
+  <img src="docs/diagrams/stakeholder/togaf-stakeholder-management.png" alt="Diagram of TOGAF Stakeholder Management showing a structured approach for identifying, analysing, engaging, and governing stakeholders to support architecture alignment and transformation success" width="90%"><br>
   <em>TOGAF Stakeholder Management</em>
 </td>
 </tr>
@@ -581,7 +581,7 @@ A visual overview of TOGAF Solution Building Blocks (SBBs) showing how reusable 
 </tr>
 <tr>
 <td align="center">
-  <img src="docs/diagrams/building-blocks/solution-building-blocks.png" alt="Diagram of TOGAF Solution Building Blocks showing reusable technology components, platforms, integrations, operational services, and governance capabilities implementing enterprise architecture solutions" width="90%"><br>
+  <img src="docs/diagrams/building-blocks/togaf-solution-building-blocks.png" alt="Diagram of TOGAF Solution Building Blocks showing reusable technology components, platforms, integrations, operational services, and governance capabilities implementing enterprise architecture solutions" width="90%"><br>
   <em>TOGAF Solution Building Blocks (SBBs)</em>
 </td>
 </tr>
@@ -599,7 +599,7 @@ A visual overview of the TOGAF Standards Information Base showing approved enter
 </tr>
 <tr>
 <td align="center">
-  <img src="docs/diagrams/repository/standards-information-base.png" alt="Diagram of the TOGAF Standards Information Base showing approved enterprise standards, technology policies, security controls, compliance requirements, governance lifecycle, and standards consumers" width="90%"><br>
+  <img src="docs/diagrams/repository/togaf-standards-information-base.png" alt="Diagram of the TOGAF Standards Information Base showing approved enterprise standards, technology policies, security controls, compliance requirements, governance lifecycle, and standards consumers" width="90%"><br>
   <em>Standards Information Base</em>
 </td>
 </tr>
@@ -779,7 +779,7 @@ A visual overview of TOGAF Risk Management showing how enterprise architecture r
 </tr>
 <tr>
 <td align="center">
-  <img src="docs/diagrams/governance/risk-management.png" alt="Diagram of TOGAF Risk Management showing how enterprise architecture risks are identified, assessed, governed, mitigated, and continuously monitored across transformation initiatives and ADM activities" width="90%"><br>
+  <img src="docs/diagrams/governance/togaf-risk-management.png" alt="Diagram of TOGAF Risk Management showing how enterprise architecture risks are identified, assessed, governed, mitigated, and continuously monitored across transformation initiatives and ADM activities" width="90%"><br>
   <em>TOGAF Risk Management</em>
 </td>
 </tr>
@@ -797,7 +797,7 @@ A visual overview of TOGAF Security Architecture Integration showing how securit
 </tr>
 <tr>
 <td align="center">
-  <img src="docs/diagrams/security/security-architecture-integration.png" alt="Diagram of TOGAF Security Architecture Integration showing how security controls, governance, compliance, resilience, and risk management are embedded across business, data, application, and technology architecture domains" width="90%"><br>
+  <img src="docs/diagrams/security/togaf-security-architecture-integration.png" alt="Diagram of TOGAF Security Architecture Integration showing how security controls, governance, compliance, resilience, and risk management are embedded across business, data, application, and technology architecture domains" width="90%"><br>
   <em>TOGAF Security Architecture Integration</em>
 </td>
 </tr>
@@ -815,7 +815,7 @@ A continuous process that captures, validates, prioritizes, manages, and governs
 </tr>
 <tr>
 <td align="center">
-  <img src="docs/diagrams/governance/requirements-management.png" alt="Diagram of TOGAF Requirements Management showing the continuous process of capturing, validating, prioritising, managing, and governing architecture requirements across all ADM phases" width="90%"><br>
+  <img src="docs/diagrams/governance/togaf-requirements-management.png" alt="Diagram of TOGAF Requirements Management showing the continuous process of capturing, validating, prioritising, managing, and governing architecture requirements across all ADM phases" width="90%"><br>
   <em>TOGAF Requirements Management</em>
 </td>
 </tr>
