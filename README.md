@@ -401,7 +401,7 @@ Note:
 </tr>
 <tr>
 <td align="center">
-  <img src="docs/diagrams/content-framework/architecture-deliverables.png" alt="Diagram of TOGAF Architecture Deliverables showing formal ADM deliverables including architecture definitions, governance artifacts, transition plans, compliance outputs, and stakeholder communication packages" width="90%"><br>
+  <img src="docs/diagrams/content-framework/togaf-architecture-deliverables.png" alt="Diagram of TOGAF Architecture Deliverables showing formal ADM deliverables including architecture definitions, governance artifacts, transition plans, compliance outputs, and stakeholder communication packages" width="90%"><br>
   <em>TOGAF Architecture Deliverables</em>
 </td>
 </tr>
@@ -491,7 +491,7 @@ A visual overview of TOGAF Architecture Communication showing how architecture i
 </tr>
 <tr>
 <td align="center">
-  <img src="docs/diagrams/architecture/architecture-communication.png" alt="Diagram of TOGAF Architecture Communication showing how architecture information, governance messaging, stakeholder alignment, executive reporting, and delivery coordination support enterprise transformation success" width="90%"><br>
+  <img src="docs/diagrams/architecture/togaf-architecture-communication.png" alt="Diagram of TOGAF Architecture Communication showing how architecture information, governance messaging, stakeholder alignment, executive reporting, and delivery coordination support enterprise transformation success" width="90%"><br>
   <em>TOGAF Architecture Communication</em>
 </td>
 </tr>
@@ -671,7 +671,7 @@ A visual overview of TOGAF Architecture Contracts showing governance agreements,
 </tr>
 <tr>
 <td align="center">
-  <img src="docs/diagrams/governance/architecture-contracts.png" alt="Diagram of TOGAF Architecture Contracts showing governance agreements, compliance obligations, responsibilities, delivery alignment, and implementation accountability" width="90%"><br>
+  <img src="docs/diagrams/governance/togaf-architecture-contracts.png" alt="Diagram of TOGAF Architecture Contracts showing governance agreements, compliance obligations, responsibilities, delivery alignment, and implementation accountability" width="90%"><br>
   <em>TOGAF Architecture Contracts</em>
 </td>
 </tr>
@@ -689,7 +689,7 @@ A visual overview of TOGAF Architecture Compliance Reviews showing how enterpris
 </tr>
 <tr>
 <td align="center">
-  <img src="docs/diagrams/governance/architecture-compliance-reviews.png" alt="Diagram of TOGAF Architecture Compliance Reviews showing assessment of solutions against architecture principles, standards, governance requirements, risks, and compliance obligations" width="90%"><br>
+  <img src="docs/diagrams/governance/togaf-architecture-compliance-reviews.png" alt="Diagram of TOGAF Architecture Compliance Reviews showing assessment of solutions against architecture principles, standards, governance requirements, risks, and compliance obligations" width="90%"><br>
   <em>TOGAF Architecture Compliance Reviews</em>
 </td>
 </tr>
@@ -743,7 +743,7 @@ A visual overview of TOGAF Architecture Decisions & Traceability showing how arc
 </tr>
 <tr>
 <td align="center">
-  <img src="docs/diagrams/governance/architecture-decisions-traceability.png" alt="Diagram of TOGAF Architecture Decisions and Traceability showing how architecture decisions, governance approvals, rationale, dependencies, and traceability relationships are managed across enterprise transformation initiatives" width="90%"><br>
+  <img src="docs/diagrams/governance/togaf-architecture-decisions-traceability.png" alt="Diagram of TOGAF Architecture Decisions and Traceability showing how architecture decisions, governance approvals, rationale, dependencies, and traceability relationships are managed across enterprise transformation initiatives" width="90%"><br>
   <em>TOGAF Architecture Decisions & Traceability</em>
 </td>
 </tr>
