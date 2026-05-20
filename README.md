@@ -226,7 +226,7 @@ An overview of the governance structures, oversight bodies, and accountability m
 </tr>
 <tr>
 <td width="50%" align="center" valign="top">
-  <img src="docs/diagrams/stakeholder/phase-a-stakeholder-map-views-concerns-v2.png" alt="TOGAF Stakeholder Map with Views and Concerns — matrix diagram mapping stakeholder roles to their relevant enterprise architecture views and primary concerns" width="100%"><br>
+  <img src="docs/diagrams/stakeholder/togaf-phase-a-stakeholder-map-views-concerns-v2.png" alt="TOGAF Stakeholder Map with Views and Concerns — matrix diagram mapping stakeholder roles to their relevant enterprise architecture views and primary concerns" width="100%"><br>
   <em>Stakeholder Map with Views & Concerns</em>
 </td>
 <td width="50%" align="center" valign="top">
