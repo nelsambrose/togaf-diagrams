@@ -545,7 +545,7 @@ Reusable architecture models, standards, patterns, and implementation guidance t
 </tr>
 <tr>
 <td align="center">
-  <img src="docs/diagrams/repository/reference-architectures.png" alt="Diagram of TOGAF Reference Architectures showing reusable architecture models, standards, patterns, and implementation guidance supporting solution delivery and enterprise governance" width="90%"><br>
+  <img src="docs/diagrams/repository/togaf-reference-architectures.png" alt="Diagram of TOGAF Reference Architectures showing reusable architecture models, standards, patterns, and implementation guidance supporting solution delivery and enterprise governance" width="90%"><br>
   <em>TOGAF Reference Architectures</em>
 </td>
 </tr>
@@ -869,7 +869,7 @@ A TOGAF Phase F diagram illustrating implementation sequencing, migration planni
 </tr>
 <tr>
 <td align="center">
-  <img src="docs/diagrams/planning/phase-f-migration-planning.png" alt="Phase F diagram showing implementation sequencing, migration planning, dependency management, and governance alignment toward target architecture" width="90%"><br>
+  <img src="docs/diagrams/planning/togaf-phase-f-migration-planning.png" alt="Phase F diagram showing implementation sequencing, migration planning, dependency management, and governance alignment toward target architecture" width="90%"><br>
   <em>Migration Planning</em>
 </td>
 </tr>
@@ -905,7 +905,7 @@ A TOGAF Phase H diagram illustrating change assessment, governance decisioning, 
 </tr>
 <tr>
 <td align="center">
-  <img src="docs/diagrams/governance/phase-h-architecture-change-management.png" alt="Phase H diagram showing change assessment, governance decisioning, architecture evolution, and re-initiation of the ADM lifecycle" width="90%"><br>
+  <img src="docs/diagrams/governance/togaf-phase-h-architecture-change-management.png" alt="Phase H diagram showing change assessment, governance decisioning, architecture evolution, and re-initiation of the ADM lifecycle" width="90%"><br>
   <em>TOGAF Architecture Change Management</em>
 </td>
 </tr>
