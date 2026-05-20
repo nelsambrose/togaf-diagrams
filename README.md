@@ -168,7 +168,7 @@ A classification system for architecture assets ranging from generic foundation 
 </tr>
 <tr>
 <td width="50%" align="center">
-  <img src="docs/diagrams/content-framework/phase-c-architecture-content-framework-v2.png" alt="TOGAF Architecture Content Framework — hierarchical diagram organizing enterprise architecture deliverables into metamodel categories, artifacts, and building blocks across the ADM lifecycle" width="100%"><br>
+  <img src="docs/diagrams/content-framework/togaf-phase-c-architecture-content-framework-v2.png" alt="TOGAF Architecture Content Framework — hierarchical diagram organizing enterprise architecture deliverables into metamodel categories, artifacts, and building blocks across the ADM lifecycle" width="100%"><br>
   <em>Architecture Content Framework</em>
 </td>
 <td width="50%" align="center">
@@ -197,7 +197,7 @@ A comparison of abstract, reusable architecture building blocks against concrete
 </tr>
 <tr>
 <td width="50%" align="center">
-  <img src="docs/diagrams/capability/phase-b-capability-assessment-maturity-models-v2.png" alt="TOGAF Capability Assessment and Maturity Models — grid-based maturity model rating enterprise architecture capabilities across defined levels from initial to optimising" width="100%"><br>
+  <img src="docs/diagrams/capability/togaf-phase-b-capability-assessment-maturity-models-v2.png" alt="TOGAF Capability Assessment and Maturity Models — grid-based maturity model rating enterprise architecture capabilities across defined levels from initial to optimising" width="100%"><br>
   <em>Capability Assessment & Maturity Models</em>
 </td>
 <td width="50%" align="center" valign="top">
@@ -833,7 +833,7 @@ A layered view of TOGAF Technology Architecture showing infrastructure foundatio
 </tr>
 <tr>
 <td align="center">
-  <img src="docs/diagrams/technology/phase-d-technology-architecture.png" alt="Layered diagram of TOGAF Technology Architecture covering infrastructure, platform services, integration, security, and operational resilience" width="90%"><br>
+  <img src="docs/diagrams/technology/togaf-phase-d-technology-architecture.png" alt="Layered diagram of TOGAF Technology Architecture covering infrastructure, platform services, integration, security, and operational resilience" width="90%"><br>
   <em>TOGAF Technology Architecture</em>
 </td>
 </tr>
@@ -851,7 +851,7 @@ A Phase E diagram illustrating gap analysis, candidate solutions, work packages,
 </tr>
 <tr>
 <td align="center">
-  <img src="docs/diagrams/planning/phase-e-opportunities-solutions-v1.png" alt="Phase E diagram showing gap analysis, candidate solutions, work packages, transition architectures, and roadmap planning steps" width="90%"><br>
+  <img src="docs/diagrams/planning/togaf-phase-e-opportunities-solutions-v1.png" alt="Phase E diagram showing gap analysis, candidate solutions, work packages, transition architectures, and roadmap planning steps" width="90%"><br>
   <em>Opportunities & Solutions</em>
 </td>
 </tr>
