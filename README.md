@@ -266,7 +266,7 @@ In Phase A (Architecture Vision), Business Scenarios are used to identify and ar
 
 ### 10. TOGAF Architecture Vision
 
-Defines the high-level aspirational target architecture, stakeholder alignment, business value, scope, and transformation objectives that guide the enterprise architecture initiative.
+Defines the high-level aspirational target architecture, stakeholder alignment, business value, scope, and transformation objectives that guide the enterprise architecture initiative. As the key TOGAF Phase A ADM deliverable, the Architecture Vision diagram sets the direction for all subsequent ADM phases.
 
 </td>
 </tr>
@@ -320,7 +320,7 @@ A structured approach for identifying, analyzing, engaging, and governing stakeh
 
 ### 13. TOGAF Business Architecture
 
-Defines the baseline and target business architecture, business capabilities, value streams, organizational structures, and business processes that support enterprise strategy and transformation objectives.
+Defines the baseline and target business architecture, business capabilities, value streams, organizational structures, and business processes that support enterprise strategy and transformation objectives. This TOGAF Phase B business architecture diagram is a core deliverable of the ADM Business Architecture phase.
 
 </td>
 </tr>
@@ -431,7 +431,7 @@ Defines the catalogs, matrices, diagrams, and supporting architectural artifacts
 
 ### 19. TOGAF Capability-Based Planning
 
-Explains how TOGAF uses capability-based planning to identify, assess, prioritize, and roadmap enterprise capabilities that support strategic transformation and business value realization.
+Explains how TOGAF uses capability-based planning and business capability planning to identify, assess, prioritize, and roadmap enterprise capabilities that support strategic transformation and business value realization.
 
 </td>
 </tr>
@@ -467,7 +467,7 @@ A visual overview of the TOGAF Architecture Metamodel showing the structural rel
 
 ### 21. TOGAF Architecture Partitioning
 
-A visual overview of TOGAF Architecture Partitioning showing how enterprise architectures are separated across strategic, segment, capability, business unit, and solution levels to support governance, scalability, reuse, and controlled transformation.
+A visual overview of TOGAF Architecture Partitioning showing how enterprise architectures are separated across strategic, segment, capability, business unit, and solution levels to support governance, scalability, reuse, and controlled transformation. This enterprise architecture partitioning diagram is essential for managing complexity across large-scale architecture programs.
 
 </td>
 </tr>
@@ -809,7 +809,7 @@ A visual overview of TOGAF Security Architecture Integration showing how securit
 
 ### 40. TOGAF Requirements Management
 
-A continuous process that captures, validates, prioritizes, manages, and governs architecture requirements across all ADM phases to ensure alignment with business objectives and solution delivery.
+The TOGAF ADM Architecture Requirements Management process is continuous and shown at the core of the ADM cycle — it captures, validates, prioritizes, manages, and governs architecture requirements across all ADM phases to ensure alignment with business objectives and solution delivery.
 
 </td>
 </tr>
