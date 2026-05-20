@@ -362,7 +362,7 @@ Defines the structure, interaction, integration, governance, and lifecycle of en
 </tr>
 <tr>
 <td align="center">
-  <img src="docs/diagrams/application/application-architecture.png" alt="Diagram of TOGAF Application Architecture showing the structure, interaction, integration, governance, and lifecycle of enterprise applications and services supporting business capabilities" width="90%"><br>
+  <img src="docs/diagrams/application/togaf-application-architecture.png" alt="Diagram of TOGAF Application Architecture showing the structure, interaction, integration, governance, and lifecycle of enterprise applications and services supporting business capabilities" width="90%"><br>
   <em>TOGAF Application Architecture</em>
 </td>
 </tr>
@@ -419,7 +419,7 @@ Defines the catalogs, matrices, diagrams, and supporting architectural artifacts
 </tr>
 <tr>
 <td align="center">
-  <img src="docs/diagrams/architecture/architecture-artifacts.png" alt="Diagram of TOGAF Architecture Artifacts showing catalogs, matrices, diagrams, and supporting artifacts used throughout the ADM lifecycle to document, analyze, communicate, and govern enterprise architecture" width="90%"><br>
+  <img src="docs/diagrams/architecture/togaf-architecture-artifacts.png" alt="Diagram of TOGAF Architecture Artifacts showing catalogs, matrices, diagrams, and supporting artifacts used throughout the ADM lifecycle to document, analyze, communicate, and govern enterprise architecture" width="90%"><br>
   <em>TOGAF Architecture Artifacts</em>
 </td>
 </tr>
@@ -563,7 +563,7 @@ A visual overview of TOGAF Architecture Building Blocks (ABBs) showing how reusa
 </tr>
 <tr>
 <td align="center">
-  <img src="docs/diagrams/building-blocks/architecture-building-blocks.png" alt="Diagram of TOGAF Architecture Building Blocks showing reusable logical capabilities, standards, services, and governance models guiding the realization of Solution Building Blocks" width="90%"><br>
+  <img src="docs/diagrams/building-blocks/togaf-architecture-building-blocks.png" alt="Diagram of TOGAF Architecture Building Blocks showing reusable logical capabilities, standards, services, and governance models guiding the realization of Solution Building Blocks" width="90%"><br>
   <em>TOGAF Architecture Building Blocks (ABBs)</em>
 </td>
 </tr>
@@ -653,7 +653,7 @@ A visual overview of TOGAF Architecture Capability showing the governance struct
 </tr>
 <tr>
 <td align="center">
-  <img src="docs/diagrams/capability/architecture-capability.png" alt="Diagram of TOGAF Architecture Capability showing governance structures, people, processes, tools, repository support, maturity practices, and continuous improvement mechanisms for enterprise architecture" width="90%"><br>
+  <img src="docs/diagrams/capability/togaf-architecture-capability.png" alt="Diagram of TOGAF Architecture Capability showing governance structures, people, processes, tools, repository support, maturity practices, and continuous improvement mechanisms for enterprise architecture" width="90%"><br>
   <em>TOGAF Architecture Capability</em>
 </td>
 </tr>
@@ -761,7 +761,7 @@ A visual overview of TOGAF Architecture Change Requests showing how enterprise a
 </tr>
 <tr>
 <td align="center">
-  <img src="docs/diagrams/governance/architecture-change-requests.png" alt="Diagram of TOGAF Architecture Change Requests showing how enterprise architecture changes are identified, assessed, governed, approved, and implemented across transformation initiatives" width="90%"><br>
+  <img src="docs/diagrams/governance/togaf-architecture-change-requests.png" alt="Diagram of TOGAF Architecture Change Requests showing how enterprise architecture changes are identified, assessed, governed, approved, and implemented across transformation initiatives" width="90%"><br>
   <em>TOGAF Architecture Change Requests</em>
 </td>
 </tr>
