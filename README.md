@@ -344,7 +344,7 @@ Defines the structure, governance, lifecycle, integration, and management of ent
 </tr>
 <tr>
 <td align="center">
-  <img src="docs/diagrams/data/data-architecture.png" alt="Diagram of TOGAF Data Architecture showing the structure, governance, lifecycle, integration, and management of enterprise data assets supporting business capabilities and analytics" width="90%"><br>
+  <img src="docs/diagrams/data/togaf-data-architecture.png" alt="Diagram of TOGAF Data Architecture showing the structure, governance, lifecycle, integration, and management of enterprise data assets supporting business capabilities and analytics" width="90%"><br>
   <em>TOGAF Data Architecture</em>
 </td>
 </tr>
@@ -527,7 +527,7 @@ A visual overview of the TOGAF Enterprise Continuum showing how reusable archite
 </tr>
 <tr>
 <td align="center">
-  <img src="docs/diagrams/continuum/enterprise-continuum.png" alt="Diagram of the TOGAF Enterprise Continuum showing architecture assets evolving from generic foundation architectures to organization-specific enterprise solutions" width="90%"><br>
+  <img src="docs/diagrams/continuum/togaf-enterprise-continuum.png" alt="Diagram of the TOGAF Enterprise Continuum showing architecture assets evolving from generic foundation architectures to organization-specific enterprise solutions" width="90%"><br>
   <em>TOGAF Enterprise Continuum</em>
 </td>
 </tr>
@@ -617,7 +617,7 @@ A visual overview of the TOGAF Governance Log showing architecture decisions, co
 </tr>
 <tr>
 <td align="center">
-  <img src="docs/diagrams/repository/governance-log.png" alt="Diagram of the TOGAF Governance Log showing architecture decisions, compliance activities, governance oversight, risk and exception management, audit traceability, and continuous governance evolution" width="90%"><br>
+  <img src="docs/diagrams/repository/togaf-governance-log.png" alt="Diagram of the TOGAF Governance Log showing architecture decisions, compliance activities, governance oversight, risk and exception management, audit traceability, and continuous governance evolution" width="90%"><br>
   <em>TOGAF Governance Log</em>
 </td>
 </tr>
@@ -707,7 +707,7 @@ A visual overview of TOGAF Compliance Assessment showing how enterprise architec
 </tr>
 <tr>
 <td align="center">
-  <img src="docs/diagrams/governance/compliance-assessment.png" alt="Diagram of TOGAF Compliance Assessment showing how enterprise architecture compliance, governance validation, standards alignment, and delivery oversight support controlled enterprise transformation" width="90%"><br>
+  <img src="docs/diagrams/governance/togaf-compliance-assessment.png" alt="Diagram of TOGAF Compliance Assessment showing how enterprise architecture compliance, governance validation, standards alignment, and delivery oversight support controlled enterprise transformation" width="90%"><br>
   <em>TOGAF Compliance Assessment</em>
 </td>
 </tr>
@@ -725,7 +725,7 @@ A centralized governance repository that stores architecture decisions, complian
 </tr>
 <tr>
 <td align="center">
-  <img src="docs/diagrams/governance/governance-repository.png" alt="A centralized governance repository that stores architecture decisions, compliance records, policies, audit evidence, approvals, and governance outcomes supporting enterprise accountability, traceability, and regulatory alignment." width="90%"><br>
+  <img src="docs/diagrams/governance/togaf-governance-repository.png" alt="A centralized governance repository that stores architecture decisions, compliance records, policies, audit evidence, approvals, and governance outcomes supporting enterprise accountability, traceability, and regulatory alignment." width="90%"><br>
   <em>TOGAF Governance Repository</em>
 </td>
 </tr>
