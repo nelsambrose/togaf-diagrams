@@ -734,14 +734,14 @@ The TOGAF Governance Repository is the centralized store within the Architecture
 
 ### 36. TOGAF Architecture Decisions & Traceability
 
-A visual overview of TOGAF Architecture Decisions & Traceability showing how architecture decisions, governance approvals, rationale, dependencies, and traceability relationships are managed across enterprise transformation initiatives.
+Architecture decision management is one of the most critical — and most commonly neglected — governance disciplines in enterprise architecture. In TOGAF, every significant architecture decision must be recorded with its context, alternatives considered, rationale, implications, and approval authority, then linked to the architecture elements, principles, and delivery outcomes it affects. This diagram shows how architecture decisions are structured, stored in the Governance Repository, and traced through to requirements, building blocks, compliance reviews, and implementation work packages — giving governance boards and audit functions a clear chain of accountability from architectural intent to delivered outcomes across the full ADM lifecycle.
 
 </td>
 </tr>
 <tr>
 <td align="center">
   <img src="docs/diagrams/governance/togaf-architecture-decisions-traceability.png" alt="Diagram of TOGAF Architecture Decisions and Traceability showing how architecture decisions, governance approvals, rationale, dependencies, and traceability relationships are managed across enterprise transformation initiatives" width="90%"><br>
-  <em>TOGAF Architecture Decisions & Traceability</em>
+  <em>TOGAF Architecture Decisions & Traceability — decision records with rationale, approval authority, and traceability links across the ADM governance chain</em>
 </td>
 </tr>
 </table>
@@ -752,14 +752,14 @@ A visual overview of TOGAF Architecture Decisions & Traceability showing how arc
 
 ### 37. TOGAF Architecture Change Requests
 
-A visual overview of TOGAF Architecture Change Requests showing how enterprise architecture changes are identified, assessed, governed, approved, and implemented across transformation initiatives.
+TOGAF Architecture Change Requests (ACRs) are the formal mechanism by which stakeholders, project teams, and governance boards trigger controlled updates to the approved architecture during Phase H (Architecture Change Management). Change requests can be driven by business strategy shifts, technology changes, compliance requirements, or delivery-phase learnings — and each must be assessed for architectural impact, risk, cost, and governance implications before approval. This diagram maps the full change request lifecycle — from submission and impact analysis through governance review, decision, and implementation handoff — showing how architecture change is managed in a controlled, traceable way that protects the integrity of the enterprise architecture baseline.
 
 </td>
 </tr>
 <tr>
 <td align="center">
   <img src="docs/diagrams/governance/togaf-architecture-change-requests.png" alt="Diagram of TOGAF Architecture Change Requests showing how enterprise architecture changes are identified, assessed, governed, approved, and implemented across transformation initiatives" width="90%"><br>
-  <em>TOGAF Architecture Change Requests</em>
+  <em>TOGAF Architecture Change Requests — Phase H change request lifecycle from submission through impact assessment, governance review, and approved implementation</em>
 </td>
 </tr>
 </table>
@@ -770,14 +770,14 @@ A visual overview of TOGAF Architecture Change Requests showing how enterprise a
 
 ### 38. TOGAF Risk Management
 
-A visual overview of TOGAF Risk Management showing how enterprise architecture risks are identified, assessed, governed, mitigated, and continuously monitored across transformation initiatives and ADM activities.
+Enterprise architecture risk management in TOGAF is a continuous, governance-embedded discipline that runs across all ADM phases — identifying, classifying, assessing, and mitigating risks that could prevent the enterprise from achieving its target architecture or transformation objectives. Risk types include initial risks (identified early in the ADM), residual risks (remaining after mitigation), and architecture risks specific to technology, integration, security, and operational domains. This diagram shows how risks are catalogued, rated for likelihood and impact, assigned ownership, linked to mitigation actions and governance decisions, and tracked through the Governance Log to provide continuous risk visibility for Architecture Boards and enterprise risk managers.
 
 </td>
 </tr>
 <tr>
 <td align="center">
   <img src="docs/diagrams/governance/togaf-risk-management.png" alt="Diagram of TOGAF Risk Management showing how enterprise architecture risks are identified, assessed, governed, mitigated, and continuously monitored across transformation initiatives and ADM activities" width="90%"><br>
-  <em>TOGAF Risk Management</em>
+  <em>TOGAF Risk Management — continuous identification, assessment, mitigation, and governance of architecture risks across all ADM phases</em>
 </td>
 </tr>
 </table>
@@ -788,14 +788,14 @@ A visual overview of TOGAF Risk Management showing how enterprise architecture r
 
 ### 39. TOGAF Security Architecture Integration
 
-A visual overview of TOGAF Security Architecture Integration showing how security controls, governance, compliance, resilience, and risk management are embedded across business, data, application, and technology architecture domains.
+Security architecture in TOGAF is not a separate domain — it is a cross-cutting concern that must be integrated into every architecture layer from Phase B (Business Architecture) through Phase D (Technology Architecture) and enforced during Phase G (Implementation Governance). This diagram shows how security controls, identity and access management, data protection policies, application security patterns, infrastructure hardening, and resilience requirements are woven into each architecture domain, governed through the Standards Information Base, and validated during compliance reviews. Enterprise architects, security architects, and risk teams use this view to ensure that security is built into architecture by design rather than bolted on after delivery.
 
 </td>
 </tr>
 <tr>
 <td align="center">
   <img src="docs/diagrams/security/togaf-security-architecture-integration.png" alt="Diagram of TOGAF Security Architecture Integration showing how security controls, governance, compliance, resilience, and risk management are embedded across business, data, application, and technology architecture domains" width="90%"><br>
-  <em>TOGAF Security Architecture Integration</em>
+  <em>TOGAF Security Architecture Integration — cross-cutting security controls, data protection, and resilience requirements embedded across all architecture domains</em>
 </td>
 </tr>
 </table>
@@ -824,14 +824,14 @@ The TOGAF ADM Architecture Requirements Management process is continuous and sho
 
 ### D. TOGAF Technology Architecture
 
-A layered view of TOGAF Technology Architecture showing infrastructure foundations, platform services, integration capabilities, security architecture, operational resilience, and key technology outputs.
+TOGAF Phase D Technology Architecture defines the logical and physical technology landscape that underpins the target enterprise — covering infrastructure platforms, cloud and on-premises hosting models, integration middleware, security architecture, network topology, and operational resilience patterns. As the fourth and final architecture domain defined in the ADM, it translates the application, data, and business architectures into the technology building blocks and platform standards that solution teams actually build on. This diagram presents a layered view of the Technology Architecture — from infrastructure foundations through platform services, integration capabilities, and security controls — along with the key ADM Phase D outputs that governance boards use to validate technology direction and standards alignment.
 
 </td>
 </tr>
 <tr>
 <td align="center">
   <img src="docs/diagrams/technology/togaf-phase-d-technology-architecture.png" alt="Layered diagram of TOGAF Technology Architecture covering infrastructure, platform services, integration, security, and operational resilience" width="90%"><br>
-  <em>TOGAF Technology Architecture</em>
+  <em>TOGAF Technology Architecture — Phase D layered view of infrastructure, platforms, integration, and security underpinning the enterprise target state</em>
 </td>
 </tr>
 </table>
