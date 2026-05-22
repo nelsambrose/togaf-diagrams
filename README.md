@@ -644,14 +644,14 @@ TOGAF Architecture Principles are the fundamental rules and guidelines that gove
 
 ### 31. TOGAF Architecture Capability
 
-A visual overview of TOGAF Architecture Capability showing the governance structures, people, processes, tools, repository support, maturity practices, and continuous improvement mechanisms required to develop, govern, and sustain enterprise architecture across the organization.
+TOGAF Architecture Capability defines the organizational structures, skills, processes, tools, and governance mechanisms that an enterprise needs to establish, operate, and continuously improve its enterprise architecture practice. Developed during the Preliminary Phase and refined as the ADM matures, architecture capability covers roles such as the Architecture Board and Chief Architect, supporting tooling and repository infrastructure, capability maturity assessment, and the feedback loops that drive ongoing practice improvement. This diagram shows how the people, process, and technology dimensions of architecture capability combine to create a sustainable, governed EA function that scales with the enterprise.
 
 </td>
 </tr>
 <tr>
 <td align="center">
   <img src="docs/diagrams/capability/togaf-architecture-capability.png" alt="Diagram of TOGAF Architecture Capability showing governance structures, people, processes, tools, repository support, maturity practices, and continuous improvement mechanisms for enterprise architecture" width="90%"><br>
-  <em>TOGAF Architecture Capability</em>
+  <em>TOGAF Architecture Capability — people, processes, tools, and governance structures for a sustainable enterprise architecture practice</em>
 </td>
 </tr>
 </table>
@@ -662,14 +662,14 @@ A visual overview of TOGAF Architecture Capability showing the governance struct
 
 ### 32. TOGAF Architecture Contracts
 
-A visual overview of TOGAF Architecture Contracts showing governance agreements, architecture expectations, compliance obligations, responsibilities, delivery alignment, risk and exception management, and implementation accountability across the enterprise.
+TOGAF Architecture Contracts are formal governance agreements between the architecture function and project delivery teams that define mutual expectations, compliance obligations, architecture standards to be met, and escalation procedures for managing exceptions. Created and enforced during Phase G (Implementation Governance), they give the Architecture Board a structured mechanism for maintaining oversight of solution delivery without micromanaging implementation. This diagram shows the anatomy of an architecture contract — covering scope, responsibilities, acceptance criteria, risk and exception management, and the sign-off process — and how contracts link architecture intent to accountable, governed delivery outcomes.
 
 </td>
 </tr>
 <tr>
 <td align="center">
   <img src="docs/diagrams/governance/togaf-architecture-contracts.png" alt="Diagram of TOGAF Architecture Contracts showing governance agreements, compliance obligations, responsibilities, delivery alignment, and implementation accountability" width="90%"><br>
-  <em>TOGAF Architecture Contracts</em>
+  <em>TOGAF Architecture Contracts — governance agreements defining compliance obligations, responsibilities, and acceptance criteria for Phase G implementation oversight</em>
 </td>
 </tr>
 </table>
@@ -680,14 +680,14 @@ A visual overview of TOGAF Architecture Contracts showing governance agreements,
 
 ### 33. TOGAF Architecture Compliance Reviews
 
-A visual overview of TOGAF Architecture Compliance Reviews showing how enterprise solutions are assessed against architecture principles, standards, governance requirements, risks, and compliance obligations to ensure alignment and delivery readiness.
+TOGAF Architecture Compliance Reviews are the formal Phase G governance checkpoints at which solution implementations are assessed against the approved architecture — evaluating adherence to architecture principles, Standards Information Base requirements, security controls, risk thresholds, and delivery obligations. Conducted by the Architecture Board with inputs from compliance checklists and the Governance Log, these reviews determine whether a project can proceed, requires remediation, or needs a formal dispensation. This diagram shows the review workflow — from trigger through assessment, finding classification, and governance decision — and how compliance outcomes feed back into the Governance Log and Architecture Repository.
 
 </td>
 </tr>
 <tr>
 <td align="center">
   <img src="docs/diagrams/governance/togaf-architecture-compliance-reviews.png" alt="Diagram of TOGAF Architecture Compliance Reviews showing assessment of solutions against architecture principles, standards, governance requirements, risks, and compliance obligations" width="90%"><br>
-  <em>TOGAF Architecture Compliance Reviews</em>
+  <em>TOGAF Architecture Compliance Reviews — Phase G governance checkpoints assessing solution implementations against principles, standards, and risk thresholds</em>
 </td>
 </tr>
 </table>
@@ -698,14 +698,14 @@ A visual overview of TOGAF Architecture Compliance Reviews showing how enterpris
 
 ### 34. TOGAF Compliance Assessment
 
-A visual overview of TOGAF Compliance Assessment showing how enterprise architecture compliance, governance validation, standards alignment, and delivery oversight support controlled enterprise transformation.
+TOGAF Compliance Assessment is the structured process used to measure how well a project or solution conforms to the enterprise architecture — evaluating it against approved standards, architecture principles, risk tolerance levels, and governance obligations. Performed during Phase G and tied to Architecture Compliance Reviews, it produces a scored or rated compliance profile that governance boards use to make pass, remediate, or waiver decisions. This diagram illustrates the full assessment lifecycle — from compliance criteria definition through evidence collection, rating, governance review, and outcome recording — supporting accountable, data-driven governance of enterprise transformation programs.
 
 </td>
 </tr>
 <tr>
 <td align="center">
   <img src="docs/diagrams/governance/togaf-compliance-assessment.png" alt="Diagram of TOGAF Compliance Assessment showing how enterprise architecture compliance, governance validation, standards alignment, and delivery oversight support controlled enterprise transformation" width="90%"><br>
-  <em>TOGAF Compliance Assessment</em>
+  <em>TOGAF Compliance Assessment — structured process for measuring solution conformance against architecture standards, principles, and governance obligations in Phase G</em>
 </td>
 </tr>
 </table>
@@ -716,14 +716,14 @@ A visual overview of TOGAF Compliance Assessment showing how enterprise architec
 
 ### 35. TOGAF Governance Repository
 
-A centralized governance repository that stores architecture decisions, compliance records, policies, audit evidence, approvals, and governance outcomes supporting enterprise accountability, traceability, and regulatory alignment.
+The TOGAF Governance Repository is the centralized store within the Architecture Repository that holds all governance-related records — including architecture decisions, compliance review outcomes, approved waivers, policy statements, audit evidence, risk registers, and governance board approvals. It is the single source of truth for demonstrating that enterprise architecture decisions were made in accordance with approved processes, and it supports regulatory compliance, internal audit, and continuous governance improvement across the ADM lifecycle. This diagram shows the structure and content of the Governance Repository, the governance artifacts it holds, and how it connects to the Governance Log, Architecture Board, and compliance review processes.
 
 </td>
 </tr>
 <tr>
 <td align="center">
   <img src="docs/diagrams/governance/togaf-governance-repository.png" alt="A centralized governance repository that stores architecture decisions, compliance records, policies, audit evidence, approvals, and governance outcomes supporting enterprise accountability, traceability, and regulatory alignment." width="90%"><br>
-  <em>TOGAF Governance Repository</em>
+  <em>TOGAF Governance Repository — centralized store of decisions, compliance records, waivers, and audit evidence supporting enterprise accountability and regulatory alignment</em>
 </td>
 </tr>
 </table>
