@@ -1,8 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://nelsambrose.github.io/togaf-diagrams/</loc>
+    <lastmod>2026-05-22</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>1.0</priority>
-    <lastmod>2026-05-20</lastmod>
+
+    <!-- Core TOGAF Framework & Metamodels -->
+    <image:image>
+      <image:loc>https://nelsambrose.github.io/togaf-diagrams/images/togaf-adm-cycle-architecture-development-method-infographic.png</image:loc>
+      <image:title>TOGAF ADM Cycle - Architecture Development Method Diagram</image:title>
+      <image:caption>Complete TOGAF Architecture Development Method (ADM) cycle showing Phases A through H, Requirements Management, and preliminary framework setup</image:caption>
+      <image:license>https://creativecommons.org/licenses/by/4.0/</image:license>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://nelsambrose.github.io/togaf-diagrams/images/togaf-content-metamodel-enterprise-architecture-diagram.png</image:loc>
+      <image:title>TOGAF Content Metamodel - Core Entities Framework Diagram</image:title>
+      <image:caption>TOGAF Enterprise Architecture content metamodel detailing relationships between actors, roles, components, services, and business capabilities</image:caption>
+      <image:license>https://creativecommons.org/licenses/by/4.0/</image:license>
+    </image:image>
+
+    <!-- Architecture Domains (BDAT) -->
+    <image:image>
+      <image:loc>https://nelsambrose.github.io/togaf-diagrams/images/togaf-phase-b-business-architecture-view-diagram.png</image:loc>
+      <image:title>TOGAF Phase B Business Architecture - Core Domain Diagram</image:title>
+      <image:caption>TOGAF Phase B Business Architecture view detailing business strategy, governance, organization structures, and business processes</image:caption>
+      <image:license>https://creativecommons.org/licenses/by/4.0/</image:license>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://nelsambrose.github.io/togaf-diagrams/images/togaf-phase-c-information-systems-architecture-diagram.png</image:loc>
+      <image:title>TOGAF Phase C Information Systems Architecture - Data and Application Diagram</image:title>
+      <image:caption>TOGAF Phase C Information Systems Architecture mapping out Data Architecture assets and Application Architecture configurations</image:caption>
+      <image:license>https://creativecommons.org/licenses/by/4.0/</image:license>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://nelsambrose.github.io/togaf-diagrams/images/togaf-phase-d-technology-architecture-infrastructure-diagram.png</image:loc>
+      <image:title>TOGAF Phase D Technology Architecture - Infrastructure and Platform Diagram</image:title>
+      <image:caption>TOGAF Phase D Technology Architecture diagram representing infrastructure, hardware, networks, cloud topology, and middleware platforms</image:caption>
+      <image:license>https://creativecommons.org/licenses/by/4.0/</image:license>
+    </image:image>
+
+    <!-- Implementation & Governance -->
+    <image:image>
+      <image:loc>https://nelsambrose.github.io/togaf-diagrams/images/togaf-architecture-governance-framework-infographic.png</image:loc>
+      <image:title>TOGAF Architecture Governance Framework - Lifecycle Diagram</image:title>
+      <image:caption>TOGAF Architecture Governance Framework mapping out compliance assessments, Architecture Board reviews, and design authorities</image:caption>
+      <image:license>https://creativecommons.org/licenses/by/4.0/</image:license>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://nelsambrose.github.io/togaf-diagrams/images/togaf-enterprise-continuum-evolution-pathway-diagram.png</image:loc>
+      <image:title>TOGAF Enterprise Continuum - Asset Classification Diagram</image:title>
+      <image:caption>TOGAF Enterprise Continuum diagram visualizing the classification and evolution of architecture assets from generic foundational models to organization-specific solutions</image:caption>
+      <image:license>https://creativecommons.org/licenses/by/4.0/</image:license>
+    </image:image>
   </url>
 </urlset>
