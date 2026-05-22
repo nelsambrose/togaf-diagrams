@@ -184,25 +184,25 @@ The TOGAF Enterprise Continuum is a classification system for architecture asset
 
 ### 5. Capability Assessment & Maturity Models
 
-A tool for evaluating the maturity of an organization's architecture capabilities across key dimensions using defined maturity levels.
+Use this TOGAF capability assessment diagram to evaluate the maturity of your organization's enterprise architecture capabilities across key dimensions — from initial, ad-hoc practices through to optimising, repeatable governance. Based on the TOGAF capability maturity model, it supports architecture teams and CIOs in benchmarking current-state capability levels and identifying targeted improvement roadmaps aligned with ADM Phase B and Phase E planning.
 
 </td>
 <td width="50%" valign="top">
 
 ### 6. Architecture Building Blocks vs. Solution Building Blocks
 
-A comparison of abstract, reusable architecture building blocks against concrete, vendor-specific solution building blocks.
+This TOGAF diagram clarifies the distinction between Architecture Building Blocks (ABBs) and Solution Building Blocks (SBBs) — a core concept in the TOGAF content framework and reuse strategy. ABBs define what an architecture needs in vendor-neutral, abstract terms; SBBs deliver those needs as concrete, product-specific components. Use this comparison to guide reuse decisions, procurement strategies, and architecture-to-solution traceability throughout the ADM lifecycle.
 
 </td>
 </tr>
 <tr>
 <td width="50%" align="center">
   <img src="docs/diagrams/capability/togaf-phase-b-capability-assessment-maturity-models-v2.png" alt="TOGAF Capability Assessment and Maturity Models — grid-based maturity model rating enterprise architecture capabilities across defined levels from initial to optimising" width="100%"><br>
-  <em>Capability Assessment & Maturity Models</em>
+  <em>TOGAF Capability Assessment & Maturity Model — rate enterprise architecture capability levels from initial to optimising</em>
 </td>
 <td width="50%" align="center" valign="top">
   <img src="docs/diagrams/building-blocks/togaf-phase-a-architecture-building-blocks-vs-solution-building-blocks-v2.png" alt="TOGAF Architecture Building Blocks versus Solution Building Blocks — side-by-side comparison of abstract enterprise architecture building blocks against vendor-specific solution building blocks" width="100%"><br>
-  <em>Architecture Building Blocks vs. Solution Building Blocks</em>
+  <em>TOGAF Architecture Building Blocks (ABBs) vs Solution Building Blocks (SBBs) — abstract vs vendor-specific components</em>
 </td>
 </tr>
 </table>
@@ -213,7 +213,7 @@ A comparison of abstract, reusable architecture building blocks against concrete
 
 ### 7. Stakeholder Map with Views & Concerns
 
-A mapping of key stakeholder roles to the architecture views and concerns most relevant to them, supporting targeted communication.
+This TOGAF stakeholder map shows how key enterprise architecture stakeholders — from business sponsors and CxOs to solution architects and operations teams — are matched to the architecture views and concerns most relevant to their role. Used in Phase A (Architecture Vision) and throughout the ADM, it drives stakeholder engagement planning, ensures the right views are produced for the right audiences, and supports targeted architecture communication.
 
 </td>
 <td width="50%" valign="top">
@@ -227,7 +227,7 @@ An overview of the TOGAF architecture governance framework — covering governan
 <tr>
 <td width="50%" align="center" valign="top">
   <img src="docs/diagrams/stakeholder/togaf-phase-a-stakeholder-map-views-concerns-v2.png" alt="TOGAF Stakeholder Map with Views and Concerns — matrix diagram mapping stakeholder roles to their relevant enterprise architecture views and primary concerns" width="100%"><br>
-  <em>Stakeholder Map with Views & Concerns</em>
+  <em>TOGAF Stakeholder Map with Views & Concerns — matching stakeholder roles to relevant architecture views and concerns</em>
 </td>
 <td width="50%" align="center" valign="top">
   <img src="docs/diagrams/governance/togaf-phase-a-architecture-governance-model-v2.png" alt="TOGAF Architecture Governance Model — layered governance diagram showing oversight structures, compliance review boards, and accountability flows between architecture levels" width="100%"><br>
@@ -284,14 +284,14 @@ Defines the high-level aspirational target architecture, stakeholder alignment, 
 
 ### 11. TOGAF Architecture Views & Viewpoints
 
-Explains how TOGAF uses architecture viewpoints and views to communicate architecture concerns, stakeholder perspectives, governance requirements, and transformation objectives across the enterprise.
+This TOGAF architecture views and viewpoints diagram explains how enterprise architecture is communicated to different audiences. In TOGAF, a viewpoint defines the conventions for constructing a view; a view is what a stakeholder actually sees. This diagram shows how stakeholder concerns are mapped to defined viewpoints — business, data, application, technology — and how the resulting views support governance, decision-making, and transformation alignment throughout the ADM lifecycle.
 
 </td>
 </tr>
 <tr>
 <td align="center">
   <img src="docs/diagrams/architecture/togaf-architecture-views-viewpoints.png" alt="Diagram of TOGAF Architecture Views and Viewpoints showing how stakeholder concerns are mapped to architecture viewpoints, views, governance communication, and transformation alignment" width="90%"><br>
-  <em>TOGAF Architecture Views & Viewpoints</em>
+  <em>TOGAF Architecture Views & Viewpoints — mapping stakeholder concerns to architecture views for governance and communication</em>
 </td>
 </tr>
 </table>
@@ -302,14 +302,14 @@ Explains how TOGAF uses architecture viewpoints and views to communicate archite
 
 ### 12. TOGAF Stakeholder Management
 
-A structured approach for identifying, analyzing, engaging, and governing stakeholders to ensure enterprise architecture alignment, communication effectiveness, and successful transformation outcomes.
+This TOGAF stakeholder management diagram shows the structured, iterative process for identifying, classifying, engaging, and governing stakeholders across the enterprise architecture lifecycle. Effective stakeholder management is central to Phase A and runs continuously through the ADM — from understanding stakeholder power and interest through to managing concerns, tailoring communication, and ensuring architecture buy-in at all levels of the organization.
 
 </td>
 </tr>
 <tr>
 <td align="center">
   <img src="docs/diagrams/stakeholder/togaf-stakeholder-management.png" alt="Diagram of TOGAF Stakeholder Management showing a structured approach for identifying, analysing, engaging, and governing stakeholders to support architecture alignment and transformation success" width="90%"><br>
-  <em>TOGAF Stakeholder Management</em>
+  <em>TOGAF Stakeholder Management — identifying, engaging, and governing stakeholders across the ADM lifecycle</em>
 </td>
 </tr>
 </table>
