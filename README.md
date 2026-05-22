@@ -338,14 +338,14 @@ Defines the baseline and target business architecture, business capabilities, va
 
 ### 14. TOGAF Data Architecture
 
-Defines the structure, governance, lifecycle, integration, and management of enterprise data assets to support business capabilities, analytics, interoperability, compliance, and strategic decision-making.
+This TOGAF Data Architecture diagram covers Phase C of the ADM, defining the structure, governance, lifecycle, and integration of enterprise data assets. It maps how data entities, logical data models, data flows, and governance policies support business capabilities, analytics platforms, regulatory compliance, and interoperability. Use it to align data strategy with business objectives and to plan baseline-to-target data architecture transitions.
 
 </td>
 </tr>
 <tr>
 <td align="center">
   <img src="docs/diagrams/data/togaf-data-architecture.png" alt="Diagram of TOGAF Data Architecture showing the structure, governance, lifecycle, integration, and management of enterprise data assets supporting business capabilities and analytics" width="90%"><br>
-  <em>TOGAF Data Architecture</em>
+  <em>TOGAF Data Architecture — Phase C data entities, governance, lifecycle, and integration across the enterprise</em>
 </td>
 </tr>
 </table>
@@ -356,14 +356,14 @@ Defines the structure, governance, lifecycle, integration, and management of ent
 
 ### 15. TOGAF Application Architecture
 
-Defines the structure, interaction, integration, governance, and lifecycle of enterprise applications and services that support business capabilities, operational processes, and digital transformation objectives.
+This TOGAF Application Architecture diagram covers Phase C of the ADM, mapping the enterprise application landscape — application components, services, interactions, integration patterns, and governance controls. It shows how application portfolios are structured to deliver business capabilities, support operational processes, and enable digital transformation. Use it to plan application rationalization, service-oriented architecture alignment, and baseline-to-target application transitions.
 
 </td>
 </tr>
 <tr>
 <td align="center">
   <img src="docs/diagrams/application/togaf-application-architecture.png" alt="Diagram of TOGAF Application Architecture showing the structure, interaction, integration, governance, and lifecycle of enterprise applications and services supporting business capabilities" width="90%"><br>
-  <em>TOGAF Application Architecture</em>
+  <em>TOGAF Application Architecture — Phase C application components, services, integration, and governance</em>
 </td>
 </tr>
 </table>
@@ -374,14 +374,14 @@ Defines the structure, interaction, integration, governance, and lifecycle of en
 
 ### 16. TOGAF Architecture Repository
 
-A visual overview of the TOGAF Architecture Repository showing governance assets, standards, reusable architecture knowledge, capability structures, and repository consumers supporting enterprise architecture operations.
+The TOGAF Architecture Repository is the central store for all architecture-related assets across the enterprise. This diagram shows its six components — Architecture Metamodel, Architecture Capability, Architecture Landscape, Standards Information Base, Reference Library, and Governance Log — and how repository consumers such as architecture teams, governance boards, and project delivery teams interact with them. It is essential for managing architecture reuse, standards compliance, and knowledge retention across the ADM.
 
 </td>
 </tr>
 <tr>
 <td align="center">
   <img src="docs/diagrams/repository/togaf-architecture-repository.png" alt="Diagram of the TOGAF Architecture Repository showing governance assets, standards, reusable architecture knowledge, capability structures, and repository consumers" width="90%"><br>
-  <em>TOGAF Architecture Repository</em>
+  <em>TOGAF Architecture Repository — six components including Standards Information Base, Governance Log, and Reference Library</em>
 </td>
 </tr>
 </table>
@@ -392,17 +392,14 @@ A visual overview of the TOGAF Architecture Repository showing governance assets
 
 ### 17. TOGAF Architecture Deliverables
 
-Explains the formal deliverables produced throughout the TOGAF ADM lifecycle, including architecture definitions, governance artifacts, transition plans, compliance outputs, and stakeholder communication packages.
-
-Note:
-“Architecture Definition Deliverables” and “Transition & Migration Deliverables” slightly overlap with existing ADM phase concepts, but here they are framed correctly as outputs/artifacts rather than phases, so the diagram is still valid and useful.
+This TOGAF Architecture Deliverables diagram maps the formal outputs produced at each ADM phase — from Architecture Vision and Architecture Definition Documents through to Transition Plans, Implementation Governance specs, and Architecture Compliance assessments. Unlike artifacts (which are internal working documents), TOGAF deliverables are contractual outputs subject to stakeholder review and sign-off. Use this diagram to understand what must be produced, reviewed, and baselined at each stage of the ADM lifecycle.
 
 </td>
 </tr>
 <tr>
 <td align="center">
   <img src="docs/diagrams/content-framework/togaf-architecture-deliverables.png" alt="Diagram of TOGAF Architecture Deliverables showing formal ADM deliverables including architecture definitions, governance artifacts, transition plans, compliance outputs, and stakeholder communication packages" width="90%"><br>
-  <em>TOGAF Architecture Deliverables</em>
+  <em>TOGAF Architecture Deliverables — formal ADM outputs from Architecture Vision through Transition Plans and Compliance assessments</em>
 </td>
 </tr>
 </table>
@@ -413,14 +410,14 @@ Note:
 
 ### 18. TOGAF Architecture Artifacts
 
-Defines the catalogs, matrices, diagrams, and supporting architectural artifacts used throughout the TOGAF ADM lifecycle to document, analyze, communicate, and govern enterprise architecture.
+This TOGAF Architecture Artifacts diagram organizes the full set of catalogs, matrices, and diagrams used throughout the ADM lifecycle. Catalogs list architecture entities (applications, data entities, technology components); matrices show relationships between them; diagrams visualize structures and flows. Each ADM phase produces a defined set of artifacts as working documents that support analysis, governance, and stakeholder communication — and feed into the formal deliverables.
 
 </td>
 </tr>
 <tr>
 <td align="center">
   <img src="docs/diagrams/architecture/togaf-architecture-artifacts.png" alt="Diagram of TOGAF Architecture Artifacts showing catalogs, matrices, diagrams, and supporting artifacts used throughout the ADM lifecycle to document, analyze, communicate, and govern enterprise architecture" width="90%"><br>
-  <em>TOGAF Architecture Artifacts</em>
+  <em>TOGAF Architecture Artifacts — catalogs, matrices, and diagrams produced across ADM phases for governance and communication</em>
 </td>
 </tr>
 </table>
