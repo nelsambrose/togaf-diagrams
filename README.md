@@ -554,14 +554,14 @@ TOGAF Reference Architectures are formally validated, reusable architecture temp
 
 ### 26. TOGAF Architecture Building Blocks (ABBs)
 
-A visual overview of TOGAF Architecture Building Blocks (ABBs) showing how reusable logical architecture capabilities, standards, services, and governance models define enterprise architecture intent and guide the realization of Solution Building Blocks and enterprise solutions.
+TOGAF Architecture Building Blocks (ABBs) are the vendor-neutral, capability-level components that define what an architecture must deliver — independent of any specific product or technology. Defined during Phases B, C, and D of the ADM, ABBs capture logical services, governance rules, interface standards, and capability requirements that guide the selection and design of Solution Building Blocks. This diagram shows how ABBs are structured, classified, and linked to governance frameworks, enabling architecture teams to manage reuse, enforce standards, and trace architecture intent through to physical implementation.
 
 </td>
 </tr>
 <tr>
 <td align="center">
   <img src="docs/diagrams/building-blocks/togaf-architecture-building-blocks.png" alt="Diagram of TOGAF Architecture Building Blocks showing reusable logical capabilities, standards, services, and governance models guiding the realization of Solution Building Blocks" width="90%"><br>
-  <em>TOGAF Architecture Building Blocks (ABBs)</em>
+  <em>TOGAF Architecture Building Blocks (ABBs) — vendor-neutral logical capabilities, interface standards, and governance rules guiding SBB realization across ADM Phases B–D</em>
 </td>
 </tr>
 </table>
@@ -572,14 +572,14 @@ A visual overview of TOGAF Architecture Building Blocks (ABBs) showing how reusa
 
 ### 27. TOGAF Solution Building Blocks (SBBs)
 
-A visual overview of TOGAF Solution Building Blocks (SBBs) showing how reusable technology components, platforms, integrations, operational services, and governance capabilities implement enterprise architecture solutions and enable standardized, scalable delivery.
+TOGAF Solution Building Blocks (SBBs) are the concrete, product-specific components that realize the logical intent defined by Architecture Building Blocks — spanning technology platforms, application packages, integration middleware, security tools, and operational services. Selected and specified during Phase E (Opportunities & Solutions) and Phase F (Migration Planning), SBBs translate abstract architecture requirements into deployable, procurable components. This diagram illustrates how SBBs are categorized, linked to their parent ABBs, governed through the Architecture Repository, and assembled into enterprise solutions that support scalable, standards-aligned delivery.
 
 </td>
 </tr>
 <tr>
 <td align="center">
   <img src="docs/diagrams/building-blocks/togaf-solution-building-blocks.png" alt="Diagram of TOGAF Solution Building Blocks showing reusable technology components, platforms, integrations, operational services, and governance capabilities implementing enterprise architecture solutions" width="90%"><br>
-  <em>TOGAF Solution Building Blocks (SBBs)</em>
+  <em>TOGAF Solution Building Blocks (SBBs) — product-specific components realizing ABB intent, specified during Phase E and Phase F for scalable enterprise delivery</em>
 </td>
 </tr>
 </table>
@@ -590,14 +590,14 @@ A visual overview of TOGAF Solution Building Blocks (SBBs) showing how reusable 
 
 ### 28. Standards Information Base
 
-A visual overview of the TOGAF Standards Information Base showing approved enterprise standards, technology policies, security controls, compliance requirements, governance lifecycle, and consumers who use standards to support architecture consistency and enterprise compliance.
+The TOGAF Standards Information Base (SIB) is the Architecture Repository component that catalogs all approved enterprise standards — covering technology policies, security controls, interoperability requirements, compliance obligations, and vendor guidelines — against which architecture solutions are measured. Governance boards, solution architects, and compliance reviewers rely on the SIB throughout the ADM to validate that designs align with enterprise-mandated standards before progressing through phase gates. This diagram shows how standards are organized by domain, managed through a governance lifecycle, and consumed by architecture teams, project delivery, and compliance review processes.
 
 </td>
 </tr>
 <tr>
 <td align="center">
   <img src="docs/diagrams/repository/togaf-standards-information-base.png" alt="Diagram of the TOGAF Standards Information Base showing approved enterprise standards, technology policies, security controls, compliance requirements, governance lifecycle, and standards consumers" width="90%"><br>
-  <em>Standards Information Base</em>
+  <em>TOGAF Standards Information Base — approved enterprise standards, technology policies, and compliance requirements organized by domain for architecture governance</em>
 </td>
 </tr>
 </table>
@@ -608,14 +608,14 @@ A visual overview of the TOGAF Standards Information Base showing approved enter
 
 ### 29. TOGAF Governance Log
 
-A visual overview of the TOGAF Governance Log showing architecture decisions, compliance activities, governance oversight, risk and exception management, audit traceability, and continuous governance evolution supporting enterprise accountability and compliance.
+The TOGAF Governance Log is the Architecture Repository's authoritative record of all governance activity — capturing architecture decisions, compliance review outcomes, approved exceptions, risk assessments, and dispensation requests across the enterprise transformation program. Maintained throughout Phase G (Implementation Governance) and Phase H (Architecture Change Management), it provides the audit trail that governance boards, risk managers, and compliance teams need to demonstrate accountability and regulatory alignment. This diagram shows how governance records are structured, linked to decisions and risks, and continuously updated to reflect the evolving governance posture of the enterprise.
 
 </td>
 </tr>
 <tr>
 <td align="center">
   <img src="docs/diagrams/repository/togaf-governance-log.png" alt="Diagram of the TOGAF Governance Log showing architecture decisions, compliance activities, governance oversight, risk and exception management, audit traceability, and continuous governance evolution" width="90%"><br>
-  <em>TOGAF Governance Log</em>
+  <em>TOGAF Governance Log — decisions, compliance records, exceptions, and audit traceability maintained across Phase G and Phase H</em>
 </td>
 </tr>
 </table>
@@ -626,14 +626,14 @@ A visual overview of the TOGAF Governance Log showing architecture decisions, co
 
 ### 30. TOGAF Architecture Principles
 
-A visual overview of TOGAF Architecture Principles showing how business, data, application, technology, and governance principles guide enterprise decision-making, standards alignment, architecture quality, and consistent solution delivery.
+TOGAF Architecture Principles are the fundamental rules and guidelines that govern the enterprise's approach to acquiring, deploying, and managing IT — covering business, data, application, technology, and governance domains. Established during the Preliminary Phase and applied throughout the ADM, they provide the normative foundation against which all architecture decisions and compliance reviews are assessed. This diagram shows how principles are structured with statement, rationale, and implications, and how they cascade from strategic business intent through to technology standards, ensuring consistent, principle-led decision-making across the enterprise.
 
 </td>
 </tr>
 <tr>
 <td align="center">
   <img src="docs/diagrams/governance/togaf-architecture-principles.png" alt="Diagram of TOGAF Architecture Principles showing business, data, application, technology, and governance principles guiding enterprise decision-making and architecture quality" width="90%"><br>
-  <em>TOGAF Architecture Principles</em>
+  <em>TOGAF Architecture Principles — business, data, application, and technology principles with statement, rationale, and implications for enterprise governance</em>
 </td>
 </tr>
 </table>
