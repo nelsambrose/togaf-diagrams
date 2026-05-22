@@ -842,14 +842,14 @@ TOGAF Phase D Technology Architecture defines the logical and physical technolog
 
 ### E. Opportunities & Solutions
 
-A Phase E diagram illustrating gap analysis, candidate solutions, work packages, transition architectures, and roadmap planning used to move from baseline to target architecture.
+TOGAF Phase E (Opportunities & Solutions) is where architecture thinking transitions into delivery planning — performing gap analysis between the baseline and target architectures, identifying candidate solutions and work packages, defining transition architectures, and producing the initial implementation roadmap. It is the first ADM phase that explicitly addresses delivery feasibility, integration dependencies, and make-versus-buy decisions. This diagram illustrates the key Phase E activities and outputs — including solution options assessment, work package definitions, transition architecture sequencing, and the linkages to Phase F migration planning — that enable architecture teams to turn approved target architectures into governed, actionable transformation plans.
 
 </td>
 </tr>
 <tr>
 <td align="center">
   <img src="docs/diagrams/planning/togaf-phase-e-opportunities-solutions-v1.png" alt="TOGAF Opportunities and Solutions Diagram - Phase E - gap analysis candidate solutions work packages and roadmap planning" width="90%"><br>
-  <em>Opportunities & Solutions</em>
+  <em>TOGAF Opportunities & Solutions — Phase E gap analysis, candidate solutions, work packages, and transition architecture roadmap</em>
 </td>
 </tr>
 </table>
@@ -860,14 +860,14 @@ A Phase E diagram illustrating gap analysis, candidate solutions, work packages,
 
 ### F. Migration Planning
 
-A TOGAF Phase F diagram illustrating implementation sequencing, migration planning, dependency management, governance alignment, and realization of the target architecture.
+TOGAF Phase F (Migration Planning) takes the work packages and transition architectures defined in Phase E and translates them into a finalized, governed implementation and migration plan — with detailed sequencing, resource allocation, dependency management, risk mitigation, and governance checkpoints. It coordinates inputs from business, IT, and portfolio management to ensure that the migration path is realistic, funded, and aligned with enterprise strategy. This diagram shows the Phase F planning outputs — including the prioritized migration plan, updated Architecture Roadmap, and transition architecture schedule — and how they feed governance approval processes and Phase G implementation oversight.
 
 </td>
 </tr>
 <tr>
 <td align="center">
   <img src="docs/diagrams/planning/togaf-phase-f-migration-planning.png" alt="TOGAF Migration Planning Diagram - Phase F - implementation sequencing dependency management and governance alignment" width="90%"><br>
-  <em>Migration Planning</em>
+  <em>TOGAF Migration Planning — Phase F implementation sequencing, dependency management, and governance-aligned Architecture Roadmap</em>
 </td>
 </tr>
 </table>
@@ -878,14 +878,14 @@ A TOGAF Phase F diagram illustrating implementation sequencing, migration planni
 
 ### G. TOGAF Implementation Governance
 
-A TOGAF Phase G diagram illustrating architecture compliance, governance oversight, change management, implementation support, and realization of approved target architectures.
+TOGAF Phase G (Implementation Governance) is the ADM phase that ensures projects implementing the approved architecture do so in compliance with architecture standards, contracts, and governance obligations. The Architecture Board monitors delivery progress, conducts Architecture Compliance Reviews, issues dispensations where justified, and maintains the Governance Log throughout Phase G. This diagram illustrates the key Phase G governance activities — from establishing architecture contracts and compliance criteria through monitoring, exception handling, and post-implementation review — showing how governance oversight bridges approved architecture intent and the reality of enterprise solution delivery.
 
 </td>
 </tr>
 <tr>
 <td align="center">
   <img src="docs/diagrams/governance/phase-g-implementation-governance.png" alt="Phase G diagram showing architecture compliance, governance oversight, change management, and implementation support for target architecture realization" width="90%"><br>
-  <em>TOGAF Implementation Governance</em>
+  <em>TOGAF Implementation Governance — Phase G architecture compliance reviews, contracts, exception handling, and Governance Log maintenance</em>
 </td>
 </tr>
 </table>
@@ -896,14 +896,14 @@ A TOGAF Phase G diagram illustrating architecture compliance, governance oversig
 
 ### H. TOGAF Architecture Change Management
 
-A TOGAF Phase H diagram illustrating change assessment, governance decisioning, architecture evolution, continuous improvement, and re-initiation of the ADM lifecycle.
+TOGAF Phase H (Architecture Change Management) is the continuous monitoring and governance phase that follows implementation — scanning the business and technology environment for changes that may require the approved architecture to evolve, assessing the impact of those changes, processing Architecture Change Requests, and deciding whether to trigger a new ADM cycle. It ensures the enterprise architecture stays aligned with business strategy and technology landscape shifts rather than becoming a static, outdated artefact. This diagram shows the Phase H monitoring inputs, change classification criteria, governance decision pathways, and the triggers that initiate partial or full ADM re-initiation to keep the enterprise architecture current, relevant, and governed.
 
 </td>
 </tr>
 <tr>
 <td align="center">
   <img src="docs/diagrams/governance/togaf-phase-h-architecture-change-management.png" alt="TOGAF Architecture Change Management Diagram - Phase H - change assessment governance decisioning and ADM re-initiation" width="90%"><br>
-  <em>TOGAF Architecture Change Management</em>
+  <em>TOGAF Architecture Change Management — Phase H monitoring, change classification, governance decisions, and ADM re-initiation triggers</em>
 </td>
 </tr>
 </table>
