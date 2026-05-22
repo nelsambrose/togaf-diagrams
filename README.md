@@ -446,14 +446,14 @@ Explains how TOGAF uses capability-based planning and business capability planni
 
 ### 20. TOGAF Architecture Metamodel
 
-A visual overview of the TOGAF Architecture Metamodel showing the structural relationships between business, data, application, and technology architecture elements used to maintain consistency, traceability, governance alignment, and enterprise-wide modeling standards.
+The TOGAF Architecture Metamodel defines the core concepts and structural relationships that connect business, data, application, and technology architecture elements into a coherent, governed whole. Used throughout the ADM — particularly in Phases B through D — it ensures that architecture models remain internally consistent and traceable across domains. Enterprise architects and modeling teams rely on this metamodel to align work products, enforce standards, and maintain a single shared vocabulary across the enterprise.
 
 </td>
 </tr>
 <tr>
 <td align="center">
   <img src="docs/diagrams/architecture/togaf-architecture-metamodel.png" alt="Diagram of the TOGAF Architecture Metamodel showing structural relationships between business, data, application, and technology architecture elements supporting consistency, traceability, and governance alignment" width="90%"><br>
-  <em>TOGAF Architecture Metamodel</em>
+  <em>TOGAF Architecture Metamodel — structural relationships between business, data, application, and technology elements for enterprise modeling consistency</em>
 </td>
 </tr>
 </table>
@@ -482,14 +482,14 @@ A visual overview of TOGAF Architecture Partitioning showing how enterprise arch
 
 ### 22. TOGAF Architecture Communication
 
-A visual overview of TOGAF Architecture Communication showing how architecture information, governance messaging, stakeholder alignment, executive reporting, and delivery coordination support enterprise transformation success.
+Effective architecture communication is a critical success factor in TOGAF-based enterprise transformation — ensuring that the right information reaches the right stakeholders in formats tailored to their roles and concerns. This diagram shows how architecture outputs, governance messaging, and stakeholder engagement strategies are coordinated across Phase A through Phase H to maintain executive alignment and delivery momentum. It covers the communication planning, stakeholder reporting channels, and feedback loops that turn architecture decisions into shared organizational understanding.
 
 </td>
 </tr>
 <tr>
 <td align="center">
   <img src="docs/diagrams/architecture/togaf-architecture-communication.png" alt="Diagram of TOGAF Architecture Communication showing how architecture information, governance messaging, stakeholder alignment, executive reporting, and delivery coordination support enterprise transformation success" width="90%"><br>
-  <em>TOGAF Architecture Communication</em>
+  <em>TOGAF Architecture Communication — stakeholder engagement, governance messaging, and executive reporting across ADM phases</em>
 </td>
 </tr>
 </table>
@@ -500,14 +500,14 @@ A visual overview of TOGAF Architecture Communication showing how architecture i
 
 ### 23. TOGAF Architecture Landscape
 
-A structured view of enterprise architecture assets across strategic, segment, and capability levels, supporting governance, reuse, planning, and architecture evolution.
+The TOGAF Architecture Landscape is a key component of the Architecture Repository, providing a structured inventory of all approved architecture assets organized across strategic, segment, and capability levels. It gives architecture teams and governance boards a real-time view of baseline, transitional, and target architectures in use across the enterprise. Used throughout the ADM — especially in Phase E and Phase F — it supports gap analysis, reuse identification, planning sequencing, and controlled architecture evolution.
 
 </td>
 </tr>
 <tr>
 <td align="center">
   <img src="docs/diagrams/repository/togaf-architecture-landscape.png" alt="Diagram showing enterprise architecture assets organised across strategic, segment, and capability levels with links to governance, reuse, and planning" width="90%"><br>
-  <em>TOGAF Architecture Landscape</em>
+  <em>TOGAF Architecture Landscape — strategic, segment, and capability-level architecture assets supporting gap analysis, reuse, and planning</em>
 </td>
 </tr>
 </table>
@@ -518,14 +518,14 @@ A structured view of enterprise architecture assets across strategic, segment, a
 
 ### 24. TOGAF Enterprise Continuum
 
-A visual overview of the TOGAF Enterprise Continuum showing how reusable architecture assets evolve from generic foundation architectures to organization-specific enterprise solutions, enabling standardization, governance alignment, reuse, and architecture consistency across the enterprise.
+The TOGAF Enterprise Continuum is the classification model that organizes all reusable architecture assets — from generic Foundation Architectures and Common Systems Architectures through to organization-specific Industry Architectures and Enterprise Architectures. It provides the conceptual framework for how enterprises leverage standards bodies, vendor reference models, and internal patterns as they move left-to-right along the continuum. Architecture teams use this model during Phase A and throughout the ADM to maximize reuse, accelerate solution delivery, and maintain consistency across the enterprise architecture portfolio.
 
 </td>
 </tr>
 <tr>
 <td align="center">
   <img src="docs/diagrams/continuum/togaf-enterprise-continuum.png" alt="Diagram of the TOGAF Enterprise Continuum showing architecture assets evolving from generic foundation architectures to organization-specific enterprise solutions" width="90%"><br>
-  <em>TOGAF Enterprise Continuum</em>
+  <em>TOGAF Enterprise Continuum — from Foundation and Common Systems Architectures to organization-specific enterprise solutions</em>
 </td>
 </tr>
 </table>
@@ -536,14 +536,14 @@ A visual overview of the TOGAF Enterprise Continuum showing how reusable archite
 
 ### 25. TOGAF Reference Architectures
 
-Reusable architecture models, standards, patterns, and implementation guidance that accelerate solution delivery, improve consistency, and support enterprise governance across the enterprise.
+TOGAF Reference Architectures are pre-validated, reusable architecture models that provide proven structural patterns, standards, and implementation guidance across common problem domains — from cloud platforms and integration layers to security frameworks and data architectures. Stored in the Architecture Repository's Reference Library, they accelerate ADM delivery by giving teams a governed starting point rather than designing from scratch. This diagram illustrates how reference architectures are classified, selected, adapted, and applied during Phases B through D and Phase E to improve consistency, reduce delivery risk, and support enterprise-wide governance.
 
 </td>
 </tr>
 <tr>
 <td align="center">
   <img src="docs/diagrams/repository/togaf-reference-architectures.png" alt="Diagram of TOGAF Reference Architectures showing reusable architecture models, standards, patterns, and implementation guidance supporting solution delivery and enterprise governance" width="90%"><br>
-  <em>TOGAF Reference Architectures</em>
+  <em>TOGAF Reference Architectures — reusable architecture patterns and models from the Architecture Repository Reference Library</em>
 </td>
 </tr>
 </table>
