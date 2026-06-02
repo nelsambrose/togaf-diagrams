@@ -7,7 +7,7 @@ Thanks for contributing to this TOGAF diagrams library.
 - Add active diagrams under `docs/diagrams/<category>/`.
 - Use lowercase kebab-case names (for example: `architecture-governance-model.png`).
 - Move superseded versions to `archive/`.
-- Keep links in both `README.md` and `index.md` up to date.
+- Keep links in both `README.md` and `index.html` up to date.
 
 ## Pull requests
 
