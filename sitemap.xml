@@ -1,9 +1,325 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://nelsambrose.github.io/togaf-diagrams/</loc>
     <lastmod>2026-07-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
+
+    <image:image>
+      <image:loc>https://nelsambrose.github.io/togaf-diagrams/docs/diagrams/adm/togaf-adm-end-to-end-architecture.png</image:loc>
+      <image:title>TOGAF ADM End-to-End Reference Map</image:title>
+      <image:caption>Horizontal swimlane mapping all ADM phases with inputs, outputs, and cross-phase dependencies.</image:caption>
+      <image:license>https://github.com/nelsambrose/togaf-diagrams/blob/master/LICENSE</image:license>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://nelsambrose.github.io/togaf-diagrams/docs/diagrams/adm/togaf-adm-cycle-v2.png</image:loc>
+      <image:title>TOGAF ADM Cycle</image:title>
+      <image:caption>Circular flow of ADM phases from Preliminary through H around a central Requirements Management core.</image:caption>
+      <image:license>https://github.com/nelsambrose/togaf-diagrams/blob/master/LICENSE</image:license>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://nelsambrose.github.io/togaf-diagrams/docs/diagrams/adm/togaf-architecture-vision.png</image:loc>
+      <image:title>TOGAF Architecture Vision (Phase A)</image:title>
+      <image:caption>High-level aspirational target architecture, stakeholder alignment, and transformation objectives.</image:caption>
+      <image:license>https://github.com/nelsambrose/togaf-diagrams/blob/master/LICENSE</image:license>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://nelsambrose.github.io/togaf-diagrams/docs/diagrams/technology/togaf-phase-d-technology-architecture.png</image:loc>
+      <image:title>TOGAF Technology Architecture (Phase D)</image:title>
+      <image:caption>Infrastructure, platform services, integration, security, and operational resilience layers.</image:caption>
+      <image:license>https://github.com/nelsambrose/togaf-diagrams/blob/master/LICENSE</image:license>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://nelsambrose.github.io/togaf-diagrams/docs/diagrams/planning/togaf-phase-e-opportunities-solutions-v1.png</image:loc>
+      <image:title>TOGAF Opportunities &amp; Solutions (Phase E)</image:title>
+      <image:caption>Gap analysis, candidate solutions, work packages, transition architectures, and roadmap planning.</image:caption>
+      <image:license>https://github.com/nelsambrose/togaf-diagrams/blob/master/LICENSE</image:license>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://nelsambrose.github.io/togaf-diagrams/docs/diagrams/planning/togaf-phase-f-migration-planning.png</image:loc>
+      <image:title>TOGAF Migration Planning (Phase F)</image:title>
+      <image:caption>Implementation sequencing, migration planning, dependency management, and governance alignment.</image:caption>
+      <image:license>https://github.com/nelsambrose/togaf-diagrams/blob/master/LICENSE</image:license>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://nelsambrose.github.io/togaf-diagrams/docs/diagrams/governance/phase-g-implementation-governance.png</image:loc>
+      <image:title>TOGAF Implementation Governance (Phase G)</image:title>
+      <image:caption>Architecture compliance, governance oversight, and implementation support for target architecture realization.</image:caption>
+      <image:license>https://github.com/nelsambrose/togaf-diagrams/blob/master/LICENSE</image:license>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://nelsambrose.github.io/togaf-diagrams/docs/diagrams/governance/togaf-phase-h-architecture-change-management.png</image:loc>
+      <image:title>TOGAF Architecture Change Management (Phase H)</image:title>
+      <image:caption>Change assessment, governance decisioning, architecture evolution, and ADM lifecycle re-initiation.</image:caption>
+      <image:license>https://github.com/nelsambrose/togaf-diagrams/blob/master/LICENSE</image:license>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://nelsambrose.github.io/togaf-diagrams/docs/diagrams/content-framework/togaf-phase-c-architecture-content-framework-v2.png</image:loc>
+      <image:title>TOGAF Architecture Content Framework</image:title>
+      <image:caption>Hierarchical framework organising deliverables into metamodel categories, artifacts, and building blocks.</image:caption>
+      <image:license>https://github.com/nelsambrose/togaf-diagrams/blob/master/LICENSE</image:license>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://nelsambrose.github.io/togaf-diagrams/docs/diagrams/content-framework/togaf-architecture-deliverables.png</image:loc>
+      <image:title>TOGAF Architecture Deliverables</image:title>
+      <image:caption>Formal ADM deliverables: architecture definitions, governance artifacts, transition plans, and compliance outputs.</image:caption>
+      <image:license>https://github.com/nelsambrose/togaf-diagrams/blob/master/LICENSE</image:license>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://nelsambrose.github.io/togaf-diagrams/docs/diagrams/architecture/togaf-architecture-artifacts.png</image:loc>
+      <image:title>TOGAF Architecture Artifacts</image:title>
+      <image:caption>Catalogs, matrices, and diagrams used throughout the ADM lifecycle to document and govern enterprise architecture.</image:caption>
+      <image:license>https://github.com/nelsambrose/togaf-diagrams/blob/master/LICENSE</image:license>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://nelsambrose.github.io/togaf-diagrams/docs/diagrams/architecture/togaf-architecture-metamodel.png</image:loc>
+      <image:title>TOGAF Architecture Metamodel</image:title>
+      <image:caption>Structural relationships between business, data, application, and technology elements for consistency and traceability.</image:caption>
+      <image:license>https://github.com/nelsambrose/togaf-diagrams/blob/master/LICENSE</image:license>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://nelsambrose.github.io/togaf-diagrams/docs/diagrams/architecture/togaf-architecture-views-viewpoints.png</image:loc>
+      <image:title>TOGAF Architecture Views &amp; Viewpoints</image:title>
+      <image:caption>How stakeholder concerns map to architecture viewpoints, views, governance communication, and transformation alignment.</image:caption>
+      <image:license>https://github.com/nelsambrose/togaf-diagrams/blob/master/LICENSE</image:license>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://nelsambrose.github.io/togaf-diagrams/docs/diagrams/architecture/togaf-architecture-partitioning.png</image:loc>
+      <image:title>TOGAF Architecture Partitioning</image:title>
+      <image:caption>How enterprise architectures are separated across strategic, segment, and solution levels for governance and scalability.</image:caption>
+      <image:license>https://github.com/nelsambrose/togaf-diagrams/blob/master/LICENSE</image:license>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://nelsambrose.github.io/togaf-diagrams/docs/diagrams/business/togaf-business-architecture.png</image:loc>
+      <image:title>TOGAF Business Architecture</image:title>
+      <image:caption>Baseline and target business capabilities, value streams, organisational structures, and processes supporting enterprise strategy.</image:caption>
+      <image:license>https://github.com/nelsambrose/togaf-diagrams/blob/master/LICENSE</image:license>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://nelsambrose.github.io/togaf-diagrams/docs/diagrams/data/togaf-data-architecture.png</image:loc>
+      <image:title>TOGAF Data Architecture</image:title>
+      <image:caption>Structure, governance, lifecycle, integration, and management of enterprise data assets.</image:caption>
+      <image:license>https://github.com/nelsambrose/togaf-diagrams/blob/master/LICENSE</image:license>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://nelsambrose.github.io/togaf-diagrams/docs/diagrams/continuum/togaf-phase-a-enterprise-continuum-architecture-repository-v2.png</image:loc>
+      <image:title>TOGAF Enterprise Continuum &amp; Repository</image:title>
+      <image:caption>Spectrum positioning architecture assets from generic foundation architectures to organisation-specific solutions.</image:caption>
+      <image:license>https://github.com/nelsambrose/togaf-diagrams/blob/master/LICENSE</image:license>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://nelsambrose.github.io/togaf-diagrams/docs/diagrams/repository/togaf-architecture-repository.png</image:loc>
+      <image:title>TOGAF Architecture Repository</image:title>
+      <image:caption>Governance assets, standards, reusable architecture knowledge, and capability structures.</image:caption>
+      <image:license>https://github.com/nelsambrose/togaf-diagrams/blob/master/LICENSE</image:license>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://nelsambrose.github.io/togaf-diagrams/docs/diagrams/repository/togaf-architecture-landscape.png</image:loc>
+      <image:title>TOGAF Architecture Landscape</image:title>
+      <image:caption>Enterprise architecture assets organised across strategic, segment, and capability levels.</image:caption>
+      <image:license>https://github.com/nelsambrose/togaf-diagrams/blob/master/LICENSE</image:license>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://nelsambrose.github.io/togaf-diagrams/docs/diagrams/continuum/togaf-enterprise-continuum.png</image:loc>
+      <image:title>TOGAF Enterprise Continuum</image:title>
+      <image:caption>Architecture assets evolving from generic foundation architectures to organisation-specific solutions.</image:caption>
+      <image:license>https://github.com/nelsambrose/togaf-diagrams/blob/master/LICENSE</image:license>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://nelsambrose.github.io/togaf-diagrams/docs/diagrams/repository/togaf-reference-architectures.png</image:loc>
+      <image:title>TOGAF Reference Architectures</image:title>
+      <image:caption>Reusable architecture models, standards, patterns, and implementation guidance for solution delivery.</image:caption>
+      <image:license>https://github.com/nelsambrose/togaf-diagrams/blob/master/LICENSE</image:license>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://nelsambrose.github.io/togaf-diagrams/docs/diagrams/repository/togaf-standards-information-base.png</image:loc>
+      <image:title>TOGAF Standards Information Base</image:title>
+      <image:caption>Approved enterprise standards, technology policies, security controls, and compliance requirements.</image:caption>
+      <image:license>https://github.com/nelsambrose/togaf-diagrams/blob/master/LICENSE</image:license>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://nelsambrose.github.io/togaf-diagrams/docs/diagrams/repository/togaf-governance-log.png</image:loc>
+      <image:title>TOGAF Governance Log</image:title>
+      <image:caption>Architecture decisions, compliance activities, risk management, audit traceability, and continuous governance evolution.</image:caption>
+      <image:license>https://github.com/nelsambrose/togaf-diagrams/blob/master/LICENSE</image:license>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://nelsambrose.github.io/togaf-diagrams/docs/diagrams/governance/togaf-phase-a-architecture-governance-model-v2.png</image:loc>
+      <image:title>TOGAF Architecture Governance Model</image:title>
+      <image:caption>Layered governance showing oversight structures, compliance review boards, and accountability flows.</image:caption>
+      <image:license>https://github.com/nelsambrose/togaf-diagrams/blob/master/LICENSE</image:license>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://nelsambrose.github.io/togaf-diagrams/docs/diagrams/governance/togaf-architecture-principles.png</image:loc>
+      <image:title>TOGAF Architecture Principles</image:title>
+      <image:caption>Business, data, application, technology, and governance principles guiding enterprise decision-making.</image:caption>
+      <image:license>https://github.com/nelsambrose/togaf-diagrams/blob/master/LICENSE</image:license>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://nelsambrose.github.io/togaf-diagrams/docs/diagrams/governance/togaf-architecture-contracts.png</image:loc>
+      <image:title>TOGAF Architecture Contracts</image:title>
+      <image:caption>Governance agreements, compliance obligations, responsibilities, and implementation accountability.</image:caption>
+      <image:license>https://github.com/nelsambrose/togaf-diagrams/blob/master/LICENSE</image:license>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://nelsambrose.github.io/togaf-diagrams/docs/diagrams/governance/togaf-architecture-compliance-reviews.png</image:loc>
+      <image:title>TOGAF Architecture Compliance Reviews</image:title>
+      <image:caption>Assessment of solutions against architecture principles, standards, governance requirements, and risks.</image:caption>
+      <image:license>https://github.com/nelsambrose/togaf-diagrams/blob/master/LICENSE</image:license>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://nelsambrose.github.io/togaf-diagrams/docs/diagrams/governance/togaf-compliance-assessment.png</image:loc>
+      <image:title>TOGAF Compliance Assessment</image:title>
+      <image:caption>Governance validation, standards alignment, and delivery oversight supporting controlled enterprise transformation.</image:caption>
+      <image:license>https://github.com/nelsambrose/togaf-diagrams/blob/master/LICENSE</image:license>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://nelsambrose.github.io/togaf-diagrams/docs/diagrams/governance/togaf-governance-repository.png</image:loc>
+      <image:title>TOGAF Governance Repository</image:title>
+      <image:caption>Centralised store of architecture decisions, compliance records, policies, audit evidence, and governance outcomes.</image:caption>
+      <image:license>https://github.com/nelsambrose/togaf-diagrams/blob/master/LICENSE</image:license>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://nelsambrose.github.io/togaf-diagrams/docs/diagrams/governance/togaf-architecture-decisions-traceability.png</image:loc>
+      <image:title>TOGAF Architecture Decisions &amp; Traceability</image:title>
+      <image:caption>How architecture decisions, governance approvals, rationale, and dependencies are managed across transformation initiatives.</image:caption>
+      <image:license>https://github.com/nelsambrose/togaf-diagrams/blob/master/LICENSE</image:license>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://nelsambrose.github.io/togaf-diagrams/docs/diagrams/governance/togaf-architecture-change-requests.png</image:loc>
+      <image:title>TOGAF Architecture Change Requests</image:title>
+      <image:caption>How enterprise architecture changes are identified, assessed, governed, approved, and implemented.</image:caption>
+      <image:license>https://github.com/nelsambrose/togaf-diagrams/blob/master/LICENSE</image:license>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://nelsambrose.github.io/togaf-diagrams/docs/diagrams/governance/togaf-risk-management.png</image:loc>
+      <image:title>TOGAF Risk Management</image:title>
+      <image:caption>How enterprise architecture risks are identified, assessed, mitigated, and continuously monitored across ADM activities.</image:caption>
+      <image:license>https://github.com/nelsambrose/togaf-diagrams/blob/master/LICENSE</image:license>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://nelsambrose.github.io/togaf-diagrams/docs/diagrams/governance/togaf-requirements-management.png</image:loc>
+      <image:title>TOGAF Requirements Management</image:title>
+      <image:caption>Continuous process of capturing, validating, prioritising, and governing architecture requirements across all ADM phases.</image:caption>
+      <image:license>https://github.com/nelsambrose/togaf-diagrams/blob/master/LICENSE</image:license>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://nelsambrose.github.io/togaf-diagrams/docs/diagrams/application/togaf-application-architecture.png</image:loc>
+      <image:title>TOGAF Application Architecture</image:title>
+      <image:caption>Structure, interaction, integration, governance, and lifecycle of enterprise applications and services.</image:caption>
+      <image:license>https://github.com/nelsambrose/togaf-diagrams/blob/master/LICENSE</image:license>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://nelsambrose.github.io/togaf-diagrams/docs/diagrams/stakeholder/togaf-phase-a-stakeholder-map-views-concerns-v2.png</image:loc>
+      <image:title>TOGAF Stakeholder Map with Views &amp; Concerns</image:title>
+      <image:caption>Matrix mapping stakeholder roles to their relevant architecture views and primary concerns.</image:caption>
+      <image:license>https://github.com/nelsambrose/togaf-diagrams/blob/master/LICENSE</image:license>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://nelsambrose.github.io/togaf-diagrams/docs/diagrams/stakeholder/togaf-stakeholder-management.png</image:loc>
+      <image:title>TOGAF Stakeholder Management</image:title>
+      <image:caption>Structured approach for identifying, analysing, engaging, and governing stakeholders to support architecture alignment.</image:caption>
+      <image:license>https://github.com/nelsambrose/togaf-diagrams/blob/master/LICENSE</image:license>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://nelsambrose.github.io/togaf-diagrams/docs/diagrams/stakeholder/togaf-phase-a-business-scenarios.png</image:loc>
+      <image:title>TOGAF Business Scenarios (Phase A View)</image:title>
+      <image:caption>How business drivers and problems are structured into scenarios that inform the Architecture Vision.</image:caption>
+      <image:license>https://github.com/nelsambrose/togaf-diagrams/blob/master/LICENSE</image:license>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://nelsambrose.github.io/togaf-diagrams/docs/diagrams/business/togaf-business-scenarios.png</image:loc>
+      <image:title>TOGAF Business Scenarios (Enterprise View)</image:title>
+      <image:caption>How business problems, stakeholder interactions, and solution requirements support enterprise architecture development.</image:caption>
+      <image:license>https://github.com/nelsambrose/togaf-diagrams/blob/master/LICENSE</image:license>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://nelsambrose.github.io/togaf-diagrams/docs/diagrams/architecture/togaf-architecture-communication.png</image:loc>
+      <image:title>TOGAF Architecture Communication</image:title>
+      <image:caption>How architecture information, governance messaging, and stakeholder alignment support enterprise transformation.</image:caption>
+      <image:license>https://github.com/nelsambrose/togaf-diagrams/blob/master/LICENSE</image:license>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://nelsambrose.github.io/togaf-diagrams/docs/diagrams/capability/togaf-phase-b-capability-assessment-maturity-models-v2.png</image:loc>
+      <image:title>TOGAF Capability Assessment &amp; Maturity Models</image:title>
+      <image:caption>Grid-based maturity model rating enterprise architecture capabilities across defined levels from initial to optimising.</image:caption>
+      <image:license>https://github.com/nelsambrose/togaf-diagrams/blob/master/LICENSE</image:license>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://nelsambrose.github.io/togaf-diagrams/docs/diagrams/architecture/togaf-capability-based-planning.png</image:loc>
+      <image:title>TOGAF Capability-Based Planning</image:title>
+      <image:caption>How enterprise capabilities are identified, assessed, prioritised, and roadmapped to support strategic transformation.</image:caption>
+      <image:license>https://github.com/nelsambrose/togaf-diagrams/blob/master/LICENSE</image:license>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://nelsambrose.github.io/togaf-diagrams/docs/diagrams/capability/togaf-architecture-capability.png</image:loc>
+      <image:title>TOGAF Architecture Capability</image:title>
+      <image:caption>Governance structures, people, processes, tools, and maturity practices for enterprise architecture.</image:caption>
+      <image:license>https://github.com/nelsambrose/togaf-diagrams/blob/master/LICENSE</image:license>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://nelsambrose.github.io/togaf-diagrams/docs/diagrams/building-blocks/togaf-phase-a-architecture-building-blocks-vs-solution-building-blocks-v2.png</image:loc>
+      <image:title>TOGAF Architecture Building Blocks vs. Solution Building Blocks</image:title>
+      <image:caption>Side-by-side comparison of abstract enterprise architecture building blocks against vendor-specific solution building blocks.</image:caption>
+      <image:license>https://github.com/nelsambrose/togaf-diagrams/blob/master/LICENSE</image:license>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://nelsambrose.github.io/togaf-diagrams/docs/diagrams/building-blocks/togaf-architecture-building-blocks.png</image:loc>
+      <image:title>TOGAF Architecture Building Blocks (ABBs)</image:title>
+      <image:caption>Reusable logical capabilities, standards, and services guiding the realization of Solution Building Blocks.</image:caption>
+      <image:license>https://github.com/nelsambrose/togaf-diagrams/blob/master/LICENSE</image:license>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://nelsambrose.github.io/togaf-diagrams/docs/diagrams/security/togaf-security-architecture-integration.png</image:loc>
+      <image:title>TOGAF Security Architecture Integration</image:title>
+      <image:caption>How security controls, governance, compliance, resilience, and risk management are embedded across all architecture domains.</image:caption>
+      <image:license>https://github.com/nelsambrose/togaf-diagrams/blob/master/LICENSE</image:license>
+    </image:image>
   </url>
 </urlset>
