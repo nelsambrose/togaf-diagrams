@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://nelsambrose.github.io/togaf-diagrams/sitemap.xml
