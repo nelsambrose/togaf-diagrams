@@ -1,12 +1,15 @@
 # TOGAF Diagrams
 
 [![GitHub Repository Star Count](https://img.shields.io/github/stars/nelsambrose/togaf-diagrams?style=social)](https://github.com/nelsambrose/togaf-diagrams/stargazers)
-[![Date of Last Repository Commit](https://img.shields.io/github/last-commit/nelsambrose/togaf-diagrams)](https://github.com/nelsambrose/togaf-diagrams/commits/main)
+[![Date of Last Repository Commit](https://img.shields.io/github/last-commit/nelsambrose/togaf-diagrams)](https://github.com/nelsambrose/togaf-diagrams/commits/master)
 [![View Diagrams Online via GitHub Pages](https://img.shields.io/badge/View%20Online-GitHub%20Pages-blue)](https://nelsambrose.github.io/togaf-diagrams/)
 
 ![TOGAF Diagrams Banner](docs/images/banner.png)
 
 A free visual library of TOGAF 10 enterprise architecture diagrams — clear, simplified visuals covering the ADM lifecycle, architecture governance, capability planning, stakeholder management, compliance, risk, and more.
+
+> [!NOTE]
+> This is an independent, community-created visual learning resource. It is not affiliated with or endorsed by The Open Group. The diagrams simplify and interpret TOGAF concepts for educational use; consult the official TOGAF documentation for authoritative guidance.
 
 > All diagrams in this repository were created by me and are free to use under the MIT License.
 > 
@@ -20,7 +23,7 @@ A free visual library of TOGAF 10 enterprise architecture diagrams — clear, si
 - `docs/diagrams/`: active, published diagram PNG files grouped by domain.
 - `archive/`: superseded or historical diagram files.
 - `README.md`: repository overview for GitHub.
-- `index.md`: GitHub Pages landing page.
+- `index.html`: GitHub Pages landing page.
 
 ## Recommended Learning Path
 

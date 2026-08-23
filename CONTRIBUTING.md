@@ -8,6 +8,7 @@ Thanks for contributing to this TOGAF diagrams library.
 - Use lowercase kebab-case names (for example: `architecture-governance-model.png`).
 - Move superseded versions to `archive/`.
 - Keep links in both `README.md` and `index.html` up to date.
+- Run `python scripts/validate_repository.py` before submitting changes.
 
 ## Pull requests
 
