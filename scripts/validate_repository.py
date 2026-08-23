@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Validate local links and active diagram coverage using the standard library."""
+"""Validate repository-local references and entry-point consistency."""
 
 from __future__ import annotations
 
