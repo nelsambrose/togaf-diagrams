@@ -5,6 +5,7 @@ from __future__ import annotations
 
 import hashlib
 import re
+import struct
 import sys
 from collections import defaultdict
 from pathlib import Path
@@ -18,6 +19,8 @@ SITEMAP = ROOT / "sitemap.xml"
 DOCUMENTS = (README, INDEX, SITEMAP)
 ACTIVE = ROOT / "docs" / "diagrams"
 EXCEPTIONS = ROOT / "scripts" / "diagram-exceptions.txt"
+SOCIAL_PREVIEW = ROOT / "docs" / "images" / "social-preview.png"
+FAVICON = ROOT / "docs" / "images" / "favicon.svg"
 SITE_PREFIX = "https://nelsambrose.github.io/togaf-diagrams/"
 REPOSITORY_PREFIX = "https://github.com/nelsambrose/togaf-diagrams"
 ASSET_SUFFIXES = {".png", ".webp"}
@@ -95,6 +98,60 @@ def readme_anchors(content: str) -> set[str]:
         occurrences[base] += 1
         anchors.add(base if count == 0 else f"{base}-{count}")
     return anchors
+
+
+def png_dimensions(path: Path) -> tuple[int, int] | None:
+    if not path.is_file():
+        return None
+    header = path.read_bytes()[:24]
+    if len(header) != 24 or header[:8] != b"\x89PNG\r\n\x1a\n":
+        return None
+    return struct.unpack(">II", header[16:24])
+
+
+def check_page_polish(errors: list[str], index: str) -> None:
+    required_meta = {
+        "og:type": "website",
+        "og:url": SITE_PREFIX,
+        "og:title": None,
+        "og:description": None,
+        "og:image": f"{SITE_PREFIX}docs/images/social-preview.png",
+        "og:image:width": "1200",
+        "og:image:height": "630",
+        "og:image:alt": None,
+        "twitter:card": "summary_large_image",
+        "twitter:title": None,
+        "twitter:description": None,
+        "twitter:image": f"{SITE_PREFIX}docs/images/social-preview.png",
+        "twitter:image:alt": None,
+    }
+    for key, expected in required_meta.items():
+        match = re.search(
+            rf'<meta\s+(?:property|name)="{re.escape(key)}"\s+content="([^"]+)"',
+            index,
+        )
+        if not match:
+            errors.append(f"Missing social metadata: {key}")
+        elif expected is not None and match.group(1) != expected:
+            errors.append(f"Unexpected {key} value: {match.group(1)}")
+
+    if png_dimensions(SOCIAL_PREVIEW) != (1200, 630):
+        errors.append("Social preview must be a 1200 x 630 PNG")
+    if not FAVICON.is_file():
+        errors.append("Missing docs/images/favicon.svg")
+    if not re.search(r'<link\s+rel="icon"\s+href="docs/images/favicon\.svg"', index):
+        errors.append("index.html does not reference the SVG favicon")
+
+    accessibility_markers = {
+        'class="skip-link" href="#catalogue"': "skip-to-catalogue link",
+        '<label for="search" class="visually-hidden">': "search label",
+        'aria-live="polite"': "live search-result announcement",
+        ':focus-visible': "keyboard focus styling",
+        '@media (prefers-reduced-motion: reduce)': "reduced-motion handling",
+    }
+    for marker, description in accessibility_markers.items():
+        if marker not in index:
+            errors.append(f"Missing accessibility feature: {description}")
 
 
 def check_local_references(errors: list[str]) -> int:
@@ -225,6 +282,10 @@ def check_catalogue(errors: list[str], readme: str, index: str, sitemap: str) ->
     if len(entries) != catalogue_total:
         errors.append(f"Search catalogue has {len(entries)} entries but the visible catalogue has {catalogue_total} cards")
 
+    structured_count = re.search(r'"numberOfItems":\s*(\d+)', index)
+    if not structured_count or int(structured_count.group(1)) != catalogue_total:
+        errors.append(f"Structured-data item count does not match the {catalogue_total} catalogue entries")
+
     return len(entries)
 
 
@@ -243,6 +304,7 @@ def main() -> int:
     allowlist = read_allowlist(errors)
     asset_count = check_assets(errors, document_text, allowlist)
     catalogue_count = check_catalogue(errors, readme, index, sitemap)
+    check_page_polish(errors, index)
 
     if errors:
         print("Repository validation failed:")
