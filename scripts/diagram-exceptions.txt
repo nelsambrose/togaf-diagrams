@@ -1,0 +1,3 @@
+# Logical diagram stems intentionally retained but not currently published.
+# Use repository-relative paths without .png or .webp extensions.
+docs/diagrams/planning/togaf-phase-e-opportunities-solutions-v2
