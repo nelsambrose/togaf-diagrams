@@ -316,6 +316,13 @@
     </image:image>
 
     <image:image>
+      <image:loc>https://nelsambrose.github.io/togaf-diagrams/docs/diagrams/building-blocks/togaf-solution-building-blocks.png</image:loc>
+      <image:title>TOGAF Solution Building Blocks (SBBs)</image:title>
+      <image:caption>Concrete, product-specific components that realise Architecture Building Block intent in deployable enterprise solutions.</image:caption>
+      <image:license>https://github.com/nelsambrose/togaf-diagrams/blob/master/LICENSE</image:license>
+    </image:image>
+
+    <image:image>
       <image:loc>https://nelsambrose.github.io/togaf-diagrams/docs/diagrams/security/togaf-security-architecture-integration.png</image:loc>
       <image:title>TOGAF Security Architecture Integration</image:title>
       <image:caption>How security controls, governance, compliance, resilience, and risk management are embedded across all architecture domains.</image:caption>
