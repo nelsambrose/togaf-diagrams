@@ -20,6 +20,7 @@ DOCUMENTS = (README, INDEX, SITEMAP)
 ACTIVE = ROOT / "docs" / "diagrams"
 EXCEPTIONS = ROOT / "scripts" / "diagram-exceptions.txt"
 SOCIAL_PREVIEW = ROOT / "docs" / "images" / "social-preview.png"
+SOCIAL_PREVIEW_ALTERNATIVE = ROOT / "docs" / "images" / "social-preview-alternative.png"
 FAVICON = ROOT / "docs" / "images" / "favicon.svg"
 SITE_PREFIX = "https://nelsambrose.github.io/togaf-diagrams/"
 REPOSITORY_PREFIX = "https://github.com/nelsambrose/togaf-diagrams"
@@ -137,6 +138,10 @@ def check_page_polish(errors: list[str], index: str) -> None:
 
     if png_dimensions(SOCIAL_PREVIEW) != (1200, 630):
         errors.append("Social preview must be a 1200 x 630 PNG")
+    if png_dimensions(SOCIAL_PREVIEW_ALTERNATIVE) != (1200, 630):
+        errors.append("Alternative social preview must be a 1200 x 630 PNG")
+    if "social-preview-alternative.png" in index:
+        errors.append("Alternative social preview must remain unlinked until selected")
     if not FAVICON.is_file():
         errors.append("Missing docs/images/favicon.svg")
     if not re.search(r'<link\s+rel="icon"\s+href="docs/images/favicon\.svg"', index):
