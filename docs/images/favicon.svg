@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="TOGAF Diagrams">
+  <rect width="64" height="64" rx="12" fill="#0d3b66"/>
+  <rect x="10" y="12" width="18" height="14" rx="2" fill="#ffffff"/>
+  <rect x="36" y="12" width="18" height="14" rx="2" fill="#ffffff"/>
+  <rect x="23" y="38" width="18" height="14" rx="2" fill="#ffffff"/>
+  <path d="M28 19h8M45 26v6H32v6M19 26v6h13" fill="none" stroke="#58a6ff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
