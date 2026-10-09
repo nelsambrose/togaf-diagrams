@@ -918,3 +918,5 @@ See [CONTRIBUTING.md](CONTRIBUTING.md).
 ## License
 
 This repository is licensed under the [MIT License](./LICENSE).
+
+<sub>More by the author: [ISO/IEC 42001 Visual Library](https://github.com/nelsambrose/ISO-42001-Visual-Library), free AI management system reference cards.</sub>
